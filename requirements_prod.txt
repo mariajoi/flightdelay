@@ -4,3 +4,6 @@ pytz
 uvicorn
 pickle
 scikit-learn
+pandas
+numpy
+

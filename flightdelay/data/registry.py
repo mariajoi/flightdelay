@@ -11,10 +11,10 @@ from flightdelay.ml_logic.params import BUCKET_NAME, MODEL_TARGET, LOCAL_DATA_PA
 
 
 
-def save_model(model: keras.Model = None) -> None:
+def save_model(model: pickle.Model = None) -> None:
     """
     """
-    MODEL_TARGET == "local":
+    MODEL_TARGET == "local"
     timestamp = time.strftime("%Y%m%d-%H%M%S")
 
     # Save model locally
