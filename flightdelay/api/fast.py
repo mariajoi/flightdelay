@@ -36,17 +36,21 @@ def request(
         airline: str,
         origin: str,
         destination: str,
-        departure_bracket: str,
-        arrival_bracket: str,
+        departure_time: str,
+        arrival_time: str,
         day_of_week: int,
-        month_number:int
+        month:int,
+        distance_group:int
     ):
 
-    new_data = pd.read_csv("https://wagon-public-datasets.s3.amazonaws.com/05-Machine-Learning/08-Workflow/pickle_pipe_data.csv")
-    new_data
 
-    X_pred = new_data
-    #X_pred = dict({"airline":airline,"origin":origin,"destination":destination,"departure_bracket":departure_bracket,"arrival_bracket":arrival_bracket,"day_of_week":day_of_week,"month_number":month_number})
+    X_pred = pd.DataFrame({"Operating_Airline": airline,
+                           "Origin": origin,"Dest": destination,
+                           "DepTimeBlk": departure_time,
+                           "ArrTimeBlk": arrival_time,
+                           "DayOfWork": day_of_week,
+                           "Month": month,
+                           "DistanceGroup": distance_group})
     model = app.state.model
     assert model is not None
     y_pred = model.predict(X_pred)   ## set up what is in x by pickle
