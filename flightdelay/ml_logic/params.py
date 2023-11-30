@@ -38,7 +38,7 @@ COLUMN_NAMES_RAW = ['Month', 'DayofMonth', 'DayOfWeek', 'FlightDate',
 ################## VALIDATIONS #################
 
 env_valid_options = dict(
-    DATA_SIZE=["1k", "200k", "all"],
+    #DATA_SIZE=["1k", "200k", "all"],
     MODEL_TARGET=["local", "gcs"],
     )
 
