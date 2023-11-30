@@ -1,5 +1,7 @@
 import pandas as pd
 import os
+import pickle
+
 
 COLUMN_NAMES_RAW = ['Month', 'DayofMonth', 'DayOfWeek', 'FlightDate',
        'Operating_Airline ', 'Tail_Number', 'Flight_Number_Operating_Airline',
@@ -54,3 +56,7 @@ def clean_data():
     current_db_final.to_csv('5050 all.csv')
 
 clean_data()
+
+def get_pickle():
+    # Load pipeline from pickle file
+    my_pipeline = pickle.load(open("../03-Tuning-Pipeline/pipeline.pkl", "rb"))

@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 import pandas as pd
 from fastapi.middleware.cors import CORSMiddleware
+import pickle 
 
 app = FastAPI()
 
@@ -20,7 +21,10 @@ def root():
 
 
 #Predict the Delay
-#app.state.model = load_model()   ---- not ready yet
+model = pickle.load(open("../03-Tuning-Pipeline/pipeline.pkl", "rb"))
+app.state.model = load_model(model)   ---- not ready yet put the pickle here 
+
+#coding the load model function
 
 @app.get("/request")
 def request(
@@ -34,7 +38,7 @@ def request(
     ):
 
 
-    #model = app.state.model   ---- not ready yet
+    model = app.state.model   ---- not ready yet
     #assert model is not None ---- not ready yet
     #y_pred = model.predict(X_processed) --- not ready yet
     return {'wait':64}
