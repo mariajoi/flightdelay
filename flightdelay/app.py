@@ -1,6 +1,6 @@
 import streamlit as st
 import datetime
-from options_distance_lookup import *
+from flightdelay.flightdelay.data.options_distance_lookup import *
 
 def get_day_of_week(date):
     days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
