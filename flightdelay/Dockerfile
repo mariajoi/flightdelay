@@ -4,8 +4,8 @@ COPY requirements_prod.txt requirements.txt
 RUN pip install -r requirements.txt
 RUN pip install --upgrade pip
 
-#COPY flightdelay flightdelay    - not yet done
-#RUN pip install .
+COPY flightdelay flightdelay
+RUN pip install .
 
 # dont forget docker run api -p XXXXX - 8000
 

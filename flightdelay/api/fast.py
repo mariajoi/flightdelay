@@ -4,6 +4,7 @@ import pandas as pd
 from fastapi.middleware.cors import CORSMiddleware
 from flightdelay.data.registry import load_model
 import pickle
+from flightdelay.utils.mytrans import MyTrans
 
 from flightdelay.ml_logic.params import PICKLE
 
@@ -44,6 +45,20 @@ def request(
     ):
 
 
+    X_pred = pd.DataFrame({"Operating_Airline": "9E",
+                           "Origin": "SHV",
+                           "Dest": "ATL",
+                           "DepTimeBlk": "1500-1559",
+                           "ArrTimeBlk": "1800-1859",
+                           "DayOfWork": 4,
+                           "Month": 1,
+                           "DistanceGroup": 3})
+    trans = MyTrans()
+    trans.fit(X_pred)
+    X_pred_trans = trans.transform(X_pred)
+
+    # When example is done bring it back
+    '''
     X_pred = pd.DataFrame({"Operating_Airline": airline,
                            "Origin": origin,"Dest": destination,
                            "DepTimeBlk": departure_time,
@@ -51,7 +66,12 @@ def request(
                            "DayOfWork": day_of_week,
                            "Month": month,
                            "DistanceGroup": distance_group})
+    '''
+
+
     model = app.state.model
     assert model is not None
-    y_pred = model.predict(X_pred)   ## set up what is in x by pickle
+    y_pred = model.predict(X_pred_trans)   ## set up what is in x by pickle
+    print(y_pred)
+
     return {'wait':y_pred}
