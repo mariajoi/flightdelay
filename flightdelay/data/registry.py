@@ -14,7 +14,6 @@ from flightdelay.ml_logic.params import BUCKET_NAME, MODEL_TARGET, LOCAL_DATA_PA
 def save_model(model: pickle.Model = None) -> None:
     """
     """
-    MODEL_TARGET == "local"
     timestamp = time.strftime("%Y%m%d-%H%M%S")
 
     # Save model locally
@@ -57,7 +56,7 @@ def load_model() -> pickle.Model:
 
         print(Fore.BLUE + f"\nLoad latest model from disk..." + Style.RESET_ALL)
 
-        latest_model = keras.models.load_model(most_recent_model_path_on_disk)
+        latest_model = pickle.models.load_model(most_recent_model_path_on_disk)
 
         print("✅ Model loaded from local disk")
 
@@ -75,7 +74,7 @@ def load_model() -> pickle.Model:
             latest_model_path_to_save = os.path.join(LOCAL_REGISTRY_PATH, latest_blob.name)
             latest_blob.download_to_filename(latest_model_path_to_save)
 
-            latest_model = keras.models.load_model(latest_model_path_to_save)
+            latest_model = pickle.models.load_model(latest_model_path_to_save)
 
             print("✅ Latest model downloaded from cloud storage")
 
