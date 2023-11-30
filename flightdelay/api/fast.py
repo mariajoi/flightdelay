@@ -20,6 +20,7 @@ app.add_middleware(
     allow_headers=["*"],  # Allows all headers
 )
 
+# YOU need flightdelay git:(master) uvicorn flightdelay.api.fast:app --reload to test it
 # Define a root `/` endpoint
 @app.get("/")
 def root():
@@ -28,8 +29,13 @@ def root():
 #Predict the Delay
 #direction = os.path.join(os.path.dirname(__file__).replace("/api",""), "pickle", PICKLE)
 relative_path = os.path.join(os.path.dirname(__file__), "..", "pickle", PICKLE)
-model = pickle.load(open(relative_path, "rb"))
-app.state.model = load_model()
+#model = pickle.load(open(relative_path, "rb"))
+#app.state.model = load_model()
+
+with open(relative_path, 'rb') as file:
+    loaded_model = pickle.load(file)
+
+app.state.model = loaded_model
 
 #coding the load model function
 
@@ -45,7 +51,7 @@ def request(
         distance_group:int
     ):
 
-
+    '''
     X_pred = pd.DataFrame({"Operating_Airline": "9E",
                            "Origin": "SHV",
                            "Dest": "ATL",
@@ -54,12 +60,11 @@ def request(
                            "DayOfWork": 4,
                            "Month": 1,
                            "DistanceGroup": 3})
-    trans = MyTrans()
-    trans.fit(X_pred)
-    X_pred_trans = trans.transform(X_pred)
+    '''
+
 
     # When example is done bring it back
-    '''
+
     X_pred = pd.DataFrame({"Operating_Airline": airline,
                            "Origin": origin,"Dest": destination,
                            "DepTimeBlk": departure_time,
@@ -67,12 +72,16 @@ def request(
                            "DayOfWork": day_of_week,
                            "Month": month,
                            "DistanceGroup": distance_group})
-    '''
 
+    trans = MyTrans()
+    trans.fit(X_pred)
+    X_pred_trans = trans.transform(X_pred)
 
     model = app.state.model
     assert model is not None
     y_pred = model.predict(X_pred_trans)   ## set up what is in x by pickle
-    print(y_pred)
+    #result = loaded_model.predict(X_pred_trans)
 
-    return {'wait':y_pred}
+    #return {'wait':y_pred}
+    return dict(result=str(y_pred))
+    #ValueError: If using all scalar values, you must pass an index
