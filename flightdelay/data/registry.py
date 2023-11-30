@@ -38,6 +38,7 @@ def save_model(model) -> None:
     return None
 
 
+
 def load_model():
 
     # Load pipeline from pickle file:
@@ -48,10 +49,9 @@ def load_model():
         # Get the latest model version name by the timestamp on disk
 
         #Predict the Delay
-        direction = os.path.join(os.path.dirname(__file__),"pickle",PICKLE)
-        #local_model_directory = pickle.load(open(f"../data/pickle/{PICKLE}", "rb"))
-        #local_model_paths = glob.glob(f"{local_model_directory}/*")
-        #print(local_model_paths)
+        #print(os.path.dirname(__file__))
+        relative_path = os.path.join(os.path.dirname(__file__), "..", "pickle", PICKLE)
+
         '''
         if not local_model_paths:
             return None
@@ -64,7 +64,7 @@ def load_model():
 
         print("✅ Model loaded from local disk")
         '''
-        with open(direction , 'rb') as f:
+        with open(relative_path,'rb') as f:
                 latest_model = pickle.load(f)
 
         return latest_model

@@ -10,6 +10,7 @@ from flightdelay.ml_logic.params import PICKLE
 
 app = FastAPI()
 
+
 # Allowing all middleware is optional, but good practice for dev purposes
 app.add_middleware(
     CORSMiddleware,
@@ -24,10 +25,10 @@ app.add_middleware(
 def root():
     return dict(greeting="Hello User, welcome back!")
 
-
 #Predict the Delay
-#direction = os.path.join(os.path.dirname(__file__),"..","data","pickle",PICKLE)
-#model = pickle.load(open(f"flightdelay/data/pickle/{PICKLE}", "rb")
+#direction = os.path.join(os.path.dirname(__file__).replace("/api",""), "pickle", PICKLE)
+relative_path = os.path.join(os.path.dirname(__file__), "..", "pickle", PICKLE)
+model = pickle.load(open(relative_path, "rb"))
 app.state.model = load_model()
 
 #coding the load model function
