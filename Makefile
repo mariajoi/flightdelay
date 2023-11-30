@@ -25,6 +25,9 @@ clean:
 	@rm -fr flightdelay-*.dist-info
 	@rm -fr flightdelay.egg-info
 
+run_api:
+	uvicorn flightdelay.api.fast:app --reload
+
 install:
 	@pip install . -U
 
