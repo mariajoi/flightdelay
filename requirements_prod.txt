@@ -1,0 +1,6 @@
+#API Backend
+fastapi
+pytz
+uvicorn
+pickle
+scikit-learn

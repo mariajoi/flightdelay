@@ -1,5 +1,7 @@
 import pandas as pd
 import os
+import pickle
+
 
 from flightdelay.ml_logic.params import COLUMN_NAMES_RAW
 
@@ -44,3 +46,7 @@ def clean_data():
     current_db_final.to_csv('5k_zeros_removed.csv')
 
 clean_data()
+
+def get_pickle():
+    # Load pipeline from pickle file
+    my_pipeline = pickle.load(open("../03-Tuning-Pipeline/pipeline.pkl", "rb"))
