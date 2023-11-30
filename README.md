@@ -1,10 +1,9 @@
 # Data analysis
-- Document here the project: flightdelay
-- Description: Project Description
-- Data Source:
-- Type of analysis:
+- Project: flightdelay
+- Description: Prediction of future flight delay 
+- Data Source: Bureau of Transportation Statistics, https://www.transtats.bts.gov/DL_SelectFields.aspx?gnoyr_VQ=FGK&QO_fu146_anzr=b0-gvzr ==> manual download of monthly data for all columns, drawing and concatenating a random sample from each monthly file before running it through the preprocessing pipeline
+- Type of analysis: Prediction of flight delay based on certain input factors of the consumer on the interface: Date, origin, destination, time of day for intended flight will predict probability of a delay
 
-Please document the project the better you can.
 
 # Startup the project
 
