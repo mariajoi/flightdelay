@@ -3,11 +3,20 @@ import os
 import pickle
 
 
-from flightdelay.ml_logic.params import COLUMN_NAMES_RAW
-
+COLUMN_NAMES_RAW = ['Month', 'DayofMonth', 'DayOfWeek', 'FlightDate',
+       'Operating_Airline ', 'Tail_Number', 'Flight_Number_Operating_Airline',
+       'OriginAirportID', 'Origin', 'OriginCityName', 'OriginState',
+       'DestAirportID', 'Dest', 'DestCityName', 'DestState', 'CRSDepTime',
+       'DepTime', 'DepDelay', 'DepDelayMinutes', 'DepDel15',
+       'DepartureDelayGroups', 'DepTimeBlk', 'CRSArrTime', 'ArrTime',
+       'ArrDelay', 'ArrDelayMinutes', 'ArrDel15', 'ArrivalDelayGroups',
+       'ArrTimeBlk', 'Cancelled', 'CancellationCode', 'Diverted',
+       'CRSElapsedTime', 'ActualElapsedTime', 'AirTime', 'Distance',
+       'DistanceGroup', 'CarrierDelay', 'WeatherDelay', 'NASDelay',
+       'SecurityDelay', 'LateAircraftDelay']
 
 def clean_data():
-    base_path = 'flightdelay/raw_data/'
+    base_path = '../raw_data/'
 
     num_files = len(os.listdir(base_path))
     current_db_final = pd.DataFrame()
@@ -19,7 +28,8 @@ def clean_data():
         file_path = os.path.join(base_path, file_name)
 
         if os.path.exists(file_path):
-            current_db_aktuell = pd.read_csv(file_path, usecols=COLUMN_NAMES_RAW).sample(n=1000, random_state=42)
+            # current_db_aktuell = pd.read_csv(file_path, usecols=COLUMN_NAMES_RAW).sample(n=1000, random_state=42)
+            current_db_aktuell = pd.read_csv(file_path, usecols=COLUMN_NAMES_RAW)
 
             int_columns = current_db_aktuell.select_dtypes(include='int64').columns
             current_db_aktuell[int_columns] = current_db_aktuell[int_columns].astype('int16')
@@ -43,7 +53,7 @@ def clean_data():
 
     print("✅ Data cleaned")
 
-    current_db_final.to_csv('5k_zeros_removed.csv')
+    current_db_final.to_csv('5050 all.csv')
 
 clean_data()
 
