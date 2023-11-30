@@ -1,6 +1,7 @@
 import streamlit as st
 import datetime
-from flightdelay.flightdelay.data.options_distance_lookup import *
+from data.options_distance_lookup import *
+import requests
 
 def get_day_of_week(date):
     days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
@@ -13,10 +14,29 @@ def get_month_number(date):
 
 def get_delay_output(airline, origin, destination, departure_time, arrival_time, day_of_week, month):
 
-    delay_minutes = 160
+    # flight_data = {
+    #     "airline": airline,
+    #     "origin": origin,
+    #     "destination": destination,
+    #     "departure_bracket": departure_time,
+    #     "arrival_bracket": arrival_time,
+    #     "day_of_week": day_of_week,
+    #     "month_number": month
+    # }
 
-    if delay_minutes > 15:
-        message = f"We predict your flight to be delayed by: {delay_minutes} minutes"
+    # url = "#### EXAMPLE #####"
+
+    # response = requests.get(url, params=flight_data)
+
+    # if response.status_code == 200:
+    #     predicted_delay = response.json().get("predicted_delay")
+    # else:
+    #     return "ERROR"
+
+    predicted_delay = 160
+
+    if predicted_delay > 15:
+        message = f"We predict your flight to be delayed by: {predicted_delay} minutes"
         color = 'red'
     else:
         message = "We predict your flight will be on time!"
@@ -31,9 +51,7 @@ def get_delay_output(airline, origin, destination, departure_time, arrival_time,
         unsafe_allow_html=True
     )
 
-# Available flight route and airline options are coming from the options_distance_lookup.py file
 available_options = get_available_options()
-
 
 def get_time_bracket(selected_time):
     time_brackets = [
@@ -53,7 +71,6 @@ def get_time_bracket(selected_time):
 
 # Streamlit app
 def main():
-    st.title("Flight Delay Prediction App")
     st.markdown(
         """
         <style>
@@ -68,7 +85,7 @@ def main():
         """,
         unsafe_allow_html=True,
     )
-
+    st.title("Flight Delay Prediction App")
     st.markdown("<h2 style='text-align: center;'>Welcome to the Flight Delay Prediction App!<br>Enter the details below to predict the delay of your flight.</h2>", unsafe_allow_html=True)
 
     # default_origin = "ATL"
@@ -81,9 +98,9 @@ def main():
         # Input components
     col1, col2 = st.columns([1, 1])
     with col1:
-        origin = st.selectbox("Origin Airport Code", options=available_options.keys())
-        destination = st.selectbox("Destination Airport Code", options=available_options[origin].keys())
-        airline = st.selectbox("Airline Code", options=available_options[origin][destination])
+        origin_city = st.selectbox("Origin Airport", options=available_options.keys())
+        destination_city = st.selectbox("Destination Airport", options=available_options[origincityname].keys())
+        airline = st.selectbox("Airline Code", options=available_options[origincityname][destcityname])
     with col2:
         time_options = [datetime.time(hour, minute) for hour in range(24) for minute in range(0, 60, 15)]
         formatted_time_options = [time.strftime("%I:%M %p") for time in time_options]
@@ -94,9 +111,13 @@ def main():
 
  # Button to trigger prediction
     if st.button("Predict Delay"):
-        if departure_date and departure_time and arrival_time and airline and origin and destination:
+        if departure_date and departure_time and arrival_time and airline and origin_city and destination_city:
             selected_departure_time = datetime.datetime.strptime(departure_time, "%I:%M %p").time()
             selected_arrival_time = datetime.datetime.strptime(arrival_time, "%I:%M %p").time()
+
+            origin = get_airport_code(origin_city)
+            destination = get_airport_code(destination_city)
+            airline = get_airline_code(airline)
 
             day_of_week = get_day_of_week(departure_date)
             month_number = get_month_number(departure_date)
