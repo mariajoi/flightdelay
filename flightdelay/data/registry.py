@@ -6,19 +6,19 @@ from colorama import Fore, Style
 
 
 from google.cloud import storage
-from flightdelay.ml_logic.params import BUCKET_NAME, MODEL_TARGET, LOCAL_DATA_PATH, LOCAL_REGISTRY_PATH
+from flightdelay.ml_logic.params import BUCKET_NAME, MODEL_TARGET, LOCAL_DATA_PATH, LOCAL_REGISTRY_PATH, PICKLE
 
 
 
 
-def save_model(model: pickle.Model = None) -> None:
+def save_model(model) -> None:
     """
     """
     timestamp = time.strftime("%Y%m%d-%H%M%S")
 
     # Save model locally
     model_path = os.path.join(LOCAL_REGISTRY_PATH, "models", f"{timestamp}.pkl")
-    model.save(model_path)
+    model.dump(model,model_path)
 
     print("✅ Model saved locally")
 
@@ -38,7 +38,7 @@ def save_model(model: pickle.Model = None) -> None:
     return None
 
 
-def load_model() -> pickle.Model:
+def load_model():
 
     # Load pipeline from pickle file:
 
@@ -46,9 +46,13 @@ def load_model() -> pickle.Model:
         print(Fore.BLUE + f"\nLoad latest model from local registry..." + Style.RESET_ALL)
 
         # Get the latest model version name by the timestamp on disk
-        local_model_directory = pickle.load(open("../03-Tuning-Pipeline/pipeline.pkl", "rb"))                   # <--- here
-        local_model_paths = glob.glob(f"{local_model_directory}/*")
 
+        #Predict the Delay
+        direction = os.path.join(os.path.dirname(__file__),"pickle",PICKLE)
+        #local_model_directory = pickle.load(open(f"../data/pickle/{PICKLE}", "rb"))
+        #local_model_paths = glob.glob(f"{local_model_directory}/*")
+        #print(local_model_paths)
+        '''
         if not local_model_paths:
             return None
 
@@ -59,6 +63,9 @@ def load_model() -> pickle.Model:
         latest_model = pickle.models.load_model(most_recent_model_path_on_disk)
 
         print("✅ Model loaded from local disk")
+        '''
+        with open(direction , 'rb') as f:
+                latest_model = pickle.load(f)
 
         return latest_model
 

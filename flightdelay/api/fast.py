@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+import os
 import pandas as pd
 from fastapi.middleware.cors import CORSMiddleware
 from flightdelay.data.registry import load_model
@@ -24,8 +25,9 @@ def root():
 
 
 #Predict the Delay
-model = pickle.load(open(f"../pickle/{PICKLE}", "rb"))
-app.state.model = load_model(model)   #---- not ready yet put the pickle here
+#direction = os.path.join(os.path.dirname(__file__),"..","data","pickle",PICKLE)
+#model = pickle.load(open(f"flightdelay/data/pickle/{PICKLE}", "rb")
+app.state.model = load_model()
 
 #coding the load model function
 
@@ -40,7 +42,11 @@ def request(
         month_number:int
     ):
 
+    new_data = pd.read_csv("https://wagon-public-datasets.s3.amazonaws.com/05-Machine-Learning/08-Workflow/pickle_pipe_data.csv")
+    new_data
 
+    X_pred = new_data
+    #X_pred = dict({"airline":airline,"origin":origin,"destination":destination,"departure_bracket":departure_bracket,"arrival_bracket":arrival_bracket,"day_of_week":day_of_week,"month_number":month_number})
     model = app.state.model
     assert model is not None
     y_pred = model.predict(X_pred)   ## set up what is in x by pickle
