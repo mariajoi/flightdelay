@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:2.10.0
+FROM python:3.10.6-buster
 
 COPY requirements_prod.txt requirements.txt
 RUN pip install -r requirements.txt

@@ -9,31 +9,32 @@ numpy
 pandas
 scikit-learn
 matplotlib
-seaborn
+#seaborn
 
 # tests/linter
-black
-coverage
-flake8
-pytest
-yapf
+#black
+#coverage
+#flake8
+#pytest
+#yapf
 
 # API
 gcsfs
 google-cloud-storage
-mlflow
 s3fs
 
 #API Backend
 fastapi
 pytz
 uvicorn
+pickle
 
 # utilities
 six>=1.14
 joblib
 memoized-property
 termcolor
+colorama
 
 # jupyter
 jupyter-contrib-core==0.4.0
@@ -49,3 +50,6 @@ jupyterlab==3.4.8
 jupyterlab-pygments==0.2.2
 jupyterlab-widgets==1.1.1
 jupyterlab_server==2.16.1
+
+streamlit
+requests
