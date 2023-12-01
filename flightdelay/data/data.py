@@ -18,42 +18,45 @@ COLUMN_NAMES_RAW = ['Month', 'DayofMonth', 'DayOfWeek', 'FlightDate',
 def clean_data():
     base_path = '../raw_data/'
 
-    num_files = len(os.listdir(base_path))
     current_db_final = pd.DataFrame()
-    list_of_dfs = []
+    test_samples = []
 
+    for file_name in os.listdir(base_path):
+        if file_name.endswith('.csv'):
+            file_path = os.path.join(base_path, file_name)
+            df = pd.read_csv(file_path, usecols=COLUMN_NAMES_RAW).sample(n=1300, random_state=42)
 
-    for i in range(1, num_files + 2):
-        file_name = f'On_Time_Marketing_Carrier_On_Time_Performance_(Beginning_January_2018)_2022_{i}.csv'
-        file_path = os.path.join(base_path, file_name)
+            test_sample = df.sample(n=300, random_state=42)
+            train_sample = df.drop(test_sample.index)
 
-        if os.path.exists(file_path):
-            # current_db_aktuell = pd.read_csv(file_path, usecols=COLUMN_NAMES_RAW).sample(n=1000, random_state=42)
-            current_db_aktuell = pd.read_csv(file_path, usecols=COLUMN_NAMES_RAW)
+            int_columns = train_sample.select_dtypes(include='int64').columns
+            train_sample[int_columns] = train_sample[int_columns].astype('int16')
+            float_columns = train_sample.select_dtypes(include='float64').columns
+            train_sample[float_columns] = train_sample[float_columns].astype('float16')
 
-            int_columns = current_db_aktuell.select_dtypes(include='int64').columns
-            current_db_aktuell[int_columns] = current_db_aktuell[int_columns].astype('int16')
-            float_columns = current_db_aktuell.select_dtypes(include='float64').columns
-            current_db_aktuell[float_columns] = current_db_aktuell[float_columns].astype('float16')
-
-            current_db_aktuell['selection'] = (current_db_aktuell['ArrDel15'] + current_db_aktuell['Cancelled'])
-            selection_counts = current_db_aktuell['selection'].value_counts()
+            train_sample['selection'] = (train_sample['ArrDel15'] + train_sample['Cancelled'])
+            selection_counts = train_sample['selection'].value_counts()
             num_samples_to_drop = selection_counts[0] - selection_counts[1]
 
             if num_samples_to_drop > 0:
-                df_to_drop = current_db_aktuell[current_db_aktuell['selection'] == 0].sample(n=num_samples_to_drop, random_state=42)
-                current_db_aktuell = current_db_aktuell.drop(df_to_drop.index)
+                df_to_drop = train_sample[train_sample['selection'] == 0].sample(n=num_samples_to_drop, random_state=42)
+                train_sample = train_sample.drop(df_to_drop.index)
 
-            current_db_aktuell.drop(columns='selection', inplace=True)
-            list_of_dfs.append(current_db_aktuell)
+            current_db_final = pd.concat([current_db_final, train_sample])
 
-            current_db_final = pd.concat([current_db_final, current_db_aktuell])
+            test_samples.append(test_sample)
+
+            current_db_final = pd.concat([current_db_final, train_sample])
 
     current_db_final.rename(columns={current_db_final.columns[4]: "Operating_Airline"}, inplace=True)
 
     print("✅ Data cleaned")
 
-    current_db_final.to_csv('5050 all.csv')
+    train_sample = pd.concat(test_samples)
+    test_sample = pd.concat(test_samples)
+
+    current_db_final.to_csv('train_sample.csv')  # Save the concatenated data as train_sample.csv
+    test_sample.to_csv('test_sample.csv')  # Save test_sample.csv
 
 clean_data()
 
