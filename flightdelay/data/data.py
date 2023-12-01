@@ -48,6 +48,7 @@ def clean_data():
 
             current_db_final = pd.concat([current_db_final, train_sample])
 
+    current_db_final.drop(columns=['selection'], inplace=True) 
     current_db_final.rename(columns={current_db_final.columns[4]: "Operating_Airline"}, inplace=True)
 
     print("✅ Data cleaned")
