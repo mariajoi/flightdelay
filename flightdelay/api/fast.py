@@ -2,7 +2,6 @@ from fastapi import FastAPI
 import os
 import pandas as pd
 from fastapi.middleware.cors import CORSMiddleware
-# from flightdelay.data.registry import load_model
 import pickle
 from flightdelay.utils.mytrans import MyTrans
 
@@ -30,7 +29,6 @@ app.add_middleware(
 #direction = os.path.join(os.path.dirname(__file__).replace("/api",""), "pickle", PICKLE)
 relative_path = os.path.join(os.path.dirname(__file__), "..", "pickle", PICKLE)
 #model = pickle.load(open(relative_path, "rb"))
-#app.state.model = load_model()
 
 with open(relative_path, 'rb') as file:
     loaded_model = pickle.load(file)
