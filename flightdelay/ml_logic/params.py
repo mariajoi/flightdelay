@@ -21,7 +21,7 @@ PICKLE = os.environ.get("PICKLE_NAME")
 
 ##################  CONSTANTS  #####################
 LOCAL_DATA_PATH = '../data/'
-LOCAL_REGISTRY_PATH =  os.path.join(LOCAL_DATA_PATH,DATA_SIZE)
+# LOCAL_REGISTRY_PATH =  os.path.join(LOCAL_DATA_PATH)
 
 COLUMN_NAMES_RAW = ['Month', 'DayofMonth', 'DayOfWeek', 'FlightDate',
        'Operating_Airline ', 'Tail_Number', 'Flight_Number_Operating_Airline',

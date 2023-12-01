@@ -7,6 +7,7 @@ scikit-learn
 pandas
 numpy
 colorama
+google-cloud-storage
 scikit-learn==1.3.1
 tensorflow==2.10.0
 
