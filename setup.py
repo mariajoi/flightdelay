@@ -9,9 +9,4 @@ setup(name='flightdelay',
       version="1.0",
       description="Project Description",
       packages=find_packages(),
-      install_requires=requirements,
-      test_suite='tests',
-      # include_package_data: to install data from MANIFEST.in
-      include_package_data=True,
-      scripts=['scripts/flightdelay-run'],
-      zip_safe=False)
+      install_requires=requirements)
