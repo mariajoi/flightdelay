@@ -1,6 +1,7 @@
 import streamlit as st
 import datetime
 from data.options_distance_lookup import *
+import base64
 import requests
 
 def get_day_of_week(date):
@@ -12,21 +13,22 @@ def get_month_number(date):
     return date.month
 
 
-def get_delay_output(airline, origin, destination, departure_time, arrival_time, day_of_week, month):
+def get_delay_output(airline, origin, destination, departure_time, arrival_time, day_of_week, month, distance_group):
 
-    # flight_data = {
-    #     "airline": airline,
-    #     "origin": origin,
-    #     "destination": destination,
-    #     "departure_bracket": departure_time,
-    #     "arrival_bracket": arrival_time,
-    #     "day_of_week": day_of_week,
-    #     "month_number": month
+    # flight_params = {
+    #     "Operating_Airline": airline,
+    #     "Origin": origin,
+    #     "Dest": destination,
+    #     "DepTimeBlk": departure_time,
+    #     "ArrTimeBlk": arrival_time,
+    #     "DayOfWork": day_of_week,
+    #     "Month": month,
+    #     "DistanceGroup": distance_group
     # }
 
     # url = "#### EXAMPLE #####"
 
-    # response = requests.get(url, params=flight_data)
+    # response = requests.get(url, params=flight_params)
 
     # if response.status_code == 200:
     #     predicted_delay = response.json().get("predicted_delay")
@@ -36,7 +38,7 @@ def get_delay_output(airline, origin, destination, departure_time, arrival_time,
     predicted_delay = 160
 
     if predicted_delay > 15:
-        message = f"We predict your flight to be delayed by: {predicted_delay} minutes"
+        message = f"We predict your flight to be delayed"
         color = 'red'
     else:
         message = "We predict your flight will be on time!"
@@ -69,24 +71,25 @@ def get_time_bracket(selected_time):
                 return time_range
     return 'Invalid Time'
 
+
+def get_base64(bin_file):
+    with open(bin_file, 'rb') as f:
+        data = f.read()
+    return base64.b64encode(data).decode()
 # Streamlit app
 def main():
-    st.markdown(
-        """
-        <style>
-        body {
-            background-color: red;
-            color: white;
-        }
-        h1 {
-            text-align: center;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
-    st.title("Flight Delay Prediction App")
-    st.markdown("<h2 style='text-align: center;'>Welcome to the Flight Delay Prediction App!<br>Enter the details below to predict the delay of your flight.</h2>", unsafe_allow_html=True)
+    bin_str = get_base64('airport.png')
+    page_bg_img = '''
+    <style>
+    .stApp {
+    background-image: url("data:image/png;base64,%s");
+    background-size: cover;
+    }
+    </style>
+    ''' % bin_str
+    st.markdown(page_bg_img, unsafe_allow_html=True)
+    st.title("Predict your the delay of your flight!")
+    st.markdown("<h2 style='text-align: center;'>Enter your flight details below.</h2>", unsafe_allow_html=True)
 
     # default_origin = "ATL"
     # default_destination = "JFK"
@@ -98,13 +101,17 @@ def main():
         # Input components
     col1, col2 = st.columns([1, 1])
     with col1:
-        origin_city = st.selectbox("Origin Airport", options=available_options.keys())
-        destination_city = st.selectbox("Destination Airport", options=available_options[origincityname].keys())
-        airline = st.selectbox("Airline Code", options=available_options[origincityname][destcityname])
+        origin_city = st.selectbox("Origin", options=list(available_options.keys()))
+        if origin_city:
+            destination_options = list(available_options[origin_city].keys())
+            destination_city = st.selectbox("Destination", options=destination_options)
+            if destination_city:
+                airline_options = available_options[origin_city][destination_city]
+                airline = st.selectbox("Airline", options=airline_options)
     with col2:
         time_options = [datetime.time(hour, minute) for hour in range(24) for minute in range(0, 60, 15)]
         formatted_time_options = [time.strftime("%I:%M %p") for time in time_options]
-        departure_date = st.date_input("Departure Date", value=default_departure_date)
+        departure_date = st.date_input("Date", value=default_departure_date)
         departure_time = st.selectbox("Departure Time", options=formatted_time_options)
         arrival_time = st.selectbox("Arrival Time", options=formatted_time_options)
 
@@ -118,6 +125,7 @@ def main():
             origin = get_airport_code(origin_city)
             destination = get_airport_code(destination_city)
             airline = get_airline_code(airline)
+            distance_group = get_distance_groups(origin, destination)
 
             day_of_week = get_day_of_week(departure_date)
             month_number = get_month_number(departure_date)
@@ -125,9 +133,10 @@ def main():
             departure_bracket = get_time_bracket(selected_departure_time)
             arrival_bracket = get_time_bracket(selected_arrival_time)
 
+
             get_delay_output(
                     airline, origin, destination, departure_bracket, arrival_bracket,
-                    day_of_week, month_number
+                    day_of_week, month_number, distance_group
                 )
 
 if __name__ == "__main__":
