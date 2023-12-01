@@ -2,7 +2,7 @@ from fastapi import FastAPI
 import os
 import pandas as pd
 from fastapi.middleware.cors import CORSMiddleware
-from flightdelay.data.registry import load_model
+# from flightdelay.data.registry import load_model
 import pickle
 from flightdelay.utils.mytrans import MyTrans
 
