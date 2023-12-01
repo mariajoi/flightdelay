@@ -84,11 +84,23 @@ def main():
     background-image: url("data:image/png;base64,%s");
     background-size: cover;
     }
+    .boxed-title {
+        background-color: #333333;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+    }
     </style>
     ''' % bin_str
     st.markdown(page_bg_img, unsafe_allow_html=True)
-    st.title("Predict your the delay of your flight!")
-    st.markdown("<h2 style='text-align: center;'>Enter your flight details below.</h2>", unsafe_allow_html=True)
+    st.markdown(
+        "<div class='boxed-title'><h1>Predict your the delay of your flight!</h1></div>",
+        unsafe_allow_html=True
+    )
+    # st.markdown(
+    #     "<div class='boxed-text'><h2>Enter your flight details below.</h2></div>",
+    #     unsafe_allow_html=True
+    # )
 
     # default_origin = "ATL"
     # default_destination = "JFK"
