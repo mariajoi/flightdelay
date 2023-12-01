@@ -57,7 +57,7 @@ def request(
                            "Dest": "ATL",
                            "DepTimeBlk": "1500-1559",
                            "ArrTimeBlk": "1800-1859",
-                           "DayOfWork": 4,
+                           "DayOfWeek": 4,
                            "Month": 1,
                            "DistanceGroup": 3})
     '''
@@ -66,12 +66,13 @@ def request(
     # When example is done bring it back
 
     X_pred = pd.DataFrame({"Operating_Airline": airline,
-                           "Origin": origin,"Dest": destination,
+                           "Origin": origin,
+                           "Dest": destination,
                            "DepTimeBlk": departure_time,
                            "ArrTimeBlk": arrival_time,
-                           "DayOfWork": day_of_week,
+                           "DayOfWeek": day_of_week,
                            "Month": month,
-                           "DistanceGroup": distance_group})
+                           "DistanceGroup": distance_group}, index = [0])
 
     trans = MyTrans()
     trans.fit(X_pred)
