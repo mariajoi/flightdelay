@@ -22,9 +22,9 @@ app.add_middleware(
 
 # YOU need flightdelay git:(master) uvicorn flightdelay.api.fast:app --reload to test it
 # Define a root `/` endpoint
-@app.get("/")
-def root():
-    return dict(greeting="Hello User, welcome back!")
+# @app.get("/")
+# def root():
+#     return dict(greeting="Hello User, welcome back!")
 
 #Predict the Delay
 #direction = os.path.join(os.path.dirname(__file__).replace("/api",""), "pickle", PICKLE)
@@ -80,7 +80,7 @@ def request(
 
     model = app.state.model
     assert model is not None
-    y_pred = model.predict(X_pred_trans)   ## set up what is in x by pickle
+    y_pred = model.predict(X_pred_trans)[0]   ## set up what is in x by pickle
     #result = loaded_model.predict(X_pred_trans)
 
     #return {'wait':y_pred}

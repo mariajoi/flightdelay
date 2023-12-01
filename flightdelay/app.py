@@ -5,9 +5,8 @@ import base64
 import requests
 
 def get_day_of_week(date):
-    days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-    day_num = date.weekday()
-    return days[day_num]
+    day_num = date.weekday() + 1
+    return day_num
 
 def get_month_number(date):
     return date.month
@@ -15,29 +14,29 @@ def get_month_number(date):
 
 def get_delay_output(airline, origin, destination, departure_time, arrival_time, day_of_week, month, distance_group):
 
-    # flight_params = {
-    #     "Operating_Airline": airline,
-    #     "Origin": origin,
-    #     "Dest": destination,
-    #     "DepTimeBlk": departure_time,
-    #     "ArrTimeBlk": arrival_time,
-    #     "DayOfWork": day_of_week,
-    #     "Month": month,
-    #     "DistanceGroup": distance_group
-    # }
+    flight_params = {
+        "airline": airline,
+        "origin": origin,
+        "destination": destination,
+        "departure_time": departure_time,
+        "arrival_time": arrival_time,
+        "day_of_week": day_of_week,
+        "month": month,
+        "distance_group": distance_group
+    }
 
-    # url = "#### EXAMPLE #####"
+    url = "http://localhost:8000/request"
 
-    # response = requests.get(url, params=flight_params)
+    response = requests.get(url, params=flight_params)
 
-    # if response.status_code == 200:
-    #     predicted_delay = response.json().get("predicted_delay")
-    # else:
-    #     return "ERROR"
+    if response.status_code == 200:
+        predicted_delay = response.json().get('result')
+    else:
+        return "ERROR"
 
-    predicted_delay = 160
+    # predicted_delay = 160
 
-    if predicted_delay > 15:
+    if predicted_delay == '1':
         message = f"We predict your flight to be delayed"
         color = 'red'
     else:
