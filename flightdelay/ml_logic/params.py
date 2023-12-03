@@ -39,7 +39,7 @@ COLUMN_NAMES_RAW = ['Month', 'DayofMonth', 'DayOfWeek', 'FlightDate',
 
 env_valid_options = dict(
     #DATA_SIZE=["1k", "200k", "all"],
-    MODEL_TARGET=["local", "gcs"],
+    MODEL_TARGET=["local", "gcs", "gci"],
     )
 
 def validate_env_value(env, valid_options):

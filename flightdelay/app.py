@@ -25,7 +25,7 @@ def get_delay_output(airline, origin, destination, departure_time, arrival_time,
         "distance_group": distance_group
     }
 
-    url = "http://localhost:8000/request"
+    url = "https://image-name-oloqibljcq-ew.a.run.app/request"
 
     response = requests.get(url, params=flight_params)
 
