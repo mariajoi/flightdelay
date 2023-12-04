@@ -83,10 +83,8 @@ def main():
     .stApp {
         background-image: url("data:image/png;base64,%s");
         background-size: cover;
-        background-color: rgba(0, 0, 0, 0.7);
     }
     .boxed-title {
-
     padding: 10px;
     text-align: center;
     color: #FFFFFF;
