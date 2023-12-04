@@ -81,11 +81,12 @@ def main():
     page_bg_img = '''
     <style>
     .stApp {
-    background-image: url("data:image/png;base64,%s");
-    background-size: cover;
+        background-image: url("data:image/png;base64,%s");
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.7);
     }
     .boxed-title {
-    background-color: #333333;
+
     padding: 10px;
     text-align: center;
     color: #FFFFFF;
