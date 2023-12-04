@@ -7,6 +7,6 @@ requirements = [x.strip() for x in content if 'git+' not in x]
 
 setup(name='flightdelay',
       version="1.0",
-      description="Project Description",
+      description="project of predicting a flight delay in the US",
       packages=find_packages(),
       install_requires=requirements)
