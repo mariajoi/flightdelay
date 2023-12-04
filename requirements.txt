@@ -27,7 +27,6 @@ s3fs
 fastapi
 pytz
 uvicorn
-pickle
 
 # utilities
 six>=1.14
