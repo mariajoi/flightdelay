@@ -85,16 +85,17 @@ def main():
     background-size: cover;
     }
     .boxed-title {
-        background-color: #333333;
-        padding: 10px;
-        text-align: center;
-        border-radius: 5px;
-    }
+    background-color: #333333;
+    padding: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
     </style>
     ''' % bin_str
     st.markdown(page_bg_img, unsafe_allow_html=True)
     st.markdown(
-        "<div class='boxed-title'><h1>Predict your the delay of your flight!</h1></div>",
+        "<div class='boxed-title'><h1>Predict the delay of your flight!</h1></div>",
         unsafe_allow_html=True
     )
     # st.markdown(
