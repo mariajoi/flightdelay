@@ -5,6 +5,9 @@ import pickle
 
 ##################  VARIABLES  ##################
 DATA_SIZE = os.environ.get("DATA_SIZE")
+TRAIN_DATA = os.environ.get("TRAIN_DATA")
+TEST_DATA = os.environ.get("TRAIN_DATA")
+DATA_SIZE = os.environ.get("DATA_SIZE")
 MODEL_TARGET = os.environ.get("MODEL_TARGET")
 GCP_PROJECT = os.environ.get("GCP_PROJECT")
 GCP_PROJECT_WAGON = os.environ.get("GCP_PROJECT_WAGON")

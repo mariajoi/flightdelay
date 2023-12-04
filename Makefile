@@ -4,19 +4,6 @@
 install_requirements:
 	@pip install -r requirements.txt
 
-check_code:
-	@flake8 scripts/* flightdelay/*.py
-
-black:
-	@black scripts/* flightdelay/*.py
-
-test:
-	@coverage run -m pytest tests/*.py
-	@coverage report -m --omit="${VIRTUAL_ENV}/lib/python*"
-
-ftest:
-	@Write me
-
 clean:
 	@rm -f */version.txt
 	@rm -f .coverage
@@ -31,28 +18,24 @@ run_api:
 install:
 	@pip install . -U
 
-all: clean install test black check_code
+#################### PACKAGE ACTIONS ###################
+ML_DIR=~/flightdelay/mlops
 
-count_lines:
-	@find ./ -name '*.py' -exec  wc -l {} \; | sort -n| awk \
-        '{printf "%4s %s\n", $$1, $$2}{s+=$$0}END{print s}'
-	@echo ''
-	@find ./scripts -name '*-*' -exec  wc -l {} \; | sort -n| awk \
-		        '{printf "%4s %s\n", $$1, $$2}{s+=$$0}END{print s}'
-	@echo ''
-	@find ./tests -name '*.py' -exec  wc -l {} \; | sort -n| awk \
-        '{printf "%4s %s\n", $$1, $$2}{s+=$$0}END{print s}'
-	@echo ''
+reinstall_package:
+	@pip uninstall -y taxifare || :
+	@pip install -e .
 
-# ----------------------------------
-#      UPLOAD PACKAGE TO PYPI
-# ----------------------------------
-PYPI_USERNAME=<AUTHOR>
-build:
-	@python setup.py sdist bdist_wheel
+run_preprocess:
+	python -c 'from flightdelay import ml_logic_preprocessing
 
-pypi_test:
-	@twine upload -r testpypi dist/* -u $(PYPI_USERNAME)
+run_train:
+	python -c 'from taxifare.interface.main import train; train()'
 
-pypi:
-	@twine upload dist/* -u $(PYPI_USERNAME)
+run_pred:
+	python -c 'from taxifare.interface.main import pred; pred()'
+
+run_all: run_preprocess run_train run_pred run_evaluate
+
+show_sources_all:
+	-bq ls ${BQ_DATASET}
+	-gsutil ls gs://${BUCKET_NAME}
