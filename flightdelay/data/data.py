@@ -24,6 +24,7 @@ COLUMNS_NAMES_DROP = ['Tail_Number', 'CarrierDelay', 'WeatherDelay', 'NASDelay',
         'DestCityName', 'DestState', 'OriginCityName', 'OriginState', 'DestAirportID',
      'Flight_Number_Operating_Airline', 'OriginAirportID','FlightDate','DayofMonth']
 
+# Only locally usable
 def clean_data():
     base_path = '../raw_data/'
 
@@ -67,8 +68,3 @@ def clean_data():
 
     current_db_final.to_csv('train_sample.csv')  # Save the concatenated data as train_sample.csv
     test_sample.to_csv('test_sample.csv')  # Save test_sample.csv
-
-
-def get_pickle():
-    # Load pipeline from pickle file
-    my_pipeline = pickle.load(open("../03-Tuning-Pipeline/pipeline.pkl", "rb"))

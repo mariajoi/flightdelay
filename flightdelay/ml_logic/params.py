@@ -17,6 +17,7 @@ GCP_REGION = os.environ.get("GCP_REGION")
 BUCKET_NAME = os.environ.get("BUCKET_NAME")
 INSTANCE = os.environ.get("INSTANCE")
 PICKLE = os.environ.get("PICKLE_NAME")
+PICKLE_TMP = os.environ.get("PICKLE_TEMPLATE")
 
 # GCR_IMAGE = os.environ.get("GCR_IMAGE")
 # GCR_REGION = os.environ.get("GCR_REGION")
