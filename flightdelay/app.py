@@ -71,32 +71,36 @@ def get_time_bracket(selected_time):
     return 'Invalid Time'
 
 
-def get_base64(bin_file):
-    with open(bin_file, 'rb') as f:
-        data = f.read()
-    return base64.b64encode(data).decode()
+# def get_base64(bin_file):
+#     with open(bin_file, 'rb') as f:
+#         data = f.read()
+#     return base64.b64encode(data).decode()
 # Streamlit app
 def main():
-    bin_str = get_base64('airport.png')
-    page_bg_img = '''
-    <style>
-    .stApp {
-        background-image: url("data:image/png;base64,%s");
-        background-size: cover;
-    }
-    .boxed-title {
-    padding: 10px;
-    text-align: center;
-    color: #FFFFFF;
-    border-radius: 5px;
-}
-    </style>
-    ''' % bin_str
-    st.markdown(page_bg_img, unsafe_allow_html=True)
+#     bin_str = get_base64('airport.png')
+#     page_bg_img = '''
+#     <style>
+#     .stApp {
+#         background-image: url("data:image/png;base64,%s");
+#         background-size: cover;
+#     }
+#     .boxed-title {
+#     padding: 10px;
+#     text-align: center;
+#     color: #FFFFFF;
+#     border-radius: 5px;
+# }
+#     </style>
+#     ''' % bin_str
+#     st.markdown(page_bg_img, unsafe_allow_html=True)
     st.markdown(
         "<div class='boxed-title'><h1>Predict the delay of your flight!</h1></div>",
         unsafe_allow_html=True
     )
+    # st.markdown(
+    #     "<div class='boxed-text'><h2>Enter your flight details below.</h2></div>",
+    #     unsafe_allow_html=True
+    # )
     # st.markdown(
     #     "<div class='boxed-text'><h2>Enter your flight details below.</h2></div>",
     #     unsafe_allow_html=True
