@@ -8,6 +8,7 @@ import os
 from sklearn.model_selection import cross_val_score
 from sklearn.pipeline import make_pipeline
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import confusion_matrix, accuracy_score, recall_score, f1_score, precision_score
 import joblib
 
 
@@ -22,7 +23,7 @@ from google.cloud import storage
 
 
 
-def preproc() -> None:
+def preproc():
 
     print(Fore.MAGENTA + "\n ⭐️ Use case: preprocess" + Style.RESET_ALL)
     base_path = pd.read_csv("/data/")
@@ -87,33 +88,53 @@ def cross_val():
     print(score)
     return score
 
-def train_model():
+def train_model_rand():
     pipeline = load_trained_model()
 
     # Add Params of model
-    model = RandomForestClassifier(max_depth=5,class_weight="balanced", random_state=42)
     y_train,y_test,X_test_trans,X_train_trans = preproc()
+
+
+    # Create and Fit Pipeline
+
+    randomF = RandomForestClassifier(class_weight='balanced', random_state=42)
+
+    model_pipeline = make_pipeline(pipeline, randomF)
+    model_pipeline.fit(X_train_trans,y_train)
+
+    y_preds_tr = model_pipeline.predict(X_train_trans)
+    y_preds = model_pipeline.predict(X_test_trans)
+
+    print('Train data scores:')
+    print('accuracy: %.3f' % accuracy_score(y_preds_tr,y_train))
+    print('f1_score: %.3f' % f1_score(y_preds_tr,y_train, average='binary'))
+    print('recall: %.3f' % recall_score(y_preds_tr,y_train,average='binary'))
+    print('precision: %.3f' % precision_score(y_preds_tr,y_train,average='binary'))
+    print("Confusion Matrix: ", confusion_matrix(y_preds_tr,y_train))
+
+    print('Test data scores:')
+    print('accuracy: %.3f' % accuracy_score(y_preds,y_test))
+    print('f1_score: %.3f' % f1_score(y_preds, y_test, average='binary'))
+    print('recall: %.3f' % recall_score(y_preds, y_test,average='binary'))
+    print('precision: %.3f' % precision_score(y_preds, y_test,average='binary'))
+    print("Confusion Matrix: ", confusion_matrix(y_preds,y_test))
 
     #model = load_model()
     #assert model is not None         < --- take this part and delete RandomForest
 
-    # Create and Fit Pipeline
-    model_pipeline = make_pipeline(pipeline, model)
-    model_pipeline.fit(X_train_trans,y_train)
-    pipeline.fit(X_train_trans,y_train)
-    result = pipeline
-    return result
 
-def predict():
+    return model_pipeline
+
+def predict_model():
     y_train,y_test,X_test_trans,X_train_trans = preproc()
-    model = train_model()
+    model = train_model_rand()
     guess = model.predict(X_test_trans[1])   # test with second row
     return guess
 
 # Save a model online on
 def save_model(name):
     storage_filename = f"{name}"
-    model = train_model()
+    model = train_model_rand()
 
     client = storage.Client()
     bucket = client.bucket(BUCKET_NAME)
@@ -122,7 +143,9 @@ def save_model(name):
     return print("Upload done")
 
 
-'''
+
 if __name__ == '__main__':
     preproc()
-'''
+    load_trained_model()
+    cross_val()
+    train_model_rand()
