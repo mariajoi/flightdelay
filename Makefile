@@ -22,17 +22,17 @@ install:
 ML_DIR=~/flightdelay/mlops
 
 reinstall_package:
-	@pip uninstall -y taxifare || :
+	@pip uninstall -y flightdelay || :
 	@pip install -e .
 
 run_preprocess:
 	python -c 'from flightdelay import ml_logic_preprocessing
 
 run_train:
-	python -c 'from taxifare.interface.main import train; train()'
+	python -c 'from flightdelay.interface.main import train; train()'
 
 run_pred:
-	python -c 'from taxifare.interface.main import pred; pred()'
+	python -c 'from flightdelay.interface.main import pred; pred()'
 
 run_all: run_preprocess run_train run_pred run_evaluate
 

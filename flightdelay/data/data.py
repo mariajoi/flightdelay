@@ -15,6 +15,15 @@ COLUMN_NAMES_RAW = ['Month', 'DayofMonth', 'DayOfWeek', 'FlightDate',
        'DistanceGroup', 'CarrierDelay', 'WeatherDelay', 'NASDelay',
        'SecurityDelay', 'LateAircraftDelay']
 
+COLUMNS_NAMES_DROP = ['Tail_Number', 'CarrierDelay', 'WeatherDelay', 'NASDelay',
+       'SecurityDelay', 'LateAircraftDelay',
+             'Distance', 'ArrTime', 'ArrDelay', 'ArrDelayMinutes', 'ArrDel15',
+       'ArrivalDelayGroups','CRSDepTime', 'CRSArrTime' , 'Cancelled', 'CancellationCode',
+       'Diverted', 'CRSElapsedTime', 'ActualElapsedTime', 'AirTime', 'DepTime', 'DepDelay',
+       'DepDelayMinutes', 'DepDel15', 'DepartureDelayGroups',
+        'DestCityName', 'DestState', 'OriginCityName', 'OriginState', 'DestAirportID',
+     'Flight_Number_Operating_Airline', 'OriginAirportID','FlightDate','DayofMonth']
+
 def clean_data():
     base_path = '../raw_data/'
 
@@ -48,7 +57,7 @@ def clean_data():
 
             current_db_final = pd.concat([current_db_final, train_sample])
 
-    current_db_final.drop(columns=['selection'], inplace=True) 
+    current_db_final.drop(columns=['selection'], inplace=True)
     current_db_final.rename(columns={current_db_final.columns[4]: "Operating_Airline"}, inplace=True)
 
     print("✅ Data cleaned")
@@ -59,7 +68,6 @@ def clean_data():
     current_db_final.to_csv('train_sample.csv')  # Save the concatenated data as train_sample.csv
     test_sample.to_csv('test_sample.csv')  # Save test_sample.csv
 
-clean_data()
 
 def get_pickle():
     # Load pipeline from pickle file
