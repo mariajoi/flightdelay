@@ -8,6 +8,8 @@ import os
 from sklearn.model_selection import cross_val_score
 from sklearn.pipeline import make_pipeline
 from sklearn.ensemble import RandomForestClassifier
+import joblib
+
 
 #OwnModule
 from flightdelay.ml_logic.params import DATA_SIZE,TEST_DATA,TRAIN_DATA, PICKLE_TMP, PICKLE, GCP_PROJECT, BUCKET_NAME
@@ -18,36 +20,6 @@ from flightdelay.data.data import COLUMN_NAMES_RAW, COLUMNS_NAMES_DROP
 from google.cloud import storage
 
 
-'''
-
-#### from the train chal
-def preprocess() -> None:
-
-    print(Fore.MAGENTA + "\n ⭐️ Use case: preprocess" + Style.RESET_ALL)
-
-    if data_processed.shape[0] < 10:
-        print("❌ Not enough processed data retrieved to train on")
-        return None
-
-
-
-    model = load_model()
-    assert model is not None
-
-    X_processed = preprocess_features(X_pred)
-    y_pred = model.predict(X_processed)
-
-    print("\n✅ prediction done: ", y_pred, y_pred.shape, "\n")
-    return y_pred
-
-
-
-    train(min_date='2009-01-01', max_date='2015-01-01')
-    evaluate(min_date='2009-01-01', max_date='2015-01-01')
-    pred()
-
-'''
-
 
 
 def preproc() -> None:
@@ -55,6 +27,8 @@ def preproc() -> None:
     print(Fore.MAGENTA + "\n ⭐️ Use case: preprocess" + Style.RESET_ALL)
     base_path = pd.read_csv("/data/")
     trans = MyTrans()
+
+    ## upload csv from Cloud
 
     file_path_test = os.path.join(base_path,TEST_DATA)
     file_path_train = os.path.join(base_path,TRAIN_DATA)
@@ -94,14 +68,17 @@ def load_empty_model() -> None:
     return preproc_pipe
 
 '''
+
+# TRAIN AND LOAD MODEL SECTION
 client = storage.Client(project=GCP_PROJECT)
-local_path = 'temp_model.pkl'
-bucket_name = BUCKET_NAME
+bucket = client.bucket(BUCKET_NAME)
+gcs_path = f"gs://{BUCKET_NAME}/{PICKLE_TMP}" #CHange Pickle if needed
 
 def load_trained_model():
     # Load pipeline from pickle file
-    pipeline = pickle.load(open(f"/pickle/{PICKLE_TMP}rb"))
-    return pipeline
+    #pipeline = pickle.load(open(f"/pickle/{PICKLE_TMP}","rb")) --> local solution
+    model_load = joblib.load(gcs_path)
+    return model_load
 
 def cross_val():
     pipeline = load_trained_model()
@@ -114,7 +91,7 @@ def train_model():
     pipeline = load_trained_model()
 
     # Add Params of model
-    model = RandomForestClassifier(max_depth=5, random_state=42)
+    model = RandomForestClassifier(max_depth=5,class_weight="balanced", random_state=42)
     y_train,y_test,X_test_trans,X_train_trans = preproc()
 
     #model = load_model()
@@ -127,15 +104,22 @@ def train_model():
     result = pipeline
     return result
 
-def predict(X):
+def predict():
+    y_train,y_test,X_test_trans,X_train_trans = preproc()
     model = train_model()
-    guess = model.predict(X)
+    guess = model.predict(X_test_trans[1])   # test with second row
     return guess
 
+# Save a model online on
 def save_model(name):
-    gci_path = f"{GCP_PROJECT}/preproc_nottrans_notfit_.pkl"{}
+    storage_filename = f"{name}"
     model = train_model()
-    model
+
+    client = storage.Client()
+    bucket = client.bucket(BUCKET_NAME)
+    blob = bucket.blob(storage_filename)
+    blob.upload_from_filename(model)
+    return print("Upload done")
 
 
 '''
