@@ -11,10 +11,7 @@ scikit-learn
 matplotlib
 
 #sklearn
-sklearn.model_selection
-sklearn.pipeline
-sklearn.ensemble
-sklearn.metrics
+scikit-learn
 joblib
 #seaborn
 

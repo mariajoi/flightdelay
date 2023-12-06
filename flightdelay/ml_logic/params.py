@@ -39,6 +39,18 @@ COLUMN_NAMES_RAW = ['Month', 'DayofMonth', 'DayOfWeek', 'FlightDate',
        'DistanceGroup', 'CarrierDelay', 'WeatherDelay', 'NASDelay',
        'SecurityDelay', 'LateAircraftDelay']
 
+COLUMN_NAMES = ['Month', 'DayofMonth', 'DayOfWeek', 'FlightDate',
+       'Operating_Airline', 'Tail_Number', 'Flight_Number_Operating_Airline',
+       'OriginAirportID', 'Origin', 'OriginCityName', 'OriginState',
+       'DestAirportID', 'Dest', 'DestCityName', 'DestState', 'CRSDepTime',
+       'DepTime', 'DepDelay', 'DepDelayMinutes', 'DepDel15',
+       'DepartureDelayGroups', 'DepTimeBlk', 'CRSArrTime', 'ArrTime',
+       'ArrDelay', 'ArrDelayMinutes', 'ArrDel15', 'ArrivalDelayGroups',
+       'ArrTimeBlk', 'Cancelled', 'CancellationCode', 'Diverted',
+       'CRSElapsedTime', 'ActualElapsedTime', 'AirTime', 'Distance',
+       'DistanceGroup', 'CarrierDelay', 'WeatherDelay', 'NASDelay',
+       'SecurityDelay', 'LateAircraftDelay']
+
 ################## VALIDATIONS #################
 
 env_valid_options = dict(

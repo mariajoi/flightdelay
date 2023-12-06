@@ -13,10 +13,9 @@ import joblib
 
 
 #OwnModule
-from flightdelay.ml_logic.params import DATA_SIZE,TEST_DATA,TRAIN_DATA, PICKLE_TMP, PICKLE, GCP_PROJECT, BUCKET_NAME
+from flightdelay.ml_logic.params import DATA_SIZE,TEST_DATA,TRAIN_DATA, PICKLE_TMP, PICKLE, GCP_PROJECT, BUCKET_NAME, COLUMN_NAMES
 from flightdelay.utils.mytrans import MyTrans
 from flightdelay.data.data import COLUMN_NAMES_RAW, COLUMNS_NAMES_DROP
-
 #GCI
 from google.cloud import storage
 
@@ -26,15 +25,16 @@ from google.cloud import storage
 def preproc():
 
     print(Fore.MAGENTA + "\n ⭐️ Use case: preprocess" + Style.RESET_ALL)
-    base_path = pd.read_csv("/data/")
+    base_path = os.path.join(os.path.dirname(__file__), 'data/')
     trans = MyTrans()
 
     ## upload csv from Cloud
+    # .drop("Unnamed: 0",axis=1) not on VS just Jupyter
 
     file_path_test = os.path.join(base_path,TEST_DATA)
     file_path_train = os.path.join(base_path,TRAIN_DATA)
-    X_test = pd.read_csv(file_path_test, usecols=COLUMN_NAMES_RAW).drop("Unnamed: 0",axis=1).drop(columns=COLUMNS_NAMES_DROP)
-    X_train = pd.read_csv(file_path_train, usecols=COLUMN_NAMES_RAW).drop("Unnamed: 0",axis=1).drop(columns=COLUMNS_NAMES_DROP)
+    X_test = pd.read_csv(file_path_test, usecols=COLUMN_NAMES)
+    X_train = pd.read_csv(file_path_train, usecols=COLUMN_NAMES)
     data_X = [X_test,X_train]
     y_train = []
     y_test = []
@@ -45,7 +45,7 @@ def preproc():
         print("❌ Not enough processed data retrieved to train on")
         return None
 
-    for sample in data_X:
+    for sample,title in zip(data_X,['test','train']):
         sample["BadFlight"] = ((sample['ArrivalDelayGroups'] > 0) | (sample['Cancelled'] > 0)).astype(int)
 
         # Erstelle die Zielvariable y
@@ -53,12 +53,12 @@ def preproc():
         trans.fit(sample)
 
 
-        if "train" in data_X:
+        if title == 'train':
             y_train.append(y)
-            X_train_trans = trans.transform(X_train)
-        elif "test" in data_X:
+            X_train_trans = trans.transform(X_train).drop(columns=COLUMNS_NAMES_DROP)
+        elif title == 'test':
             y_test.append(y)
-            X_test_trans = trans.transform(X_test)
+            X_test_trans = trans.transform(X_test).drop(columns=COLUMNS_NAMES_DROP)
 
     return y_train,y_test,X_test_trans,X_train_trans
 
