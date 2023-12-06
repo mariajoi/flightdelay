@@ -21,9 +21,9 @@ app.add_middleware(
 
 # YOU need flightdelay git:(master) uvicorn flightdelay.api.fast:app --reload to test it
 # Define a root `/` endpoint
-# @app.get("/")
-# def root():
-#     return dict(greeting="Hello User, welcome back!")
+@app.get("/")
+def root():
+    return dict(status="ok")
 
 #Predict the Delay
 #direction = os.path.join(os.path.dirname(__file__).replace("/api",""), "pickle", PICKLE)
