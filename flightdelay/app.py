@@ -76,7 +76,7 @@ def get_time_bracket(selected_time):
 #         data = f.read()
 #     return base64.b64encode(data).decode()
 # Streamlit app
-@st.cache
+# @st.cache
 def main():
 #     bin_str = get_base64('airport.png')
 #     page_bg_img = '''
