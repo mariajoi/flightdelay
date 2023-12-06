@@ -11,7 +11,7 @@ def get_day_of_week(date):
 def get_month_number(date):
     return date.month
 
-
+@st.cache_data
 def get_delay_output(airline, origin, destination, departure_time, arrival_time, day_of_week, month, distance_group):
 
     flight_params = {
@@ -37,7 +37,7 @@ def get_delay_output(airline, origin, destination, departure_time, arrival_time,
     # predicted_delay = 160
 
     if predicted_delay == '1':
-        message = f"We predict your flight to be delayed"
+        message = f"We predict your flight to be delayed!"
         color = 'red'
     else:
         message = "We predict your flight will be on time!"
@@ -52,7 +52,11 @@ def get_delay_output(airline, origin, destination, departure_time, arrival_time,
         unsafe_allow_html=True
     )
 
-available_options = get_available_options()
+@st.cache_data
+def load_available_options():
+    return get_available_options()
+
+available_options = load_available_options()
 
 def get_time_bracket(selected_time):
     time_brackets = [
@@ -95,7 +99,7 @@ def main():
 #     ''' % bin_str
 #     st.markdown(page_bg_img, unsafe_allow_html=True)
     st.markdown(
-        "<div class='boxed-title'><h1>Predict the delay of your flight!</h1></div>",
+        "<div style='text-align: center;'><h1>Predict the delay of your flight!</h1></div>",
         unsafe_allow_html=True
     )
     # st.markdown(
@@ -110,8 +114,8 @@ def main():
     # default_origin = "ATL"
     # default_destination = "JFK"
     # default_airline = "DL"
-    # default_departure_time = "08:00 AM"
-    # default_arrival_time = "04:00 PM"
+    default_departure_time = "06:30 AM"
+    default_arrival_time = "09:30 AM"
     default_departure_date = datetime.date.today() + datetime.timedelta(days=1)
 
         # Input components
@@ -128,8 +132,8 @@ def main():
         time_options = [datetime.time(hour, minute) for hour in range(24) for minute in range(0, 60, 15)]
         formatted_time_options = [time.strftime("%I:%M %p") for time in time_options]
         departure_date = st.date_input("Date", value=default_departure_date)
-        departure_time = st.selectbox("Departure Time", options=formatted_time_options)
-        arrival_time = st.selectbox("Arrival Time", options=formatted_time_options)
+        departure_time = st.selectbox("Departure Time", options=formatted_time_options, index=formatted_time_options.index(default_departure_time))
+        arrival_time = st.selectbox("Arrival Time", options=formatted_time_options, index=formatted_time_options.index(default_arrival_time))
 
 
  # Button to trigger prediction
