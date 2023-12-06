@@ -25,7 +25,7 @@ def get_delay_output(airline, origin, destination, departure_time, arrival_time,
         "distance_group": distance_group
     }
 
-    url = "https://image-name-oloqibljcq-ew.a.run.app/request"
+    url = "https://flight-delay-oloqibljcq-ew.a.run.app/request"
 
     response = requests.get(url, params=flight_params)
 
@@ -76,6 +76,7 @@ def get_time_bracket(selected_time):
 #         data = f.read()
 #     return base64.b64encode(data).decode()
 # Streamlit app
+@st.cache
 def main():
 #     bin_str = get_base64('airport.png')
 #     page_bg_img = '''
