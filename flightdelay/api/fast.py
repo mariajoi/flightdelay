@@ -4,6 +4,7 @@ import pandas as pd
 from fastapi.middleware.cors import CORSMiddleware
 import pickle
 from flightdelay.utils.mytrans import MyTrans
+import gzip
 
 from flightdelay.ml_logic.params import PICKLE
 
@@ -30,7 +31,7 @@ def root():
 relative_path = os.path.join(os.path.dirname(__file__), "..", "pickle", PICKLE)
 #model = pickle.load(open(relative_path, "rb"))
 
-with open(relative_path, 'rb') as file:
+with gzip.open(relative_path, 'rb') as file:
     loaded_model = pickle.load(file)
 
 app.state.model = loaded_model
