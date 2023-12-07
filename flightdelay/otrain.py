@@ -9,7 +9,7 @@ from sklearn.model_selection import cross_val_score
 from sklearn.pipeline import make_pipeline
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import confusion_matrix, accuracy_score, recall_score, f1_score, precision_score
-import gcsfs
+#import gcsfs
 
 
 #OwnModule
@@ -33,7 +33,9 @@ def preproc():
     file_path_test = os.path.join(base_path,TEST_DATA)
     file_path_train = os.path.join(base_path,TRAIN_DATA)
     X_test = pd.read_csv(file_path_test, usecols=COLUMN_NAMES)
+    #X_test = X_test.drop(0, axis = 1)
     X_train = pd.read_csv(file_path_train, usecols=COLUMN_NAMES)
+    #X_train = X_train.drop(0, axis = 1)
     data_X = [X_test,X_train]
 
     if X_train.shape[0] < 10:
@@ -49,20 +51,17 @@ def preproc():
 
         if title == 'train':
             y = sample["BadFlight"] # Sample for DF and only transformable when X has his colums dropped first
-            sample.drop(columns=COLUMNS_NAMES_DROP)
+            X_train = sample.drop(columns=COLUMNS_NAMES_DROP)
             y_train = y
             trans.fit(X_train)
-
             X_train_trans = trans.transform(X_train)
 
         elif title == 'test':
             y = sample["BadFlight"]
-            sample.drop(columns=COLUMNS_NAMES_DROP)
+            X_test = sample.drop(columns=COLUMNS_NAMES_DROP)
             y_test = y
             trans.fit(X_test)
-
-            X_test_trans = trans.transform(X_test).drop(columns=COLUMNS_NAMES_DROP)
-
+            X_test_trans = trans.transform(X_test)
 
     return y_train,y_test,X_test_trans,X_train_trans
 
@@ -158,7 +157,5 @@ def save_model(name):
 
 
 if __name__ == '__main__':
-    preproc()
-    load_trained_model()
-    cross_val()
+    #preproc()
     train_model_rand()
