@@ -1,0 +1,3551 @@
+,Operating_Airline,Origin,OriginCityName,Dest,DestCityName,DistanceGroup
+0,WN,PHX,"Phoenix, AZ",LAX,"Los Angeles, CA",2
+1,WN,IAH,"Houston, TX",MSY,"New Orleans, LA",2
+2,F9,TPA,"Tampa, FL",DEN,"Denver, CO",7
+3,WN,SMF,"Sacramento, CA",PHX,"Phoenix, AZ",3
+4,YX,DCA,"Washington, DC",ATL,"Atlanta, GA",3
+5,AA,LGA,"New York, NY",ORD,"Chicago, IL",3
+6,9E,CHS,"Charleston, SC",LGA,"New York, NY",3
+7,OO,DEN,"Denver, CO",COS,"Colorado Springs, CO",1
+8,AA,SNA,"Santa Ana, CA",DFW,"Dallas/Fort Worth, TX",5
+9,DL,MSY,"New Orleans, LA",ATL,"Atlanta, GA",2
+10,DL,SLC,"Salt Lake City, UT",SFO,"San Francisco, CA",3
+11,NK,LAX,"Los Angeles, CA",DTW,"Detroit, MI",8
+12,WN,BOS,"Boston, MA",DEN,"Denver, CO",8
+13,UA,MCO,"Orlando, FL",LAX,"Los Angeles, CA",9
+14,WN,MDW,"Chicago, IL",LGA,"New York, NY",3
+15,WN,ATL,"Atlanta, GA",MIA,"Miami, FL",3
+16,OO,ORD,"Chicago, IL",DTW,"Detroit, MI",1
+17,AA,XNA,"Fayetteville, AR",DFW,"Dallas/Fort Worth, TX",2
+18,UA,HNL,"Honolulu, HI",LAX,"Los Angeles, CA",11
+19,AA,BNA,"Nashville, TN",ORD,"Chicago, IL",2
+20,OH,CLT,"Charlotte, NC",MYR,"Myrtle Beach, SC",1
+21,AA,PHX,"Phoenix, AZ",JFK,"New York, NY",9
+22,9E,CVG,"Cincinnati, OH",LGA,"New York, NY",3
+23,AA,PHL,"Philadelphia, PA",MIA,"Miami, FL",5
+24,WN,LAS,"Las Vegas, NV",PHX,"Phoenix, AZ",2
+25,AA,EWR,"Newark, NJ",CLT,"Charlotte, NC",3
+27,AA,PHX,"Phoenix, AZ",LAX,"Los Angeles, CA",2
+28,DL,MCO,"Orlando, FL",LGA,"New York, NY",4
+29,F9,DEN,"Denver, CO",PHX,"Phoenix, AZ",3
+30,AA,DFW,"Dallas/Fort Worth, TX",TUS,"Tucson, AZ",4
+31,AA,DFW,"Dallas/Fort Worth, TX",AUS,"Austin, TX",1
+32,YX,JFK,"New York, NY",DCA,"Washington, DC",1
+33,DL,LAS,"Las Vegas, NV",JFK,"New York, NY",9
+34,ZW,DTW,"Detroit, MI",IAD,"Washington, DC",2
+35,WN,DEN,"Denver, CO",DAL,"Dallas, TX",3
+36,B6,JFK,"New York, NY",FLL,"Fort Lauderdale, FL",5
+37,B6,JFK,"New York, NY",SFO,"San Francisco, CA",11
+38,YX,RDU,"Raleigh/Durham, NC",LGA,"New York, NY",2
+39,AA,RDU,"Raleigh/Durham, NC",MIA,"Miami, FL",3
+40,AA,DCA,"Washington, DC",DFW,"Dallas/Fort Worth, TX",5
+41,AA,BWI,"Baltimore, MD",CLT,"Charlotte, NC",2
+42,YV,CLT,"Charlotte, NC",IAD,"Washington, DC",2
+43,WN,STL,"St. Louis, MO",DCA,"Washington, DC",3
+44,WN,BUR,"Burbank, CA",SMF,"Sacramento, CA",2
+45,YX,CLT,"Charlotte, NC",EWR,"Newark, NJ",3
+46,YX,BNA,"Nashville, TN",EWR,"Newark, NJ",3
+47,WN,MCO,"Orlando, FL",BWI,"Baltimore, MD",4
+48,WN,DEN,"Denver, CO",TPA,"Tampa, FL",7
+49,DL,LAX,"Los Angeles, CA",JFK,"New York, NY",10
+50,UA,EWR,"Newark, NJ",PBI,"West Palm Beach/Palm Beach, FL",5
+51,B6,BOS,"Boston, MA",MIA,"Miami, FL",6
+52,DL,PBI,"West Palm Beach/Palm Beach, FL",ATL,"Atlanta, GA",3
+53,HA,LAX,"Los Angeles, CA",OGG,"Kahului, HI",10
+54,YX,EWR,"Newark, NJ",PIT,"Pittsburgh, PA",2
+55,AA,ATL,"Atlanta, GA",PHX,"Phoenix, AZ",7
+56,NK,MCO,"Orlando, FL",SJU,"San Juan, PR",5
+57,YX,MCI,"Kansas City, MO",LGA,"New York, NY",5
+58,B6,EWR,"Newark, NJ",MCO,"Orlando, FL",4
+59,MQ,DFW,"Dallas/Fort Worth, TX",LIT,"Little Rock, AR",2
+60,UA,DEN,"Denver, CO",BWI,"Baltimore, MD",6
+61,AA,PHL,"Philadelphia, PA",TPA,"Tampa, FL",4
+62,YX,IND,"Indianapolis, IN",LGA,"New York, NY",3
+63,OO,LGA,"New York, NY",ORD,"Chicago, IL",3
+64,OH,DCA,"Washington, DC",STL,"St. Louis, MO",3
+65,AS,SAN,"San Diego, CA",SEA,"Seattle, WA",5
+66,WN,ATL,"Atlanta, GA",DAL,"Dallas, TX",3
+67,B6,MCO,"Orlando, FL",BOS,"Boston, MA",5
+68,AA,RDU,"Raleigh/Durham, NC",LGA,"New York, NY",2
+69,F9,LAS,"Las Vegas, NV",DTW,"Detroit, MI",7
+70,MQ,DFW,"Dallas/Fort Worth, TX",GRK,"Killeen, TX",1
+71,9E,LGA,"New York, NY",PIT,"Pittsburgh, PA",2
+72,HA,OGG,"Kahului, HI",HNL,"Honolulu, HI",1
+73,UA,PBI,"West Palm Beach/Palm Beach, FL",EWR,"Newark, NJ",5
+74,OO,OKC,"Oklahoma City, OK",DEN,"Denver, CO",2
+75,UA,LAX,"Los Angeles, CA",DEN,"Denver, CO",4
+76,F9,IND,"Indianapolis, IN",DEN,"Denver, CO",4
+77,WN,MKE,"Milwaukee, WI",DEN,"Denver, CO",4
+78,AA,SFO,"San Francisco, CA",PHX,"Phoenix, AZ",3
+79,AA,MCO,"Orlando, FL",DFW,"Dallas/Fort Worth, TX",4
+80,OO,SFO,"San Francisco, CA",SNA,"Santa Ana, CA",2
+81,AA,DCA,"Washington, DC",TPA,"Tampa, FL",4
+82,OO,LAX,"Los Angeles, CA",LAS,"Las Vegas, NV",1
+83,UA,IAD,"Washington, DC",EWR,"Newark, NJ",1
+84,DL,MSP,"Minneapolis, MN",ATL,"Atlanta, GA",4
+85,ZW,ORD,"Chicago, IL",CID,"Cedar Rapids/Iowa City, IA",1
+86,WN,MCO,"Orlando, FL",ATL,"Atlanta, GA",2
+87,DL,MSP,"Minneapolis, MN",LAS,"Las Vegas, NV",6
+88,9E,BNA,"Nashville, TN",JFK,"New York, NY",4
+89,WN,DCA,"Washington, DC",MSY,"New Orleans, LA",4
+90,9E,TYS,"Knoxville, TN",ATL,"Atlanta, GA",1
+91,DL,JAN,"Jackson/Vicksburg, MS",ATL,"Atlanta, GA",2
+92,UA,PDX,"Portland, OR",DEN,"Denver, CO",4
+93,9E,JFK,"New York, NY",BUF,"Buffalo, NY",2
+94,AS,SLC,"Salt Lake City, UT",SEA,"Seattle, WA",3
+95,AA,DFW,"Dallas/Fort Worth, TX",SLC,"Salt Lake City, UT",4
+96,DL,EWR,"Newark, NJ",ATL,"Atlanta, GA",3
+97,UA,LAS,"Las Vegas, NV",DEN,"Denver, CO",3
+98,UA,SFO,"San Francisco, CA",LAS,"Las Vegas, NV",2
+99,OO,SLC,"Salt Lake City, UT",SAN,"San Diego, CA",3
+100,OH,GSP,"Greer, SC",CLT,"Charlotte, NC",1
+101,DL,LAS,"Las Vegas, NV",SLC,"Salt Lake City, UT",2
+102,UA,DEN,"Denver, CO",IND,"Indianapolis, IN",4
+103,AA,BOS,"Boston, MA",DCA,"Washington, DC",2
+104,NK,DTW,"Detroit, MI",TPA,"Tampa, FL",4
+105,DL,ATL,"Atlanta, GA",CLE,"Cleveland, OH",3
+106,OO,LAX,"Los Angeles, CA",PDX,"Portland, OR",4
+108,AA,PHX,"Phoenix, AZ",SAT,"San Antonio, TX",4
+109,MQ,BOS,"Boston, MA",ORD,"Chicago, IL",4
+110,WN,MCI,"Kansas City, MO",ATL,"Atlanta, GA",3
+111,DL,SEA,"Seattle, WA",LAX,"Los Angeles, CA",4
+112,9E,ORF,"Norfolk, VA",LGA,"New York, NY",2
+113,AA,MIA,"Miami, FL",TPA,"Tampa, FL",1
+114,AA,CLT,"Charlotte, NC",RDU,"Raleigh/Durham, NC",1
+115,WN,PDX,"Portland, OR",PHX,"Phoenix, AZ",5
+116,DL,DFW,"Dallas/Fort Worth, TX",ATL,"Atlanta, GA",3
+117,WN,BUR,"Burbank, CA",SJC,"San Jose, CA",2
+118,F9,PHX,"Phoenix, AZ",LAS,"Las Vegas, NV",2
+119,UA,SAN,"San Diego, CA",DEN,"Denver, CO",4
+120,AA,LAX,"Los Angeles, CA",BOS,"Boston, MA",11
+121,YX,DCA,"Washington, DC",BOS,"Boston, MA",2
+122,NK,SNA,"Santa Ana, CA",LAS,"Las Vegas, NV",1
+124,UA,SFO,"San Francisco, CA",LAX,"Los Angeles, CA",2
+125,UA,ORD,"Chicago, IL",BOS,"Boston, MA",4
+126,YX,ORD,"Chicago, IL",IND,"Indianapolis, IN",1
+128,AS,SEA,"Seattle, WA",PHX,"Phoenix, AZ",5
+129,AA,ATL,"Atlanta, GA",DFW,"Dallas/Fort Worth, TX",3
+130,F9,DEN,"Denver, CO",LAS,"Las Vegas, NV",3
+131,B6,BOS,"Boston, MA",DCA,"Washington, DC",2
+132,WN,DEN,"Denver, CO",ATL,"Atlanta, GA",5
+133,DL,ATL,"Atlanta, GA",MSY,"New Orleans, LA",2
+134,AS,SEA,"Seattle, WA",SFO,"San Francisco, CA",3
+136,YX,CLT,"Charlotte, NC",ORD,"Chicago, IL",3
+137,AA,LAX,"Los Angeles, CA",LAS,"Las Vegas, NV",1
+138,DL,DTW,"Detroit, MI",DCA,"Washington, DC",2
+139,9E,CLE,"Cleveland, OH",LGA,"New York, NY",2
+140,DL,SLC,"Salt Lake City, UT",ATL,"Atlanta, GA",7
+141,UA,SEA,"Seattle, WA",DEN,"Denver, CO",5
+142,YX,RDU,"Raleigh/Durham, NC",BOS,"Boston, MA",3
+143,WN,SMF,"Sacramento, CA",SAN,"San Diego, CA",2
+144,DL,ATL,"Atlanta, GA",BOS,"Boston, MA",4
+145,WN,ATL,"Atlanta, GA",PIT,"Pittsburgh, PA",3
+146,AA,LAS,"Las Vegas, NV",CLT,"Charlotte, NC",8
+147,DL,TPA,"Tampa, FL",DTW,"Detroit, MI",4
+148,UA,IAD,"Washington, DC",DEN,"Denver, CO",6
+149,G7,DCA,"Washington, DC",EWR,"Newark, NJ",1
+150,WN,DEN,"Denver, CO",PHX,"Phoenix, AZ",3
+151,UA,SFO,"San Francisco, CA",IAD,"Washington, DC",10
+152,AS,ANC,"Anchorage, AK",SEA,"Seattle, WA",6
+153,AA,MIA,"Miami, FL",LAX,"Los Angeles, CA",10
+154,OO,PSP,"Palm Springs, CA",SFO,"San Francisco, CA",2
+155,AA,CLT,"Charlotte, NC",DCA,"Washington, DC",2
+156,AS,SFO,"San Francisco, CA",JFK,"New York, NY",11
+157,OO,IAH,"Houston, TX",DCA,"Washington, DC",5
+158,DL,AUS,"Austin, TX",JFK,"New York, NY",7
+159,WN,LGA,"New York, NY",MDW,"Chicago, IL",3
+160,G7,ORD,"Chicago, IL",STL,"St. Louis, MO",2
+161,WN,OAK,"Oakland, CA",LAS,"Las Vegas, NV",2
+162,WN,IAD,"Washington, DC",DEN,"Denver, CO",6
+163,WN,BNA,"Nashville, TN",ORD,"Chicago, IL",2
+165,AA,MCO,"Orlando, FL",PHL,"Philadelphia, PA",4
+166,OO,COS,"Colorado Springs, CO",DEN,"Denver, CO",1
+167,YX,LGA,"New York, NY",IND,"Indianapolis, IN",3
+168,UA,EWR,"Newark, NJ",MIA,"Miami, FL",5
+169,UA,BZN,"Bozeman, MT",DEN,"Denver, CO",3
+170,OO,ASE,"Aspen, CO",DEN,"Denver, CO",1
+171,WN,HNL,"Honolulu, HI",ITO,"Hilo, HI",1
+172,WN,BWI,"Baltimore, MD",ATL,"Atlanta, GA",3
+173,F9,MCO,"Orlando, FL",DFW,"Dallas/Fort Worth, TX",4
+174,AA,EWR,"Newark, NJ",MIA,"Miami, FL",5
+175,OO,ORD,"Chicago, IL",TVC,"Traverse City, MI",1
+176,MQ,DFW,"Dallas/Fort Worth, TX",SGF,"Springfield, MO",2
+177,DL,SEA,"Seattle, WA",MSP,"Minneapolis, MN",6
+178,AS,AUS,"Austin, TX",LAX,"Los Angeles, CA",5
+179,DL,ORD,"Chicago, IL",MSP,"Minneapolis, MN",2
+180,DL,ECP,"Panama City, FL",ATL,"Atlanta, GA",1
+181,DL,IAH,"Houston, TX",LGA,"New York, NY",6
+182,AA,PHX,"Phoenix, AZ",LAS,"Las Vegas, NV",2
+183,WN,BWI,"Baltimore, MD",MCO,"Orlando, FL",4
+184,UA,DEN,"Denver, CO",PHX,"Phoenix, AZ",3
+185,AS,FAI,"Fairbanks, AK",ANC,"Anchorage, AK",2
+186,NK,BOS,"Boston, MA",FLL,"Fort Lauderdale, FL",5
+187,DL,LGA,"New York, NY",DFW,"Dallas/Fort Worth, TX",6
+188,OH,SAV,"Savannah, GA",CLT,"Charlotte, NC",1
+189,WN,DAL,"Dallas, TX",DEN,"Denver, CO",3
+190,HA,ITO,"Hilo, HI",HNL,"Honolulu, HI",1
+191,YV,IAH,"Houston, TX",ATL,"Atlanta, GA",3
+193,B6,SLC,"Salt Lake City, UT",JFK,"New York, NY",8
+194,AA,TPA,"Tampa, FL",MIA,"Miami, FL",1
+195,9E,LGA,"New York, NY",CLE,"Cleveland, OH",2
+196,UA,DEN,"Denver, CO",SFO,"San Francisco, CA",4
+197,9E,DTW,"Detroit, MI",JFK,"New York, NY",3
+198,DL,ATL,"Atlanta, GA",PBI,"West Palm Beach/Palm Beach, FL",3
+199,UA,AUS,"Austin, TX",IAH,"Houston, TX",1
+200,UA,ORD,"Chicago, IL",MCO,"Orlando, FL",5
+201,WN,LAS,"Las Vegas, NV",SAN,"San Diego, CA",2
+203,WN,BNA,"Nashville, TN",DCA,"Washington, DC",3
+204,B6,LGA,"New York, NY",PBI,"West Palm Beach/Palm Beach, FL",5
+205,WN,ATL,"Atlanta, GA",TPA,"Tampa, FL",2
+206,F9,LAS,"Las Vegas, NV",DFW,"Dallas/Fort Worth, TX",5
+207,OO,ONT,"Ontario, CA",SEA,"Seattle, WA",4
+208,OO,LAX,"Los Angeles, CA",PHX,"Phoenix, AZ",2
+209,WN,MDW,"Chicago, IL",MSP,"Minneapolis, MN",2
+210,AS,SEA,"Seattle, WA",ANC,"Anchorage, AK",6
+212,UA,MCO,"Orlando, FL",IAH,"Houston, TX",4
+213,UA,LAX,"Los Angeles, CA",IAD,"Washington, DC",10
+214,WN,SMF,"Sacramento, CA",LAX,"Los Angeles, CA",2
+215,YX,LGA,"New York, NY",CVG,"Cincinnati, OH",3
+216,NK,MIA,"Miami, FL",ORD,"Chicago, IL",5
+217,AA,MIA,"Miami, FL",BWI,"Baltimore, MD",4
+218,AA,CLT,"Charlotte, NC",LAS,"Las Vegas, NV",8
+219,DL,PHX,"Phoenix, AZ",SLC,"Salt Lake City, UT",3
+222,WN,LAX,"Los Angeles, CA",SFO,"San Francisco, CA",2
+223,B6,BOS,"Boston, MA",FLL,"Fort Lauderdale, FL",5
+224,WN,OAK,"Oakland, CA",BUR,"Burbank, CA",2
+225,UA,ORD,"Chicago, IL",LGA,"New York, NY",3
+226,AS,SEA,"Seattle, WA",DEN,"Denver, CO",5
+227,AA,LAX,"Los Angeles, CA",DFW,"Dallas/Fort Worth, TX",5
+228,DL,MCO,"Orlando, FL",DTW,"Detroit, MI",4
+229,DL,RDU,"Raleigh/Durham, NC",MIA,"Miami, FL",3
+230,WN,OMA,"Omaha, NE",DEN,"Denver, CO",2
+231,WN,SJU,"San Juan, PR",FLL,"Fort Lauderdale, FL",5
+232,UA,DEN,"Denver, CO",ABQ,"Albuquerque, NM",2
+233,UA,ORD,"Chicago, IL",SAN,"San Diego, CA",7
+234,WN,DEN,"Denver, CO",LAS,"Las Vegas, NV",3
+236,MQ,DFW,"Dallas/Fort Worth, TX",MFE,"Mission/McAllen/Edinburg, TX",2
+237,NK,ATL,"Atlanta, GA",TPA,"Tampa, FL",2
+238,AA,STL,"St. Louis, MO",CLT,"Charlotte, NC",3
+239,AS,EWR,"Newark, NJ",SEA,"Seattle, WA",10
+240,UA,BOS,"Boston, MA",SFO,"San Francisco, CA",11
+241,F9,DFW,"Dallas/Fort Worth, TX",DEN,"Denver, CO",3
+242,OO,SMF,"Sacramento, CA",SEA,"Seattle, WA",3
+243,AA,DCA,"Washington, DC",MIA,"Miami, FL",4
+244,MQ,ORD,"Chicago, IL",BUF,"Buffalo, NY",2
+245,UA,LAX,"Los Angeles, CA",EWR,"Newark, NJ",10
+246,DL,JFK,"New York, NY",SLC,"Salt Lake City, UT",8
+247,WN,MCO,"Orlando, FL",MDW,"Chicago, IL",4
+248,AA,ELP,"El Paso, TX",DFW,"Dallas/Fort Worth, TX",3
+249,B6,JFK,"New York, NY",TPA,"Tampa, FL",5
+250,HA,HNL,"Honolulu, HI",KOA,"Kona, HI",1
+251,AA,MCO,"Orlando, FL",MIA,"Miami, FL",1
+252,OO,SFO,"San Francisco, CA",SAN,"San Diego, CA",2
+253,DL,ATL,"Atlanta, GA",SEA,"Seattle, WA",9
+254,NK,FLL,"Fort Lauderdale, FL",IAH,"Houston, TX",4
+255,WN,ATL,"Atlanta, GA",PHX,"Phoenix, AZ",7
+256,AA,BOS,"Boston, MA",PHL,"Philadelphia, PA",2
+257,WN,LAS,"Las Vegas, NV",ONT,"Ontario, CA",1
+258,B6,FLL,"Fort Lauderdale, FL",EWR,"Newark, NJ",5
+259,AA,BOS,"Boston, MA",JFK,"New York, NY",1
+260,QX,SEA,"Seattle, WA",GEG,"Spokane, WA",1
+261,WN,SJC,"San Jose, CA",SNA,"Santa Ana, CA",2
+262,AA,BOS,"Boston, MA",CLT,"Charlotte, NC",3
+263,PT,ROA,"Roanoke, VA",CLT,"Charlotte, NC",1
+264,DL,ATL,"Atlanta, GA",MCI,"Kansas City, MO",3
+265,AA,CLT,"Charlotte, NC",RIC,"Richmond, VA",2
+266,DL,ATL,"Atlanta, GA",JAX,"Jacksonville, FL",2
+267,OO,SJC,"San Jose, CA",LAX,"Los Angeles, CA",2
+268,DL,DTW,"Detroit, MI",PHX,"Phoenix, AZ",7
+270,AA,CLT,"Charlotte, NC",BNA,"Nashville, TN",2
+271,DL,ATL,"Atlanta, GA",DEN,"Denver, CO",5
+272,ZW,ORD,"Chicago, IL",SDF,"Louisville, KY",2
+273,DL,ATL,"Atlanta, GA",TPA,"Tampa, FL",2
+274,NK,OAK,"Oakland, CA",LAS,"Las Vegas, NV",2
+275,UA,IAH,"Houston, TX",AUS,"Austin, TX",1
+277,AA,PHL,"Philadelphia, PA",DFW,"Dallas/Fort Worth, TX",6
+279,MQ,AUS,"Austin, TX",ORD,"Chicago, IL",4
+280,AA,DFW,"Dallas/Fort Worth, TX",DEN,"Denver, CO",3
+281,YX,JFK,"New York, NY",CLE,"Cleveland, OH",2
+282,WN,LAS,"Las Vegas, NV",SFO,"San Francisco, CA",2
+283,B6,SJU,"San Juan, PR",MCO,"Orlando, FL",5
+284,WN,DEN,"Denver, CO",MCO,"Orlando, FL",7
+285,WN,LAS,"Las Vegas, NV",ATL,"Atlanta, GA",7
+286,AS,SEA,"Seattle, WA",PDX,"Portland, OR",1
+287,DL,EWR,"Newark, NJ",DTW,"Detroit, MI",2
+290,OH,MYR,"Myrtle Beach, SC",CLT,"Charlotte, NC",1
+291,B6,SFO,"San Francisco, CA",LAX,"Los Angeles, CA",2
+292,UA,DEN,"Denver, CO",AUS,"Austin, TX",4
+293,NK,FLL,"Fort Lauderdale, FL",EWR,"Newark, NJ",5
+294,MQ,XNA,"Fayetteville, AR",DFW,"Dallas/Fort Worth, TX",2
+295,AA,CLT,"Charlotte, NC",PHX,"Phoenix, AZ",8
+296,DL,JFK,"New York, NY",SJU,"San Juan, PR",7
+297,UA,DFW,"Dallas/Fort Worth, TX",DEN,"Denver, CO",3
+298,DL,ATL,"Atlanta, GA",DTW,"Detroit, MI",3
+299,OO,PDX,"Portland, OR",SLC,"Salt Lake City, UT",3
+301,OO,SLC,"Salt Lake City, UT",PDX,"Portland, OR",3
+302,AA,PHX,"Phoenix, AZ",DFW,"Dallas/Fort Worth, TX",4
+303,WN,BOS,"Boston, MA",BWI,"Baltimore, MD",2
+304,WN,MSP,"Minneapolis, MN",DEN,"Denver, CO",3
+305,F9,DEN,"Denver, CO",PHL,"Philadelphia, PA",7
+306,QX,BOI,"Boise, ID",SEA,"Seattle, WA",2
+307,OH,CLT,"Charlotte, NC",ILM,"Wilmington, NC",1
+309,DL,SAT,"San Antonio, TX",ATL,"Atlanta, GA",4
+310,AA,LAX,"Los Angeles, CA",PHX,"Phoenix, AZ",2
+311,AA,DFW,"Dallas/Fort Worth, TX",MSP,"Minneapolis, MN",4
+312,AA,LGA,"New York, NY",IAH,"Houston, TX",6
+313,UA,DEN,"Denver, CO",MCI,"Kansas City, MO",3
+314,AA,JFK,"New York, NY",SFO,"San Francisco, CA",11
+315,WN,DEN,"Denver, CO",HOU,"Houston, TX",4
+316,UA,SFO,"San Francisco, CA",EWR,"Newark, NJ",11
+317,DL,JAX,"Jacksonville, FL",ATL,"Atlanta, GA",2
+318,AA,CLT,"Charlotte, NC",TPA,"Tampa, FL",3
+319,NK,EWR,"Newark, NJ",FLL,"Fort Lauderdale, FL",5
+320,YX,CLT,"Charlotte, NC",BOS,"Boston, MA",3
+321,OO,SJC,"San Jose, CA",SEA,"Seattle, WA",3
+322,WN,BNA,"Nashville, TN",MCO,"Orlando, FL",3
+323,OO,SEA,"Seattle, WA",SJC,"San Jose, CA",3
+324,UA,DEN,"Denver, CO",MSY,"New Orleans, LA",5
+325,AA,CLT,"Charlotte, NC",BOS,"Boston, MA",3
+326,OH,DCA,"Washington, DC",PVD,"Providence, RI",2
+327,YV,ELP,"El Paso, TX",PHX,"Phoenix, AZ",2
+328,WN,LAS,"Las Vegas, NV",RNO,"Reno, NV",2
+329,YX,CLT,"Charlotte, NC",LGA,"New York, NY",3
+330,B6,JFK,"New York, NY",PBI,"West Palm Beach/Palm Beach, FL",5
+331,AA,CLT,"Charlotte, NC",IAD,"Washington, DC",2
+333,YX,DCA,"Washington, DC",PVD,"Providence, RI",2
+334,AA,MIA,"Miami, FL",EWR,"Newark, NJ",5
+335,YX,BOS,"Boston, MA",LGA,"New York, NY",1
+336,WN,MCO,"Orlando, FL",STL,"St. Louis, MO",4
+337,DL,MIA,"Miami, FL",ATL,"Atlanta, GA",3
+338,YX,LGA,"New York, NY",DTW,"Detroit, MI",3
+339,YX,LGA,"New York, NY",ORF,"Norfolk, VA",2
+340,AA,MSP,"Minneapolis, MN",DFW,"Dallas/Fort Worth, TX",4
+341,UA,LAX,"Los Angeles, CA",SFO,"San Francisco, CA",2
+342,UA,PHX,"Phoenix, AZ",DEN,"Denver, CO",3
+344,DL,RDU,"Raleigh/Durham, NC",ATL,"Atlanta, GA",2
+345,AA,ABQ,"Albuquerque, NM",DFW,"Dallas/Fort Worth, TX",3
+346,AA,AUS,"Austin, TX",DFW,"Dallas/Fort Worth, TX",1
+348,DL,FLL,"Fort Lauderdale, FL",ATL,"Atlanta, GA",3
+350,NK,DTW,"Detroit, MI",FLL,"Fort Lauderdale, FL",5
+351,AA,LAX,"Los Angeles, CA",JFK,"New York, NY",10
+352,B6,MCO,"Orlando, FL",EWR,"Newark, NJ",4
+353,DL,SLC,"Salt Lake City, UT",SEA,"Seattle, WA",3
+354,QX,SEA,"Seattle, WA",RDM,"Bend/Redmond, OR",1
+356,OO,BOI,"Boise, ID",DEN,"Denver, CO",3
+357,NK,FLL,"Fort Lauderdale, FL",ATL,"Atlanta, GA",3
+358,AA,CLT,"Charlotte, NC",LAX,"Los Angeles, CA",9
+359,WN,ORD,"Chicago, IL",BNA,"Nashville, TN",2
+360,DL,RIC,"Richmond, VA",ATL,"Atlanta, GA",2
+361,AA,MFE,"Mission/McAllen/Edinburg, TX",DFW,"Dallas/Fort Worth, TX",2
+362,UA,ORD,"Chicago, IL",LAX,"Los Angeles, CA",7
+363,DL,ORD,"Chicago, IL",LGA,"New York, NY",3
+364,DL,ATL,"Atlanta, GA",SDF,"Louisville, KY",2
+365,AA,MCO,"Orlando, FL",AUS,"Austin, TX",4
+366,AA,MIA,"Miami, FL",ORD,"Chicago, IL",5
+367,YV,IAH,"Houston, TX",DTW,"Detroit, MI",5
+368,WN,SJC,"San Jose, CA",LAX,"Los Angeles, CA",2
+369,AS,SNA,"Santa Ana, CA",SEA,"Seattle, WA",4
+370,WN,AUS,"Austin, TX",MCO,"Orlando, FL",4
+371,UA,LAX,"Los Angeles, CA",MCO,"Orlando, FL",9
+372,DL,ATL,"Atlanta, GA",LAX,"Los Angeles, CA",8
+373,UA,DEN,"Denver, CO",IAH,"Houston, TX",4
+374,UA,SEA,"Seattle, WA",SFO,"San Francisco, CA",3
+375,YX,ORD,"Chicago, IL",CMH,"Columbus, OH",2
+376,YX,OMA,"Omaha, NE",ORD,"Chicago, IL",2
+377,WN,DAL,"Dallas, TX",MSY,"New Orleans, LA",2
+378,DL,FLL,"Fort Lauderdale, FL",BOS,"Boston, MA",5
+380,OH,DFW,"Dallas/Fort Worth, TX",LIT,"Little Rock, AR",2
+381,AA,ATL,"Atlanta, GA",MIA,"Miami, FL",3
+382,WN,SNA,"Santa Ana, CA",SMF,"Sacramento, CA",2
+383,OO,SMF,"Sacramento, CA",LAX,"Los Angeles, CA",2
+384,G7,IAD,"Washington, DC",LGA,"New York, NY",1
+385,F9,PHX,"Phoenix, AZ",SLC,"Salt Lake City, UT",3
+386,UA,MCO,"Orlando, FL",EWR,"Newark, NJ",4
+387,OO,SFO,"San Francisco, CA",LAX,"Los Angeles, CA",2
+388,UA,LAS,"Las Vegas, NV",SFO,"San Francisco, CA",2
+389,OO,PSC,"Pasco/Kennewick/Richland, WA",SEA,"Seattle, WA",1
+390,HA,LIH,"Lihue, HI",HNL,"Honolulu, HI",1
+391,WN,TPA,"Tampa, FL",DCA,"Washington, DC",4
+392,UA,IAH,"Houston, TX",LAX,"Los Angeles, CA",6
+393,YX,LGA,"New York, NY",BOS,"Boston, MA",1
+394,DL,DFW,"Dallas/Fort Worth, TX",SLC,"Salt Lake City, UT",4
+395,WN,DAL,"Dallas, TX",ATL,"Atlanta, GA",3
+396,DL,ATL,"Atlanta, GA",BNA,"Nashville, TN",1
+397,F9,DEN,"Denver, CO",ATL,"Atlanta, GA",5
+398,DL,GSO,"Greensboro/High Point, NC",ATL,"Atlanta, GA",2
+399,YX,ATL,"Atlanta, GA",IAD,"Washington, DC",3
+400,DL,TPA,"Tampa, FL",ATL,"Atlanta, GA",2
+401,UA,BNA,"Nashville, TN",IAH,"Houston, TX",3
+402,OO,LAX,"Los Angeles, CA",RNO,"Reno, NV",2
+403,NK,DFW,"Dallas/Fort Worth, TX",FLL,"Fort Lauderdale, FL",5
+406,AA,LAS,"Las Vegas, NV",DFW,"Dallas/Fort Worth, TX",5
+407,YX,MSY,"New Orleans, LA",DCA,"Washington, DC",4
+409,UA,EWR,"Newark, NJ",TPA,"Tampa, FL",4
+410,AA,MCO,"Orlando, FL",LAX,"Los Angeles, CA",9
+411,NK,LAS,"Las Vegas, NV",MSP,"Minneapolis, MN",6
+413,AA,DFW,"Dallas/Fort Worth, TX",CLT,"Charlotte, NC",4
+415,OO,DEN,"Denver, CO",ASE,"Aspen, CO",1
+416,AA,DFW,"Dallas/Fort Worth, TX",SNA,"Santa Ana, CA",5
+417,WN,RSW,"Fort Myers, FL",ORD,"Chicago, IL",5
+418,NK,DEN,"Denver, CO",LAS,"Las Vegas, NV",3
+419,AA,DFW,"Dallas/Fort Worth, TX",FLL,"Fort Lauderdale, FL",5
+421,WN,PHX,"Phoenix, AZ",DAL,"Dallas, TX",4
+422,AA,ORD,"Chicago, IL",LGA,"New York, NY",3
+423,G7,STL,"St. Louis, MO",ORD,"Chicago, IL",2
+424,AA,PHL,"Philadelphia, PA",ATL,"Atlanta, GA",3
+425,AA,PHL,"Philadelphia, PA",BOS,"Boston, MA",2
+426,WN,SAN,"San Diego, CA",PHX,"Phoenix, AZ",2
+427,OO,DFW,"Dallas/Fort Worth, TX",TUL,"Tulsa, OK",1
+428,UA,EWR,"Newark, NJ",IAH,"Houston, TX",6
+429,YX,RDU,"Raleigh/Durham, NC",DCA,"Washington, DC",1
+432,WN,DEN,"Denver, CO",OMA,"Omaha, NE",2
+435,OH,CLT,"Charlotte, NC",AVL,"Asheville, NC",1
+436,OO,SEA,"Seattle, WA",GEG,"Spokane, WA",1
+439,UA,EWR,"Newark, NJ",LAX,"Los Angeles, CA",10
+440,F9,MCO,"Orlando, FL",BWI,"Baltimore, MD",4
+441,AA,CLT,"Charlotte, NC",ORD,"Chicago, IL",3
+442,UA,SFO,"San Francisco, CA",AUS,"Austin, TX",7
+443,QX,SEA,"Seattle, WA",PSC,"Pasco/Kennewick/Richland, WA",1
+444,B6,JFK,"New York, NY",BOS,"Boston, MA",1
+445,AA,LAS,"Las Vegas, NV",ORD,"Chicago, IL",7
+447,MQ,MCI,"Kansas City, MO",ORD,"Chicago, IL",2
+448,WN,PHX,"Phoenix, AZ",LAS,"Las Vegas, NV",2
+449,AA,LAS,"Las Vegas, NV",AUS,"Austin, TX",5
+450,AA,MIA,"Miami, FL",BOS,"Boston, MA",6
+451,OH,RIC,"Richmond, VA",CLT,"Charlotte, NC",2
+453,DL,CHS,"Charleston, SC",ATL,"Atlanta, GA",2
+454,UA,PDX,"Portland, OR",SFO,"San Francisco, CA",3
+456,UA,BNA,"Nashville, TN",EWR,"Newark, NJ",3
+457,WN,DEN,"Denver, CO",LGA,"New York, NY",7
+458,DL,BOS,"Boston, MA",LAX,"Los Angeles, CA",11
+459,WN,IAH,"Houston, TX",BNA,"Nashville, TN",3
+460,AS,EWR,"Newark, NJ",SFO,"San Francisco, CA",11
+463,B6,TPA,"Tampa, FL",BOS,"Boston, MA",5
+464,B6,BOS,"Boston, MA",JFK,"New York, NY",1
+465,G7,CVG,"Cincinnati, OH",EWR,"Newark, NJ",3
+466,OO,LAX,"Los Angeles, CA",TUS,"Tucson, AZ",2
+467,DL,DEN,"Denver, CO",DTW,"Detroit, MI",5
+468,OO,TUS,"Tucson, AZ",LAX,"Los Angeles, CA",2
+469,AA,JFK,"New York, NY",AUS,"Austin, TX",7
+470,QX,SJC,"San Jose, CA",SEA,"Seattle, WA",3
+471,OO,SEA,"Seattle, WA",ONT,"Ontario, CA",4
+472,AA,ORD,"Chicago, IL",LAS,"Las Vegas, NV",7
+473,OO,TVC,"Traverse City, MI",ORD,"Chicago, IL",1
+474,OO,OMA,"Omaha, NE",ORD,"Chicago, IL",2
+476,WN,MDW,"Chicago, IL",LAS,"Las Vegas, NV",7
+477,WN,DEN,"Denver, CO",MSP,"Minneapolis, MN",3
+478,DL,SRQ,"Sarasota/Bradenton, FL",ATL,"Atlanta, GA",2
+479,AA,SEA,"Seattle, WA",PHX,"Phoenix, AZ",5
+480,YX,DCA,"Washington, DC",DTW,"Detroit, MI",2
+482,WN,AUS,"Austin, TX",LAS,"Las Vegas, NV",5
+483,DL,DFW,"Dallas/Fort Worth, TX",JFK,"New York, NY",6
+484,WN,ATL,"Atlanta, GA",MCI,"Kansas City, MO",3
+485,AA,PHX,"Phoenix, AZ",SAN,"San Diego, CA",2
+486,WN,SNA,"Santa Ana, CA",PHX,"Phoenix, AZ",2
+487,AS,SEA,"Seattle, WA",JFK,"New York, NY",10
+489,UA,FLL,"Fort Lauderdale, FL",EWR,"Newark, NJ",5
+490,B6,EWR,"Newark, NJ",MIA,"Miami, FL",5
+491,UA,IAH,"Houston, TX",DEN,"Denver, CO",4
+494,OO,DTW,"Detroit, MI",ORD,"Chicago, IL",1
+495,WN,DEN,"Denver, CO",IND,"Indianapolis, IN",4
+496,OO,ORD,"Chicago, IL",DFW,"Dallas/Fort Worth, TX",4
+497,AA,SFO,"San Francisco, CA",LAX,"Los Angeles, CA",2
+498,NK,DEN,"Denver, CO",MIA,"Miami, FL",7
+499,UA,DEN,"Denver, CO",SAN,"San Diego, CA",4
+501,OO,DEN,"Denver, CO",BZN,"Bozeman, MT",3
+503,UA,MSY,"New Orleans, LA",IAH,"Houston, TX",2
+504,WN,DEN,"Denver, CO",TUS,"Tucson, AZ",3
+506,OO,IAH,"Houston, TX",OKC,"Oklahoma City, OK",2
+509,AA,MSP,"Minneapolis, MN",PHX,"Phoenix, AZ",6
+510,AA,DEN,"Denver, CO",PHX,"Phoenix, AZ",3
+511,DL,PDX,"Portland, OR",SEA,"Seattle, WA",1
+513,WN,SMF,"Sacramento, CA",LAS,"Las Vegas, NV",2
+514,QX,SEA,"Seattle, WA",OAK,"Oakland, CA",3
+516,9E,LGA,"New York, NY",STL,"St. Louis, MO",4
+518,OO,ORD,"Chicago, IL",STL,"St. Louis, MO",2
+522,OH,CLT,"Charlotte, NC",SAV,"Savannah, GA",1
+523,WN,BUR,"Burbank, CA",LAS,"Las Vegas, NV",1
+524,AA,ABQ,"Albuquerque, NM",PHX,"Phoenix, AZ",2
+525,DL,DEN,"Denver, CO",SLC,"Salt Lake City, UT",2
+527,MQ,DFW,"Dallas/Fort Worth, TX",CRP,"Corpus Christi, TX",2
+528,MQ,OKC,"Oklahoma City, OK",DFW,"Dallas/Fort Worth, TX",1
+533,PT,CLT,"Charlotte, NC",GSO,"Greensboro/High Point, NC",1
+535,WN,MCI,"Kansas City, MO",DEN,"Denver, CO",3
+536,DL,PDX,"Portland, OR",LAX,"Los Angeles, CA",4
+537,NK,BWI,"Baltimore, MD",MCO,"Orlando, FL",4
+538,NK,ATL,"Atlanta, GA",MCO,"Orlando, FL",2
+539,AA,PHX,"Phoenix, AZ",ORD,"Chicago, IL",6
+540,OH,TYS,"Knoxville, TN",CLT,"Charlotte, NC",1
+541,YV,DFW,"Dallas/Fort Worth, TX",IAH,"Houston, TX",1
+543,DL,AUS,"Austin, TX",LAX,"Los Angeles, CA",5
+544,HA,HNL,"Honolulu, HI",LAX,"Los Angeles, CA",11
+545,WN,ATL,"Atlanta, GA",FLL,"Fort Lauderdale, FL",3
+548,F9,PHL,"Philadelphia, PA",FLL,"Fort Lauderdale, FL",4
+549,B6,SEA,"Seattle, WA",BOS,"Boston, MA",10
+550,UA,OGG,"Kahului, HI",LAX,"Los Angeles, CA",10
+551,F9,MIA,"Miami, FL",PHL,"Philadelphia, PA",5
+552,AA,PHX,"Phoenix, AZ",DEN,"Denver, CO",3
+553,AA,AUS,"Austin, TX",MIA,"Miami, FL",5
+554,UA,IAH,"Houston, TX",DCA,"Washington, DC",5
+556,DL,LAS,"Las Vegas, NV",MSP,"Minneapolis, MN",6
+557,F9,DEN,"Denver, CO",IAH,"Houston, TX",4
+560,UA,EWR,"Newark, NJ",DFW,"Dallas/Fort Worth, TX",6
+561,DL,LAX,"Los Angeles, CA",SEA,"Seattle, WA",4
+562,AA,JFK,"New York, NY",CLT,"Charlotte, NC",3
+565,YX,DCA,"Washington, DC",LGA,"New York, NY",1
+566,AA,SAN,"San Diego, CA",DFW,"Dallas/Fort Worth, TX",5
+567,WN,OAK,"Oakland, CA",PDX,"Portland, OR",3
+568,B6,LAX,"Los Angeles, CA",EWR,"Newark, NJ",10
+569,ZW,MKE,"Milwaukee, WI",ORD,"Chicago, IL",1
+570,WN,BWI,"Baltimore, MD",BOS,"Boston, MA",2
+573,WN,SMF,"Sacramento, CA",SNA,"Santa Ana, CA",2
+575,YX,ORD,"Chicago, IL",BUF,"Buffalo, NY",2
+576,OO,DEN,"Denver, CO",OKC,"Oklahoma City, OK",2
+577,ZW,CID,"Cedar Rapids/Iowa City, IA",ORD,"Chicago, IL",1
+578,AA,LAX,"Los Angeles, CA",MCO,"Orlando, FL",9
+579,WN,MIA,"Miami, FL",BWI,"Baltimore, MD",4
+580,UA,SFO,"San Francisco, CA",SAN,"San Diego, CA",2
+581,DL,MCI,"Kansas City, MO",ATL,"Atlanta, GA",3
+582,B6,JFK,"New York, NY",LAX,"Los Angeles, CA",10
+584,B6,TPA,"Tampa, FL",JFK,"New York, NY",5
+585,UA,IND,"Indianapolis, IN",DEN,"Denver, CO",4
+587,MQ,DFW,"Dallas/Fort Worth, TX",ELP,"El Paso, TX",3
+589,B6,BOS,"Boston, MA",RDU,"Raleigh/Durham, NC",3
+591,NK,FLL,"Fort Lauderdale, FL",BWI,"Baltimore, MD",4
+592,F9,CLT,"Charlotte, NC",DEN,"Denver, CO",6
+593,DL,ATL,"Atlanta, GA",AUS,"Austin, TX",4
+594,F9,LGA,"New York, NY",MCO,"Orlando, FL",4
+597,WN,ORD,"Chicago, IL",FLL,"Fort Lauderdale, FL",5
+598,WN,LAS,"Las Vegas, NV",SJC,"San Jose, CA",2
+600,DL,DTW,"Detroit, MI",ATL,"Atlanta, GA",3
+601,OO,HPN,"White Plains, NY",ORD,"Chicago, IL",3
+602,OO,SEA,"Seattle, WA",BOI,"Boise, ID",2
+603,NK,LAS,"Las Vegas, NV",SEA,"Seattle, WA",4
+605,NK,DTW,"Detroit, MI",DEN,"Denver, CO",5
+606,F9,LAS,"Las Vegas, NV",PHX,"Phoenix, AZ",2
+607,DL,MKE,"Milwaukee, WI",ATL,"Atlanta, GA",3
+610,AA,MIA,"Miami, FL",CLT,"Charlotte, NC",3
+611,OO,SEA,"Seattle, WA",PSC,"Pasco/Kennewick/Richland, WA",1
+612,UA,DEN,"Denver, CO",EWR,"Newark, NJ",7
+613,WN,MDW,"Chicago, IL",ATL,"Atlanta, GA",3
+615,AA,ORF,"Norfolk, VA",CLT,"Charlotte, NC",2
+616,NK,IAH,"Houston, TX",DTW,"Detroit, MI",5
+617,WN,BZN,"Bozeman, MT",DEN,"Denver, CO",3
+618,AS,LAS,"Las Vegas, NV",SEA,"Seattle, WA",4
+619,UA,AUS,"Austin, TX",ORD,"Chicago, IL",4
+620,B6,BDL,"Hartford, CT",MCO,"Orlando, FL",5
+621,OO,BNA,"Nashville, TN",IAH,"Houston, TX",3
+622,OH,CLT,"Charlotte, NC",BWI,"Baltimore, MD",2
+623,WN,PDX,"Portland, OR",OAK,"Oakland, CA",3
+624,YX,ORD,"Chicago, IL",JFK,"New York, NY",3
+628,AA,RDU,"Raleigh/Durham, NC",ORD,"Chicago, IL",3
+629,YX,LGA,"New York, NY",ATL,"Atlanta, GA",4
+630,OO,SLC,"Salt Lake City, UT",IAH,"Houston, TX",5
+631,DL,IAH,"Houston, TX",LAX,"Los Angeles, CA",6
+632,DL,MSP,"Minneapolis, MN",LGA,"New York, NY",5
+633,AA,BOS,"Boston, MA",MIA,"Miami, FL",6
+634,WN,SAN,"San Diego, CA",DEN,"Denver, CO",4
+635,WN,DAL,"Dallas, TX",HOU,"Houston, TX",1
+637,UA,TPA,"Tampa, FL",ORD,"Chicago, IL",5
+638,AA,SFO,"San Francisco, CA",DFW,"Dallas/Fort Worth, TX",6
+639,WN,DAL,"Dallas, TX",AUS,"Austin, TX",1
+640,UA,IAH,"Houston, TX",ORD,"Chicago, IL",4
+641,NK,CLT,"Charlotte, NC",LAS,"Las Vegas, NV",8
+643,F9,PHL,"Philadelphia, PA",TPA,"Tampa, FL",4
+644,AS,SEA,"Seattle, WA",SJC,"San Jose, CA",3
+647,AA,DFW,"Dallas/Fort Worth, TX",DCA,"Washington, DC",5
+651,WN,SAN,"San Diego, CA",SJC,"San Jose, CA",2
+652,DL,RSW,"Fort Myers, FL",ATL,"Atlanta, GA",3
+653,NK,DTW,"Detroit, MI",MCO,"Orlando, FL",4
+654,WN,ATL,"Atlanta, GA",GSP,"Greer, SC",1
+655,AA,CLT,"Charlotte, NC",DFW,"Dallas/Fort Worth, TX",4
+656,QX,SEA,"Seattle, WA",MFR,"Medford, OR",2
+658,AA,DFW,"Dallas/Fort Worth, TX",ATL,"Atlanta, GA",3
+659,WN,BWI,"Baltimore, MD",TPA,"Tampa, FL",4
+660,WN,HOU,"Houston, TX",DEN,"Denver, CO",4
+661,WN,LGA,"New York, NY",ATL,"Atlanta, GA",4
+662,UA,SNA,"Santa Ana, CA",ORD,"Chicago, IL",7
+664,DL,LGA,"New York, NY",MSP,"Minneapolis, MN",5
+667,DL,MEM,"Memphis, TN",ATL,"Atlanta, GA",2
+668,OH,DTW,"Detroit, MI",PHL,"Philadelphia, PA",2
+670,F9,DEN,"Denver, CO",SAN,"San Diego, CA",4
+671,AA,SAN,"San Diego, CA",PHX,"Phoenix, AZ",2
+672,F9,ATL,"Atlanta, GA",PBI,"West Palm Beach/Palm Beach, FL",3
+675,B6,ATL,"Atlanta, GA",BOS,"Boston, MA",4
+676,F9,SLC,"Salt Lake City, UT",LAS,"Las Vegas, NV",2
+677,DL,SEA,"Seattle, WA",SLC,"Salt Lake City, UT",3
+679,OO,BNA,"Nashville, TN",ORD,"Chicago, IL",2
+680,DL,BOS,"Boston, MA",LGA,"New York, NY",1
+682,NK,LAS,"Las Vegas, NV",DTW,"Detroit, MI",7
+684,OO,ORD,"Chicago, IL",BNA,"Nashville, TN",2
+685,DL,DEN,"Denver, CO",MSP,"Minneapolis, MN",3
+686,UA,IAH,"Houston, TX",LAS,"Las Vegas, NV",5
+687,QX,FAI,"Fairbanks, AK",ANC,"Anchorage, AK",2
+688,UA,STL,"St. Louis, MO",DEN,"Denver, CO",4
+689,DL,ATL,"Atlanta, GA",ORD,"Chicago, IL",3
+691,AA,BNA,"Nashville, TN",PHL,"Philadelphia, PA",3
+692,UA,SJC,"San Jose, CA",DEN,"Denver, CO",4
+693,B6,LGA,"New York, NY",DEN,"Denver, CO",7
+694,PT,CLT,"Charlotte, NC",ROA,"Roanoke, VA",1
+695,UA,FLL,"Fort Lauderdale, FL",IAH,"Houston, TX",4
+696,DL,MCO,"Orlando, FL",ATL,"Atlanta, GA",2
+698,9E,LGA,"New York, NY",CLT,"Charlotte, NC",3
+700,B6,LGA,"New York, NY",FLL,"Fort Lauderdale, FL",5
+703,AA,MIA,"Miami, FL",JFK,"New York, NY",5
+704,DL,SLC,"Salt Lake City, UT",PHX,"Phoenix, AZ",3
+706,UA,SEA,"Seattle, WA",EWR,"Newark, NJ",10
+707,DL,MSP,"Minneapolis, MN",DEN,"Denver, CO",3
+708,WN,OAK,"Oakland, CA",SNA,"Santa Ana, CA",2
+710,WN,LGA,"New York, NY",STL,"St. Louis, MO",4
+712,OO,LAX,"Los Angeles, CA",SJC,"San Jose, CA",2
+713,B6,BOS,"Boston, MA",MCO,"Orlando, FL",5
+714,B6,LAS,"Las Vegas, NV",LAX,"Los Angeles, CA",1
+715,HA,HNL,"Honolulu, HI",ITO,"Hilo, HI",1
+716,DL,BOS,"Boston, MA",SEA,"Seattle, WA",10
+717,AA,DEN,"Denver, CO",AUS,"Austin, TX",4
+718,DL,SNA,"Santa Ana, CA",SLC,"Salt Lake City, UT",3
+719,UA,BOS,"Boston, MA",EWR,"Newark, NJ",1
+721,DL,LGA,"New York, NY",PBI,"West Palm Beach/Palm Beach, FL",5
+722,DL,SNA,"Santa Ana, CA",SEA,"Seattle, WA",4
+723,DL,OKC,"Oklahoma City, OK",ATL,"Atlanta, GA",4
+724,WN,PHX,"Phoenix, AZ",ABQ,"Albuquerque, NM",2
+725,F9,PHL,"Philadelphia, PA",MIA,"Miami, FL",5
+727,WN,AUS,"Austin, TX",ATL,"Atlanta, GA",4
+730,ZW,DAY,"Dayton, OH",ORD,"Chicago, IL",1
+731,DL,SEA,"Seattle, WA",ATL,"Atlanta, GA",9
+732,OO,LAX,"Los Angeles, CA",IAH,"Houston, TX",6
+733,AS,SEA,"Seattle, WA",ORD,"Chicago, IL",7
+734,AA,MIA,"Miami, FL",MCO,"Orlando, FL",1
+736,DL,ATL,"Atlanta, GA",LGA,"New York, NY",4
+737,UA,BOS,"Boston, MA",ORD,"Chicago, IL",4
+738,YX,LGA,"New York, NY",DCA,"Washington, DC",1
+740,UA,ORD,"Chicago, IL",LAS,"Las Vegas, NV",7
+741,OO,SJC,"San Jose, CA",SAN,"San Diego, CA",2
+742,AA,PIT,"Pittsburgh, PA",CLT,"Charlotte, NC",2
+744,UA,HNL,"Honolulu, HI",SFO,"San Francisco, CA",10
+745,OO,ORD,"Chicago, IL",PIT,"Pittsburgh, PA",2
+746,DL,ATL,"Atlanta, GA",MEM,"Memphis, TN",2
+749,AA,CLT,"Charlotte, NC",DTW,"Detroit, MI",3
+751,AA,BOS,"Boston, MA",LAX,"Los Angeles, CA",11
+752,WN,PHX,"Phoenix, AZ",AUS,"Austin, TX",4
+754,9E,EWR,"Newark, NJ",BOS,"Boston, MA",1
+755,AA,ORD,"Chicago, IL",AUS,"Austin, TX",4
+757,UA,OMA,"Omaha, NE",DEN,"Denver, CO",2
+759,NK,ORD,"Chicago, IL",MIA,"Miami, FL",5
+762,OO,ORD,"Chicago, IL",DSM,"Des Moines, IA",2
+764,NK,ATL,"Atlanta, GA",MIA,"Miami, FL",3
+765,WN,BWI,"Baltimore, MD",DEN,"Denver, CO",6
+766,WN,SAT,"San Antonio, TX",DEN,"Denver, CO",4
+767,UA,LAX,"Los Angeles, CA",JFK,"New York, NY",10
+769,9E,BNA,"Nashville, TN",LGA,"New York, NY",4
+770,HA,HNL,"Honolulu, HI",OGG,"Kahului, HI",1
+771,AS,SMF,"Sacramento, CA",SEA,"Seattle, WA",3
+772,YX,DCA,"Washington, DC",MSY,"New Orleans, LA",4
+773,DL,ATL,"Atlanta, GA",LAS,"Las Vegas, NV",7
+774,YV,BUF,"Buffalo, NY",ORD,"Chicago, IL",2
+782,YX,JFK,"New York, NY",RDU,"Raleigh/Durham, NC",2
+784,OO,SFO,"San Francisco, CA",PSP,"Palm Springs, CA",2
+785,YX,ORD,"Chicago, IL",MCI,"Kansas City, MO",2
+786,WN,SFO,"San Francisco, CA",LAX,"Los Angeles, CA",2
+787,F9,BNA,"Nashville, TN",MCO,"Orlando, FL",3
+788,DL,ATL,"Atlanta, GA",DCA,"Washington, DC",3
+789,9E,MDW,"Chicago, IL",DTW,"Detroit, MI",1
+791,OH,RDU,"Raleigh/Durham, NC",DCA,"Washington, DC",1
+793,OH,IAD,"Washington, DC",CLT,"Charlotte, NC",2
+795,NK,LAS,"Las Vegas, NV",SNA,"Santa Ana, CA",1
+796,AA,LAX,"Los Angeles, CA",DEN,"Denver, CO",4
+797,G7,PIT,"Pittsburgh, PA",EWR,"Newark, NJ",2
+798,F9,MIA,"Miami, FL",DFW,"Dallas/Fort Worth, TX",5
+801,WN,DEN,"Denver, CO",SAT,"San Antonio, TX",4
+803,AS,ORD,"Chicago, IL",SEA,"Seattle, WA",7
+806,NK,MCO,"Orlando, FL",PHL,"Philadelphia, PA",4
+807,OH,CHS,"Charleston, SC",CLT,"Charlotte, NC",1
+809,9E,STL,"St. Louis, MO",LGA,"New York, NY",4
+811,DL,SLC,"Salt Lake City, UT",PDX,"Portland, OR",3
+812,B6,LGA,"New York, NY",BOS,"Boston, MA",1
+814,AS,LAX,"Los Angeles, CA",SFO,"San Francisco, CA",2
+815,AA,RDU,"Raleigh/Durham, NC",CLT,"Charlotte, NC",1
+817,AA,ORD,"Chicago, IL",FLL,"Fort Lauderdale, FL",5
+819,DL,DTW,"Detroit, MI",BOS,"Boston, MA",3
+823,UA,MCI,"Kansas City, MO",DEN,"Denver, CO",3
+825,WN,SJC,"San Jose, CA",DEN,"Denver, CO",4
+828,WN,BUR,"Burbank, CA",OAK,"Oakland, CA",2
+829,NK,ORD,"Chicago, IL",ATL,"Atlanta, GA",3
+830,DL,LAX,"Los Angeles, CA",SLC,"Salt Lake City, UT",3
+832,MQ,ATW,"Appleton, WI",ORD,"Chicago, IL",1
+835,DL,BOS,"Boston, MA",TPA,"Tampa, FL",5
+836,AA,LAX,"Los Angeles, CA",AUS,"Austin, TX",5
+837,WN,ORD,"Chicago, IL",BWI,"Baltimore, MD",3
+838,UA,ORD,"Chicago, IL",PHX,"Phoenix, AZ",6
+839,DL,DFW,"Dallas/Fort Worth, TX",DTW,"Detroit, MI",4
+840,WN,PHX,"Phoenix, AZ",SLC,"Salt Lake City, UT",3
+841,WN,ATL,"Atlanta, GA",MCO,"Orlando, FL",2
+842,B6,DEN,"Denver, CO",LGA,"New York, NY",7
+843,UA,SFO,"San Francisco, CA",IAH,"Houston, TX",7
+844,AA,ORD,"Chicago, IL",PHX,"Phoenix, AZ",6
+845,UA,ORD,"Chicago, IL",DFW,"Dallas/Fort Worth, TX",4
+846,AA,CLT,"Charlotte, NC",PIT,"Pittsburgh, PA",2
+847,NK,AUS,"Austin, TX",MCO,"Orlando, FL",4
+848,G7,EWR,"Newark, NJ",DCA,"Washington, DC",1
+849,OO,CVG,"Cincinnati, OH",ORD,"Chicago, IL",2
+851,WN,PHX,"Phoenix, AZ",PDX,"Portland, OR",5
+852,UA,SFO,"San Francisco, CA",DEN,"Denver, CO",4
+853,AS,GEG,"Spokane, WA",SEA,"Seattle, WA",1
+854,DL,ATL,"Atlanta, GA",PHL,"Philadelphia, PA",3
+856,DL,BNA,"Nashville, TN",ATL,"Atlanta, GA",1
+857,WN,ATL,"Atlanta, GA",DEN,"Denver, CO",5
+858,9E,ORF,"Norfolk, VA",JFK,"New York, NY",2
+860,WN,PHX,"Phoenix, AZ",SFO,"San Francisco, CA",3
+862,NK,FLL,"Fort Lauderdale, FL",ORD,"Chicago, IL",5
+865,UA,DEN,"Denver, CO",SMF,"Sacramento, CA",4
+866,WN,ORD,"Chicago, IL",PHX,"Phoenix, AZ",6
+867,AA,ORD,"Chicago, IL",MIA,"Miami, FL",5
+868,WN,OAK,"Oakland, CA",LAX,"Los Angeles, CA",2
+870,DL,ATL,"Atlanta, GA",JFK,"New York, NY",4
+871,YV,ABQ,"Albuquerque, NM",PHX,"Phoenix, AZ",2
+872,UA,DEN,"Denver, CO",DSM,"Des Moines, IA",3
+873,WN,IND,"Indianapolis, IN",DEN,"Denver, CO",4
+874,AA,ORD,"Chicago, IL",CLT,"Charlotte, NC",3
+875,F9,PBI,"West Palm Beach/Palm Beach, FL",ATL,"Atlanta, GA",3
+876,OO,DEN,"Denver, CO",LAX,"Los Angeles, CA",4
+877,AA,SMF,"Sacramento, CA",PHX,"Phoenix, AZ",3
+878,WN,TPA,"Tampa, FL",DEN,"Denver, CO",7
+879,UA,DEN,"Denver, CO",DFW,"Dallas/Fort Worth, TX",3
+881,B6,JFK,"New York, NY",DFW,"Dallas/Fort Worth, TX",6
+885,DL,LAX,"Los Angeles, CA",MCO,"Orlando, FL",9
+886,OO,DEN,"Denver, CO",SEA,"Seattle, WA",5
+890,WN,AUS,"Austin, TX",LAX,"Los Angeles, CA",5
+892,9E,JFK,"New York, NY",BNA,"Nashville, TN",4
+893,DL,ATL,"Atlanta, GA",CMH,"Columbus, OH",2
+895,B6,LAX,"Los Angeles, CA",LAS,"Las Vegas, NV",1
+896,B6,SFO,"San Francisco, CA",JFK,"New York, NY",11
+897,AA,DCA,"Washington, DC",CLT,"Charlotte, NC",2
+898,AA,MIA,"Miami, FL",AUS,"Austin, TX",5
+901,UA,BNA,"Nashville, TN",DEN,"Denver, CO",5
+903,UA,LAS,"Las Vegas, NV",IAH,"Houston, TX",5
+905,B6,JFK,"New York, NY",SJU,"San Juan, PR",7
+907,MQ,ORD,"Chicago, IL",GRB,"Green Bay, WI",1
+908,OO,ORD,"Chicago, IL",BWI,"Baltimore, MD",3
+909,WN,ATL,"Atlanta, GA",AUS,"Austin, TX",4
+911,AA,ORD,"Chicago, IL",RSW,"Fort Myers, FL",5
+913,OO,OAK,"Oakland, CA",LAX,"Los Angeles, CA",2
+915,WN,MSY,"New Orleans, LA",DEN,"Denver, CO",5
+918,DL,ATL,"Atlanta, GA",SLC,"Salt Lake City, UT",7
+921,AA,DEN,"Denver, CO",CLT,"Charlotte, NC",6
+924,UA,IAH,"Houston, TX",MCO,"Orlando, FL",4
+930,UA,ORD,"Chicago, IL",MSP,"Minneapolis, MN",2
+932,DL,MSP,"Minneapolis, MN",DCA,"Washington, DC",4
+933,AA,DFW,"Dallas/Fort Worth, TX",PHL,"Philadelphia, PA",6
+935,9E,LGA,"New York, NY",RIC,"Richmond, VA",2
+938,F9,LAS,"Las Vegas, NV",SEA,"Seattle, WA",4
+939,UA,IAH,"Houston, TX",LGA,"New York, NY",6
+940,AA,CLT,"Charlotte, NC",CHS,"Charleston, SC",1
+945,UA,MIA,"Miami, FL",ORD,"Chicago, IL",5
+946,ZW,HPN,"White Plains, NY",ORD,"Chicago, IL",3
+948,DL,SLC,"Salt Lake City, UT",IAH,"Houston, TX",5
+949,WN,RSW,"Fort Myers, FL",ATL,"Atlanta, GA",3
+950,9E,BOS,"Boston, MA",PIT,"Pittsburgh, PA",2
+951,WN,SAT,"San Antonio, TX",DAL,"Dallas, TX",1
+953,DL,ATL,"Atlanta, GA",TYS,"Knoxville, TN",1
+955,DL,DTW,"Detroit, MI",TPA,"Tampa, FL",4
+961,UA,IAD,"Washington, DC",ATL,"Atlanta, GA",3
+963,B6,FLL,"Fort Lauderdale, FL",BOS,"Boston, MA",5
+964,AS,SJC,"San Jose, CA",SEA,"Seattle, WA",3
+965,AA,PHL,"Philadelphia, PA",CLT,"Charlotte, NC",2
+966,AA,LGA,"New York, NY",STL,"St. Louis, MO",4
+969,OO,ORD,"Chicago, IL",HPN,"White Plains, NY",3
+970,AA,DFW,"Dallas/Fort Worth, TX",SAN,"San Diego, CA",5
+971,DL,SFO,"San Francisco, CA",SLC,"Salt Lake City, UT",3
+973,YX,ORD,"Chicago, IL",SDF,"Louisville, KY",2
+974,DL,BOS,"Boston, MA",MCO,"Orlando, FL",5
+975,F9,STL,"St. Louis, MO",MCO,"Orlando, FL",4
+976,WN,LGB,"Long Beach, CA",PHX,"Phoenix, AZ",2
+977,AA,DFW,"Dallas/Fort Worth, TX",MEM,"Memphis, TN",2
+978,DL,ATL,"Atlanta, GA",SAT,"San Antonio, TX",4
+980,OO,SLC,"Salt Lake City, UT",LAX,"Los Angeles, CA",3
+981,OO,SEA,"Seattle, WA",SFO,"San Francisco, CA",3
+982,AS,SEA,"Seattle, WA",ONT,"Ontario, CA",4
+985,OH,MSP,"Minneapolis, MN",DCA,"Washington, DC",4
+986,DL,JFK,"New York, NY",ATL,"Atlanta, GA",4
+987,B6,MCO,"Orlando, FL",SJU,"San Juan, PR",5
+991,F9,CLT,"Charlotte, NC",LAS,"Las Vegas, NV",8
+993,AA,TUL,"Tulsa, OK",DFW,"Dallas/Fort Worth, TX",1
+995,AA,CLT,"Charlotte, NC",MIA,"Miami, FL",3
+996,AA,TUS,"Tucson, AZ",DFW,"Dallas/Fort Worth, TX",4
+998,YX,CMH,"Columbus, OH",LGA,"New York, NY",2
+999,WN,DEN,"Denver, CO",BNA,"Nashville, TN",5
+1001,DL,LGA,"New York, NY",TPA,"Tampa, FL",5
+1002,YX,BOS,"Boston, MA",BNA,"Nashville, TN",4
+1004,YX,BNA,"Nashville, TN",JFK,"New York, NY",4
+1005,B6,RDU,"Raleigh/Durham, NC",JFK,"New York, NY",2
+1006,AA,ORD,"Chicago, IL",PHL,"Philadelphia, PA",3
+1007,AA,PHX,"Phoenix, AZ",CLT,"Charlotte, NC",8
+1008,NK,MSP,"Minneapolis, MN",ATL,"Atlanta, GA",4
+1010,NK,DTW,"Detroit, MI",LGA,"New York, NY",3
+1012,AA,SNA,"Santa Ana, CA",ORD,"Chicago, IL",7
+1013,YX,DCA,"Washington, DC",RDU,"Raleigh/Durham, NC",1
+1014,B6,JAX,"Jacksonville, FL",JFK,"New York, NY",4
+1016,AA,ORD,"Chicago, IL",MCO,"Orlando, FL",5
+1021,WN,SNA,"Santa Ana, CA",LAS,"Las Vegas, NV",1
+1024,YX,RIC,"Richmond, VA",LGA,"New York, NY",2
+1025,WN,AUS,"Austin, TX",PHX,"Phoenix, AZ",4
+1029,OO,DEN,"Denver, CO",TUL,"Tulsa, OK",3
+1030,NK,DFW,"Dallas/Fort Worth, TX",MCO,"Orlando, FL",4
+1031,AA,TPA,"Tampa, FL",DCA,"Washington, DC",4
+1034,WN,HOU,"Houston, TX",ATL,"Atlanta, GA",3
+1035,WN,LAX,"Los Angeles, CA",AUS,"Austin, TX",5
+1036,AS,LAS,"Las Vegas, NV",PDX,"Portland, OR",4
+1039,WN,PHX,"Phoenix, AZ",SMF,"Sacramento, CA",3
+1041,YX,EWR,"Newark, NJ",CLT,"Charlotte, NC",3
+1043,WN,TPA,"Tampa, FL",PHL,"Philadelphia, PA",4
+1045,F9,LAS,"Las Vegas, NV",SAN,"San Diego, CA",2
+1047,UA,ATL,"Atlanta, GA",ORD,"Chicago, IL",3
+1049,DL,DTW,"Detroit, MI",LAS,"Las Vegas, NV",7
+1050,QX,SEA,"Seattle, WA",EUG,"Eugene, OR",1
+1053,NK,BWI,"Baltimore, MD",ATL,"Atlanta, GA",3
+1056,YX,ORF,"Norfolk, VA",JFK,"New York, NY",2
+1058,AA,LAX,"Los Angeles, CA",PHL,"Philadelphia, PA",10
+1059,AA,IAH,"Houston, TX",MIA,"Miami, FL",4
+1060,WN,DEN,"Denver, CO",PHL,"Philadelphia, PA",7
+1061,AA,ORD,"Chicago, IL",ATL,"Atlanta, GA",3
+1062,9E,ATL,"Atlanta, GA",LEX,"Lexington, KY",2
+1063,NK,FLL,"Fort Lauderdale, FL",CLT,"Charlotte, NC",3
+1065,DL,PHX,"Phoenix, AZ",MSP,"Minneapolis, MN",6
+1067,UA,BOS,"Boston, MA",DEN,"Denver, CO",8
+1069,B6,BOS,"Boston, MA",LGA,"New York, NY",1
+1070,WN,SAN,"San Diego, CA",SFO,"San Francisco, CA",2
+1072,OO,SEA,"Seattle, WA",SMF,"Sacramento, CA",3
+1074,AA,LAS,"Las Vegas, NV",LAX,"Los Angeles, CA",1
+1075,DL,JFK,"New York, NY",SAN,"San Diego, CA",10
+1076,WN,BNA,"Nashville, TN",ATL,"Atlanta, GA",1
+1078,UA,EWR,"Newark, NJ",MCO,"Orlando, FL",4
+1079,DL,ATL,"Atlanta, GA",SFO,"San Francisco, CA",9
+1083,OH,AVL,"Asheville, NC",CLT,"Charlotte, NC",1
+1087,AA,PDX,"Portland, OR",PHX,"Phoenix, AZ",5
+1088,YV,IAD,"Washington, DC",DTW,"Detroit, MI",2
+1089,NK,PHX,"Phoenix, AZ",DFW,"Dallas/Fort Worth, TX",4
+1090,B6,JFK,"New York, NY",MCO,"Orlando, FL",4
+1091,AA,DFW,"Dallas/Fort Worth, TX",ICT,"Wichita, KS",2
+1092,9E,RDU,"Raleigh/Durham, NC",JFK,"New York, NY",2
+1093,9E,ATL,"Atlanta, GA",CHA,"Chattanooga, TN",1
+1094,UA,DEN,"Denver, CO",SJC,"San Jose, CA",4
+1095,DL,PHL,"Philadelphia, PA",ATL,"Atlanta, GA",3
+1096,AA,SJU,"San Juan, PR",MIA,"Miami, FL",5
+1097,OO,EWR,"Newark, NJ",DTW,"Detroit, MI",2
+1098,WN,DEN,"Denver, CO",SLC,"Salt Lake City, UT",2
+1100,AA,CLT,"Charlotte, NC",GSO,"Greensboro/High Point, NC",1
+1103,DL,PDX,"Portland, OR",SLC,"Salt Lake City, UT",3
+1105,DL,MCO,"Orlando, FL",RDU,"Raleigh/Durham, NC",3
+1106,UA,ATL,"Atlanta, GA",EWR,"Newark, NJ",3
+1109,WN,SMF,"Sacramento, CA",BUR,"Burbank, CA",2
+1113,DL,ATL,"Atlanta, GA",SRQ,"Sarasota/Bradenton, FL",2
+1114,AA,AUS,"Austin, TX",JFK,"New York, NY",7
+1115,OH,DCA,"Washington, DC",CLT,"Charlotte, NC",2
+1117,DL,ATL,"Atlanta, GA",PNS,"Pensacola, FL",2
+1119,NK,EWR,"Newark, NJ",BNA,"Nashville, TN",3
+1120,UA,LAX,"Los Angeles, CA",IAH,"Houston, TX",6
+1121,F9,SLC,"Salt Lake City, UT",DEN,"Denver, CO",2
+1122,DL,LGA,"New York, NY",ORD,"Chicago, IL",3
+1123,NK,MIA,"Miami, FL",LGA,"New York, NY",5
+1124,YX,CLT,"Charlotte, NC",JFK,"New York, NY",3
+1126,DL,SEA,"Seattle, WA",DEN,"Denver, CO",5
+1127,YV,IND,"Indianapolis, IN",ORD,"Chicago, IL",1
+1129,YX,EWR,"Newark, NJ",ORD,"Chicago, IL",3
+1130,B6,DCA,"Washington, DC",BOS,"Boston, MA",2
+1131,AA,SAT,"San Antonio, TX",DFW,"Dallas/Fort Worth, TX",1
+1133,MQ,ICT,"Wichita, KS",DFW,"Dallas/Fort Worth, TX",2
+1135,B6,LGA,"New York, NY",TPA,"Tampa, FL",5
+1136,WN,OGG,"Kahului, HI",HNL,"Honolulu, HI",1
+1137,DL,FLL,"Fort Lauderdale, FL",DTW,"Detroit, MI",5
+1138,YX,EWR,"Newark, NJ",IAD,"Washington, DC",1
+1139,WN,MCO,"Orlando, FL",DAL,"Dallas, TX",4
+1142,F9,SFO,"San Francisco, CA",PHX,"Phoenix, AZ",3
+1144,F9,LAS,"Las Vegas, NV",SFO,"San Francisco, CA",2
+1145,DL,BOS,"Boston, MA",ATL,"Atlanta, GA",4
+1146,UA,IAH,"Houston, TX",SAT,"San Antonio, TX",1
+1148,NK,LAS,"Las Vegas, NV",IAH,"Houston, TX",5
+1149,WN,SJC,"San Jose, CA",BUR,"Burbank, CA",2
+1150,G7,EWR,"Newark, NJ",DTW,"Detroit, MI",2
+1152,UA,PHX,"Phoenix, AZ",EWR,"Newark, NJ",9
+1153,MQ,GRK,"Killeen, TX",DFW,"Dallas/Fort Worth, TX",1
+1156,F9,DEN,"Denver, CO",ONT,"Ontario, CA",4
+1157,F9,MSP,"Minneapolis, MN",LAS,"Las Vegas, NV",6
+1158,WN,DAL,"Dallas, TX",MDW,"Chicago, IL",4
+1159,DL,TPA,"Tampa, FL",JFK,"New York, NY",5
+1160,OO,ORD,"Chicago, IL",GRR,"Grand Rapids, MI",1
+1161,WN,SLC,"Salt Lake City, UT",DEN,"Denver, CO",2
+1162,UA,EWR,"Newark, NJ",FLL,"Fort Lauderdale, FL",5
+1163,DL,ATL,"Atlanta, GA",RDU,"Raleigh/Durham, NC",2
+1164,UA,IAH,"Houston, TX",MSY,"New Orleans, LA",2
+1165,NK,DFW,"Dallas/Fort Worth, TX",LAS,"Las Vegas, NV",5
+1166,UA,MCO,"Orlando, FL",DEN,"Denver, CO",7
+1170,UA,SFO,"San Francisco, CA",ORD,"Chicago, IL",8
+1171,DL,DTW,"Detroit, MI",LGA,"New York, NY",3
+1175,WN,BWI,"Baltimore, MD",CLT,"Charlotte, NC",2
+1176,OO,ABQ,"Albuquerque, NM",LAX,"Los Angeles, CA",3
+1179,AA,LAX,"Los Angeles, CA",MIA,"Miami, FL",10
+1180,OO,MSP,"Minneapolis, MN",ORD,"Chicago, IL",2
+1182,AA,CLT,"Charlotte, NC",BWI,"Baltimore, MD",2
+1183,F9,MCO,"Orlando, FL",BDL,"Hartford, CT",5
+1184,DL,PIT,"Pittsburgh, PA",ATL,"Atlanta, GA",3
+1187,DL,ATL,"Atlanta, GA",PHX,"Phoenix, AZ",7
+1188,AA,LGA,"New York, NY",DCA,"Washington, DC",1
+1189,OO,MSP,"Minneapolis, MN",EWR,"Newark, NJ",5
+1192,OH,CLT,"Charlotte, NC",GSP,"Greer, SC",1
+1193,DL,LAX,"Los Angeles, CA",MSP,"Minneapolis, MN",7
+1194,YX,STL,"St. Louis, MO",LGA,"New York, NY",4
+1197,AA,DTW,"Detroit, MI",DFW,"Dallas/Fort Worth, TX",4
+1199,UA,SMF,"Sacramento, CA",DEN,"Denver, CO",4
+1203,WN,PHL,"Philadelphia, PA",DEN,"Denver, CO",7
+1204,OO,LAX,"Los Angeles, CA",DEN,"Denver, CO",4
+1205,UA,DEN,"Denver, CO",SNA,"Santa Ana, CA",4
+1206,WN,ORD,"Chicago, IL",DEN,"Denver, CO",4
+1207,F9,IAH,"Houston, TX",LAS,"Las Vegas, NV",5
+1209,WN,LGA,"New York, NY",DEN,"Denver, CO",7
+1210,UA,DFW,"Dallas/Fort Worth, TX",ORD,"Chicago, IL",4
+1211,AA,LGA,"New York, NY",BNA,"Nashville, TN",4
+1212,YX,BNA,"Nashville, TN",CLT,"Charlotte, NC",2
+1215,WN,SDF,"Louisville, KY",ATL,"Atlanta, GA",2
+1217,WN,LAS,"Las Vegas, NV",SMF,"Sacramento, CA",2
+1219,UA,MSY,"New Orleans, LA",DEN,"Denver, CO",5
+1220,WN,DEN,"Denver, CO",IAH,"Houston, TX",4
+1222,WN,MCO,"Orlando, FL",SJU,"San Juan, PR",5
+1225,HA,KOA,"Kona, HI",HNL,"Honolulu, HI",1
+1227,AS,JFK,"New York, NY",SEA,"Seattle, WA",10
+1230,YV,PHX,"Phoenix, AZ",ELP,"El Paso, TX",2
+1231,AS,LAS,"Las Vegas, NV",SFO,"San Francisco, CA",2
+1232,WN,PHX,"Phoenix, AZ",SJC,"San Jose, CA",3
+1233,AA,DCA,"Washington, DC",LGA,"New York, NY",1
+1237,AA,DFW,"Dallas/Fort Worth, TX",SAT,"San Antonio, TX",1
+1238,AA,DCA,"Washington, DC",BOS,"Boston, MA",2
+1239,F9,ORD,"Chicago, IL",PHX,"Phoenix, AZ",6
+1240,YX,LGA,"New York, NY",CMH,"Columbus, OH",2
+1242,NK,LAS,"Las Vegas, NV",SMF,"Sacramento, CA",2
+1244,AS,SFO,"San Francisco, CA",SEA,"Seattle, WA",3
+1246,F9,BNA,"Nashville, TN",DEN,"Denver, CO",5
+1250,F9,ORD,"Chicago, IL",MCO,"Orlando, FL",5
+1251,WN,BOI,"Boise, ID",DEN,"Denver, CO",3
+1253,NK,MCO,"Orlando, FL",BWI,"Baltimore, MD",4
+1255,PT,CHO,"Charlottesville, VA",CLT,"Charlotte, NC",1
+1258,YX,EWR,"Newark, NJ",BNA,"Nashville, TN",3
+1259,DL,ATL,"Atlanta, GA",GSP,"Greer, SC",1
+1260,DL,SDF,"Louisville, KY",ATL,"Atlanta, GA",2
+1266,HA,HNL,"Honolulu, HI",LIH,"Lihue, HI",1
+1267,WN,ATL,"Atlanta, GA",LAS,"Las Vegas, NV",7
+1268,DL,ATL,"Atlanta, GA",MCO,"Orlando, FL",2
+1270,AA,CLT,"Charlotte, NC",LGA,"New York, NY",3
+1271,DL,ATL,"Atlanta, GA",BHM,"Birmingham, AL",1
+1272,DL,STL,"St. Louis, MO",ATL,"Atlanta, GA",2
+1273,WN,ATL,"Atlanta, GA",LGA,"New York, NY",4
+1274,DL,ATL,"Atlanta, GA",MIA,"Miami, FL",3
+1275,YX,BUF,"Buffalo, NY",ORD,"Chicago, IL",2
+1276,OO,RNO,"Reno, NV",LAX,"Los Angeles, CA",2
+1278,QX,ANC,"Anchorage, AK",SEA,"Seattle, WA",6
+1279,WN,JAX,"Jacksonville, FL",ATL,"Atlanta, GA",2
+1281,AA,SJC,"San Jose, CA",PHX,"Phoenix, AZ",3
+1282,AS,PDX,"Portland, OR",LAX,"Los Angeles, CA",4
+1284,OO,SFO,"San Francisco, CA",SLC,"Salt Lake City, UT",3
+1285,YX,PVD,"Providence, RI",DCA,"Washington, DC",2
+1286,NK,ATL,"Atlanta, GA",FLL,"Fort Lauderdale, FL",3
+1287,WN,ABQ,"Albuquerque, NM",PHX,"Phoenix, AZ",2
+1288,OH,CLT,"Charlotte, NC",RIC,"Richmond, VA",2
+1290,OH,DCA,"Washington, DC",MSP,"Minneapolis, MN",4
+1292,MQ,MIA,"Miami, FL",ATL,"Atlanta, GA",3
+1293,UA,RSW,"Fort Myers, FL",ORD,"Chicago, IL",5
+1296,B6,EWR,"Newark, NJ",RSW,"Fort Myers, FL",5
+1297,AA,PHL,"Philadelphia, PA",ORD,"Chicago, IL",3
+1301,NK,MIA,"Miami, FL",MCO,"Orlando, FL",1
+1302,YX,DTW,"Detroit, MI",DCA,"Washington, DC",2
+1303,WN,ICT,"Wichita, KS",DEN,"Denver, CO",2
+1305,NK,FLL,"Fort Lauderdale, FL",PHL,"Philadelphia, PA",4
+1306,WN,BNA,"Nashville, TN",IAH,"Houston, TX",3
+1307,WN,BWI,"Baltimore, MD",FLL,"Fort Lauderdale, FL",4
+1308,AA,AUS,"Austin, TX",LAS,"Las Vegas, NV",5
+1309,WN,PHX,"Phoenix, AZ",SNA,"Santa Ana, CA",2
+1310,B6,ATL,"Atlanta, GA",JFK,"New York, NY",4
+1312,NK,ATL,"Atlanta, GA",DFW,"Dallas/Fort Worth, TX",3
+1316,UA,CLE,"Cleveland, OH",ORD,"Chicago, IL",2
+1317,DL,ATL,"Atlanta, GA",DFW,"Dallas/Fort Worth, TX",3
+1320,WN,SNA,"Santa Ana, CA",SJC,"San Jose, CA",2
+1323,WN,HNL,"Honolulu, HI",OGG,"Kahului, HI",1
+1326,DL,BWI,"Baltimore, MD",ATL,"Atlanta, GA",3
+1332,9E,CLE,"Cleveland, OH",JFK,"New York, NY",2
+1335,UA,EWR,"Newark, NJ",RDU,"Raleigh/Durham, NC",2
+1337,DL,DTW,"Detroit, MI",FLL,"Fort Lauderdale, FL",5
+1338,AA,MIA,"Miami, FL",ATL,"Atlanta, GA",3
+1340,UA,LAX,"Los Angeles, CA",HNL,"Honolulu, HI",11
+1341,DL,ATL,"Atlanta, GA",CHS,"Charleston, SC",2
+1345,WN,DEN,"Denver, CO",MDW,"Chicago, IL",4
+1346,AA,DFW,"Dallas/Fort Worth, TX",MSY,"New Orleans, LA",2
+1348,WN,DAL,"Dallas, TX",LAS,"Las Vegas, NV",5
+1349,AA,DFW,"Dallas/Fort Worth, TX",ABQ,"Albuquerque, NM",3
+1351,YV,IAH,"Houston, TX",BNA,"Nashville, TN",3
+1354,AA,BNA,"Nashville, TN",CLT,"Charlotte, NC",2
+1356,9E,LGA,"New York, NY",ORF,"Norfolk, VA",2
+1357,AA,LAX,"Los Angeles, CA",CLT,"Charlotte, NC",9
+1359,UA,SFO,"San Francisco, CA",BOS,"Boston, MA",11
+1364,DL,ATL,"Atlanta, GA",SAV,"Savannah, GA",1
+1365,WN,OGG,"Kahului, HI",LAX,"Los Angeles, CA",10
+1367,UA,EWR,"Newark, NJ",BOS,"Boston, MA",1
+1369,UA,ORD,"Chicago, IL",DCA,"Washington, DC",3
+1374,AA,SAN,"San Diego, CA",ORD,"Chicago, IL",7
+1375,AA,DCA,"Washington, DC",ORD,"Chicago, IL",3
+1379,9E,BOS,"Boston, MA",EWR,"Newark, NJ",1
+1384,WN,PHX,"Phoenix, AZ",DEN,"Denver, CO",3
+1385,UA,DEN,"Denver, CO",ORD,"Chicago, IL",4
+1387,AA,PHX,"Phoenix, AZ",PDX,"Portland, OR",5
+1390,DL,FLL,"Fort Lauderdale, FL",LGA,"New York, NY",5
+1391,UA,SFO,"San Francisco, CA",SEA,"Seattle, WA",3
+1392,OO,PHL,"Philadelphia, PA",DTW,"Detroit, MI",2
+1393,DL,BHM,"Birmingham, AL",ATL,"Atlanta, GA",1
+1395,F9,BUR,"Burbank, CA",PHX,"Phoenix, AZ",2
+1397,NK,ATL,"Atlanta, GA",EWR,"Newark, NJ",3
+1399,MQ,DFW,"Dallas/Fort Worth, TX",XNA,"Fayetteville, AR",2
+1401,OO,LAX,"Los Angeles, CA",SFO,"San Francisco, CA",2
+1403,NK,ORD,"Chicago, IL",RSW,"Fort Myers, FL",5
+1406,WN,LAS,"Las Vegas, NV",DAL,"Dallas, TX",5
+1409,DL,PHX,"Phoenix, AZ",SEA,"Seattle, WA",5
+1410,DL,SLC,"Salt Lake City, UT",SAN,"San Diego, CA",3
+1412,YV,MCI,"Kansas City, MO",ORD,"Chicago, IL",2
+1413,9E,JFK,"New York, NY",CLT,"Charlotte, NC",3
+1414,AA,CLT,"Charlotte, NC",FLL,"Fort Lauderdale, FL",3
+1416,OO,SEA,"Seattle, WA",RDM,"Bend/Redmond, OR",1
+1418,UA,AUS,"Austin, TX",SFO,"San Francisco, CA",7
+1420,AA,DFW,"Dallas/Fort Worth, TX",LGA,"New York, NY",6
+1421,DL,SAV,"Savannah, GA",ATL,"Atlanta, GA",1
+1422,DL,JFK,"New York, NY",SEA,"Seattle, WA",10
+1423,DL,ORD,"Chicago, IL",ATL,"Atlanta, GA",3
+1425,QX,SEA,"Seattle, WA",BOI,"Boise, ID",2
+1431,UA,PHL,"Philadelphia, PA",ORD,"Chicago, IL",3
+1432,DL,MIA,"Miami, FL",BOS,"Boston, MA",6
+1434,DL,JFK,"New York, NY",AUS,"Austin, TX",7
+1441,AA,DFW,"Dallas/Fort Worth, TX",PHX,"Phoenix, AZ",4
+1442,AA,CLT,"Charlotte, NC",MCO,"Orlando, FL",2
+1443,AA,DEN,"Denver, CO",DFW,"Dallas/Fort Worth, TX",3
+1444,WN,TPA,"Tampa, FL",ATL,"Atlanta, GA",2
+1448,AA,PHX,"Phoenix, AZ",DTW,"Detroit, MI",7
+1449,AA,DFW,"Dallas/Fort Worth, TX",MFE,"Mission/McAllen/Edinburg, TX",2
+1450,UA,PHX,"Phoenix, AZ",SFO,"San Francisco, CA",3
+1452,DL,DTW,"Detroit, MI",EWR,"Newark, NJ",2
+1453,YX,JFK,"New York, NY",BNA,"Nashville, TN",4
+1456,WN,HOU,"Houston, TX",DAL,"Dallas, TX",1
+1457,AS,SFO,"San Francisco, CA",PDX,"Portland, OR",3
+1458,OH,CLT,"Charlotte, NC",CHO,"Charlottesville, VA",1
+1460,AA,LGA,"New York, NY",CLT,"Charlotte, NC",3
+1462,WN,SJC,"San Jose, CA",LAS,"Las Vegas, NV",2
+1465,DL,SEA,"Seattle, WA",SAN,"San Diego, CA",5
+1466,F9,DTW,"Detroit, MI",MCO,"Orlando, FL",4
+1467,AA,ORD,"Chicago, IL",SLC,"Salt Lake City, UT",6
+1468,DL,SLC,"Salt Lake City, UT",LAX,"Los Angeles, CA",3
+1470,MQ,ORD,"Chicago, IL",IND,"Indianapolis, IN",1
+1471,YX,ATL,"Atlanta, GA",DCA,"Washington, DC",3
+1477,WN,TUS,"Tucson, AZ",LAX,"Los Angeles, CA",2
+1479,WN,SJU,"San Juan, PR",MCO,"Orlando, FL",5
+1481,UA,ORD,"Chicago, IL",SFO,"San Francisco, CA",8
+1485,B6,MCO,"Orlando, FL",DCA,"Washington, DC",4
+1486,WN,SEA,"Seattle, WA",OAK,"Oakland, CA",3
+1488,MQ,MKE,"Milwaukee, WI",ORD,"Chicago, IL",1
+1489,YX,LGA,"New York, NY",CLE,"Cleveland, OH",2
+1492,WN,MCO,"Orlando, FL",MSY,"New Orleans, LA",3
+1493,WN,LAX,"Los Angeles, CA",OAK,"Oakland, CA",2
+1494,WN,LAX,"Los Angeles, CA",PHX,"Phoenix, AZ",2
+1496,DL,GSP,"Greer, SC",ATL,"Atlanta, GA",1
+1497,WN,PHX,"Phoenix, AZ",ATL,"Atlanta, GA",7
+1498,AA,EWR,"Newark, NJ",PHX,"Phoenix, AZ",9
+1503,DL,ATL,"Atlanta, GA",IND,"Indianapolis, IN",2
+1504,ZW,ORD,"Chicago, IL",BWI,"Baltimore, MD",3
+1507,DL,ATL,"Atlanta, GA",MDW,"Chicago, IL",3
+1508,MQ,DCA,"Washington, DC",ORD,"Chicago, IL",3
+1510,DL,CAE,"Columbia, SC",ATL,"Atlanta, GA",1
+1512,AS,SFO,"San Francisco, CA",ORD,"Chicago, IL",8
+1513,QX,PSC,"Pasco/Kennewick/Richland, WA",SEA,"Seattle, WA",1
+1514,OH,BNA,"Nashville, TN",CLT,"Charlotte, NC",2
+1515,WN,DEN,"Denver, CO",MSY,"New Orleans, LA",5
+1516,MQ,ORD,"Chicago, IL",CVG,"Cincinnati, OH",2
+1519,OO,SNA,"Santa Ana, CA",SFO,"San Francisco, CA",2
+1520,WN,ELP,"El Paso, TX",PHX,"Phoenix, AZ",2
+1523,AS,HNL,"Honolulu, HI",LAX,"Los Angeles, CA",11
+1525,UA,EWR,"Newark, NJ",LAS,"Las Vegas, NV",9
+1526,AS,ATL,"Atlanta, GA",SEA,"Seattle, WA",9
+1527,YX,BOS,"Boston, MA",ORD,"Chicago, IL",4
+1528,WN,TPA,"Tampa, FL",BWI,"Baltimore, MD",4
+1529,WN,PHX,"Phoenix, AZ",SAN,"San Diego, CA",2
+1530,AA,MIA,"Miami, FL",PHL,"Philadelphia, PA",5
+1533,NK,IAH,"Houston, TX",ATL,"Atlanta, GA",3
+1534,DL,DTW,"Detroit, MI",LAX,"Los Angeles, CA",8
+1536,UA,DEN,"Denver, CO",LGA,"New York, NY",7
+1537,G7,DTW,"Detroit, MI",EWR,"Newark, NJ",2
+1538,OO,SLC,"Salt Lake City, UT",SFO,"San Francisco, CA",3
+1539,ZW,ORD,"Chicago, IL",DSM,"Des Moines, IA",2
+1542,AS,LAX,"Los Angeles, CA",SEA,"Seattle, WA",4
+1543,DL,JFK,"New York, NY",LAS,"Las Vegas, NV",9
+1545,WN,BNA,"Nashville, TN",DEN,"Denver, CO",5
+1546,F9,TPA,"Tampa, FL",PHL,"Philadelphia, PA",4
+1548,UA,SEA,"Seattle, WA",LAX,"Los Angeles, CA",4
+1549,OO,SFO,"San Francisco, CA",PHX,"Phoenix, AZ",3
+1550,MQ,ORD,"Chicago, IL",ATW,"Appleton, WI",1
+1552,QX,SEA,"Seattle, WA",PDX,"Portland, OR",1
+1556,DL,TPA,"Tampa, FL",LGA,"New York, NY",5
+1559,WN,LAX,"Los Angeles, CA",DEN,"Denver, CO",4
+1560,DL,MCO,"Orlando, FL",JFK,"New York, NY",4
+1561,DL,OAK,"Oakland, CA",SLC,"Salt Lake City, UT",3
+1563,B6,EWR,"Newark, NJ",PBI,"West Palm Beach/Palm Beach, FL",5
+1564,9E,CHA,"Chattanooga, TN",ATL,"Atlanta, GA",1
+1565,DL,JFK,"New York, NY",PHX,"Phoenix, AZ",9
+1566,DL,ATL,"Atlanta, GA",EWR,"Newark, NJ",3
+1568,F9,DFW,"Dallas/Fort Worth, TX",MIA,"Miami, FL",5
+1570,DL,ATL,"Atlanta, GA",JAN,"Jackson/Vicksburg, MS",2
+1572,OO,DTW,"Detroit, MI",IAH,"Houston, TX",5
+1574,UA,LAX,"Los Angeles, CA",ORD,"Chicago, IL",7
+1576,OO,SEA,"Seattle, WA",LAX,"Los Angeles, CA",4
+1578,UA,EWR,"Newark, NJ",ORD,"Chicago, IL",3
+1584,G7,ORD,"Chicago, IL",RIC,"Richmond, VA",3
+1587,WN,DCA,"Washington, DC",MCO,"Orlando, FL",4
+1594,WN,AUS,"Austin, TX",BNA,"Nashville, TN",4
+1595,QX,PDX,"Portland, OR",SEA,"Seattle, WA",1
+1597,DL,LAX,"Los Angeles, CA",AUS,"Austin, TX",5
+1598,WN,DEN,"Denver, CO",SAN,"San Diego, CA",4
+1599,MQ,ORD,"Chicago, IL",PIT,"Pittsburgh, PA",2
+1602,OO,LAX,"Los Angeles, CA",OAK,"Oakland, CA",2
+1605,AA,DFW,"Dallas/Fort Worth, TX",MIA,"Miami, FL",5
+1607,9E,ATL,"Atlanta, GA",CAE,"Columbia, SC",1
+1610,F9,PHX,"Phoenix, AZ",DEN,"Denver, CO",3
+1616,AA,CLT,"Charlotte, NC",ATL,"Atlanta, GA",1
+1621,UA,ORD,"Chicago, IL",MIA,"Miami, FL",5
+1629,WN,DEN,"Denver, CO",SJC,"San Jose, CA",4
+1630,AA,PHL,"Philadelphia, PA",DEN,"Denver, CO",7
+1631,UA,TPA,"Tampa, FL",EWR,"Newark, NJ",4
+1633,AA,DFW,"Dallas/Fort Worth, TX",OKC,"Oklahoma City, OK",1
+1634,UA,MSP,"Minneapolis, MN",ORD,"Chicago, IL",2
+1637,DL,ATL,"Atlanta, GA",CLT,"Charlotte, NC",1
+1638,DL,RDU,"Raleigh/Durham, NC",LGA,"New York, NY",2
+1641,AA,PHX,"Phoenix, AZ",SNA,"Santa Ana, CA",2
+1642,OO,IAH,"Houston, TX",BNA,"Nashville, TN",3
+1645,WN,DAL,"Dallas, TX",MCO,"Orlando, FL",4
+1646,MQ,CLE,"Cleveland, OH",ORD,"Chicago, IL",2
+1648,DL,ATL,"Atlanta, GA",CAE,"Columbia, SC",1
+1650,WN,LAS,"Las Vegas, NV",LAX,"Los Angeles, CA",1
+1651,UA,SLC,"Salt Lake City, UT",DEN,"Denver, CO",2
+1653,9E,DTW,"Detroit, MI",PHL,"Philadelphia, PA",2
+1654,NK,OAK,"Oakland, CA",SNA,"Santa Ana, CA",2
+1655,AA,DFW,"Dallas/Fort Worth, TX",BNA,"Nashville, TN",3
+1658,WN,FLL,"Fort Lauderdale, FL",ORD,"Chicago, IL",5
+1660,WN,ITO,"Hilo, HI",HNL,"Honolulu, HI",1
+1661,WN,PHL,"Philadelphia, PA",MCO,"Orlando, FL",4
+1662,OO,SEA,"Seattle, WA",MFR,"Medford, OR",2
+1663,OH,CLT,"Charlotte, NC",IAD,"Washington, DC",2
+1666,UA,IAH,"Houston, TX",PHX,"Phoenix, AZ",5
+1667,YX,LGA,"New York, NY",BNA,"Nashville, TN",4
+1668,YX,RDU,"Raleigh/Durham, NC",EWR,"Newark, NJ",2
+1670,WN,ONT,"Ontario, CA",DEN,"Denver, CO",4
+1672,WN,PHL,"Philadelphia, PA",TPA,"Tampa, FL",4
+1673,YX,PIT,"Pittsburgh, PA",LGA,"New York, NY",2
+1678,NK,DFW,"Dallas/Fort Worth, TX",LAX,"Los Angeles, CA",5
+1682,DL,LAX,"Los Angeles, CA",DTW,"Detroit, MI",8
+1683,MQ,ORD,"Chicago, IL",DCA,"Washington, DC",3
+1685,NK,FLL,"Fort Lauderdale, FL",LGA,"New York, NY",5
+1686,AA,PHL,"Philadelphia, PA",MCO,"Orlando, FL",4
+1687,MQ,CLT,"Charlotte, NC",ATL,"Atlanta, GA",1
+1688,YX,BOS,"Boston, MA",JFK,"New York, NY",1
+1689,YX,ORD,"Chicago, IL",DTW,"Detroit, MI",1
+1690,MQ,DFW,"Dallas/Fort Worth, TX",MEM,"Memphis, TN",2
+1693,YX,CVG,"Cincinnati, OH",EWR,"Newark, NJ",3
+1694,F9,CLT,"Charlotte, NC",PHL,"Philadelphia, PA",2
+1696,WN,DEN,"Denver, CO",BWI,"Baltimore, MD",6
+1698,NK,EWR,"Newark, NJ",MCO,"Orlando, FL",4
+1699,UA,PHX,"Phoenix, AZ",ORD,"Chicago, IL",6
+1701,OH,CHO,"Charlottesville, VA",CLT,"Charlotte, NC",1
+1704,AA,LGA,"New York, NY",MIA,"Miami, FL",5
+1706,DL,SLC,"Salt Lake City, UT",DEN,"Denver, CO",2
+1707,UA,SFO,"San Francisco, CA",PDX,"Portland, OR",3
+1709,AA,CLT,"Charlotte, NC",MYR,"Myrtle Beach, SC",1
+1716,WN,SLC,"Salt Lake City, UT",PHX,"Phoenix, AZ",3
+1717,UA,ORD,"Chicago, IL",DEN,"Denver, CO",4
+1720,B6,DCA,"Washington, DC",FLL,"Fort Lauderdale, FL",4
+1723,UA,IAH,"Houston, TX",SFO,"San Francisco, CA",7
+1724,OO,GEG,"Spokane, WA",SEA,"Seattle, WA",1
+1725,DL,MSP,"Minneapolis, MN",EWR,"Newark, NJ",5
+1726,NK,MCO,"Orlando, FL",ATL,"Atlanta, GA",2
+1728,AS,MSP,"Minneapolis, MN",SEA,"Seattle, WA",6
+1730,B6,SJU,"San Juan, PR",JFK,"New York, NY",7
+1731,WN,LAX,"Los Angeles, CA",SMF,"Sacramento, CA",2
+1732,AA,GSO,"Greensboro/High Point, NC",CLT,"Charlotte, NC",1
+1733,PT,CLT,"Charlotte, NC",CAE,"Columbia, SC",1
+1738,DL,SLC,"Salt Lake City, UT",OAK,"Oakland, CA",3
+1742,AA,IAD,"Washington, DC",CLT,"Charlotte, NC",2
+1743,MQ,ABQ,"Albuquerque, NM",DFW,"Dallas/Fort Worth, TX",3
+1744,NK,SJU,"San Juan, PR",MIA,"Miami, FL",5
+1746,OH,ATL,"Atlanta, GA",PHL,"Philadelphia, PA",3
+1747,AA,PHX,"Phoenix, AZ",SJC,"San Jose, CA",3
+1748,AA,DFW,"Dallas/Fort Worth, TX",SEA,"Seattle, WA",7
+1754,AA,SFO,"San Francisco, CA",JFK,"New York, NY",11
+1758,YX,DCA,"Washington, DC",JFK,"New York, NY",1
+1759,AS,ONT,"Ontario, CA",SEA,"Seattle, WA",4
+1760,9E,JFK,"New York, NY",DTW,"Detroit, MI",3
+1762,WN,SAN,"San Diego, CA",LAS,"Las Vegas, NV",2
+1763,UA,DEN,"Denver, CO",MSP,"Minneapolis, MN",3
+1768,DL,SFO,"San Francisco, CA",ATL,"Atlanta, GA",9
+1773,9E,RIC,"Richmond, VA",LGA,"New York, NY",2
+1779,WN,PHX,"Phoenix, AZ",ONT,"Ontario, CA",2
+1783,AA,AUS,"Austin, TX",LAX,"Los Angeles, CA",5
+1784,WN,ATL,"Atlanta, GA",HOU,"Houston, TX",3
+1785,YX,JFK,"New York, NY",ORF,"Norfolk, VA",2
+1787,DL,CLT,"Charlotte, NC",DTW,"Detroit, MI",3
+1789,YV,BNA,"Nashville, TN",IAH,"Houston, TX",3
+1791,OO,SEA,"Seattle, WA",SLC,"Salt Lake City, UT",3
+1792,NK,PHL,"Philadelphia, PA",MCO,"Orlando, FL",4
+1793,G7,LGA,"New York, NY",IAD,"Washington, DC",1
+1794,DL,JFK,"New York, NY",BOS,"Boston, MA",1
+1804,AA,RSW,"Fort Myers, FL",ORD,"Chicago, IL",5
+1805,DL,DCA,"Washington, DC",DTW,"Detroit, MI",2
+1806,UA,DFW,"Dallas/Fort Worth, TX",EWR,"Newark, NJ",6
+1812,WN,MCO,"Orlando, FL",BNA,"Nashville, TN",3
+1814,UA,ORD,"Chicago, IL",CLE,"Cleveland, OH",2
+1815,NK,LAS,"Las Vegas, NV",OAK,"Oakland, CA",2
+1818,WN,GSP,"Greer, SC",ATL,"Atlanta, GA",1
+1819,YX,BOS,"Boston, MA",RDU,"Raleigh/Durham, NC",3
+1823,AA,ORD,"Chicago, IL",STL,"St. Louis, MO",2
+1825,DL,ATL,"Atlanta, GA",IAD,"Washington, DC",3
+1829,NK,MCO,"Orlando, FL",BOS,"Boston, MA",5
+1830,MQ,MCI,"Kansas City, MO",DFW,"Dallas/Fort Worth, TX",2
+1833,NK,MCO,"Orlando, FL",DFW,"Dallas/Fort Worth, TX",4
+1838,AS,SEA,"Seattle, WA",LAS,"Las Vegas, NV",4
+1839,UA,SAN,"San Diego, CA",ORD,"Chicago, IL",7
+1840,B6,JFK,"New York, NY",JAX,"Jacksonville, FL",4
+1843,WN,ATL,"Atlanta, GA",RSW,"Fort Myers, FL",3
+1844,YX,PIT,"Pittsburgh, PA",EWR,"Newark, NJ",2
+1845,OO,ORD,"Chicago, IL",MSP,"Minneapolis, MN",2
+1846,YX,LGA,"New York, NY",RDU,"Raleigh/Durham, NC",2
+1847,NK,ATL,"Atlanta, GA",LAX,"Los Angeles, CA",8
+1848,WN,DEN,"Denver, CO",ORD,"Chicago, IL",4
+1849,B6,PHL,"Philadelphia, PA",BOS,"Boston, MA",2
+1850,WN,BNA,"Nashville, TN",PHL,"Philadelphia, PA",3
+1853,WN,SMF,"Sacramento, CA",DEN,"Denver, CO",4
+1854,G7,EWR,"Newark, NJ",PIT,"Pittsburgh, PA",2
+1855,B6,JFK,"New York, NY",SLC,"Salt Lake City, UT",8
+1858,DL,SAN,"San Diego, CA",SLC,"Salt Lake City, UT",3
+1860,F9,PHL,"Philadelphia, PA",MCO,"Orlando, FL",4
+1863,WN,SNA,"Santa Ana, CA",OAK,"Oakland, CA",2
+1865,UA,MIA,"Miami, FL",EWR,"Newark, NJ",5
+1866,UA,DSM,"Des Moines, IA",ORD,"Chicago, IL",2
+1871,DL,DTW,"Detroit, MI",MCO,"Orlando, FL",4
+1874,WN,STL,"St. Louis, MO",DEN,"Denver, CO",4
+1875,OO,DEN,"Denver, CO",DTW,"Detroit, MI",5
+1877,UA,ORD,"Chicago, IL",FLL,"Fort Lauderdale, FL",5
+1881,UA,LAS,"Las Vegas, NV",LAX,"Los Angeles, CA",1
+1882,B6,EWR,"Newark, NJ",FLL,"Fort Lauderdale, FL",5
+1883,UA,DEN,"Denver, CO",LAX,"Los Angeles, CA",4
+1887,UA,EWR,"Newark, NJ",RSW,"Fort Myers, FL",5
+1888,DL,JFK,"New York, NY",MCO,"Orlando, FL",4
+1889,DL,ORF,"Norfolk, VA",ATL,"Atlanta, GA",3
+1895,WN,JAN,"Jackson/Vicksburg, MS",ATL,"Atlanta, GA",2
+1896,DL,ATL,"Atlanta, GA",FLL,"Fort Lauderdale, FL",3
+1899,WN,DEN,"Denver, CO",SNA,"Santa Ana, CA",4
+1906,YV,GRR,"Grand Rapids, MI",ORD,"Chicago, IL",1
+1908,AA,ATL,"Atlanta, GA",LAX,"Los Angeles, CA",8
+1912,B6,PHL,"Philadelphia, PA",FLL,"Fort Lauderdale, FL",4
+1913,NK,MCO,"Orlando, FL",BDL,"Hartford, CT",5
+1915,OO,CID,"Cedar Rapids/Iowa City, IA",ORD,"Chicago, IL",1
+1917,OO,SMF,"Sacramento, CA",SAN,"San Diego, CA",2
+1920,OO,GRB,"Green Bay, WI",ORD,"Chicago, IL",1
+1925,WN,SEA,"Seattle, WA",PHX,"Phoenix, AZ",5
+1926,DL,IND,"Indianapolis, IN",ATL,"Atlanta, GA",2
+1928,WN,RDU,"Raleigh/Durham, NC",ATL,"Atlanta, GA",2
+1930,DL,AUS,"Austin, TX",ATL,"Atlanta, GA",4
+1931,AS,SEA,"Seattle, WA",BOI,"Boise, ID",2
+1933,F9,ONT,"Ontario, CA",LAS,"Las Vegas, NV",1
+1935,UA,ORD,"Chicago, IL",BNA,"Nashville, TN",2
+1942,WN,DEN,"Denver, CO",SFO,"San Francisco, CA",4
+1944,WN,FLL,"Fort Lauderdale, FL",SJU,"San Juan, PR",5
+1949,WN,KOA,"Kona, HI",HNL,"Honolulu, HI",1
+1953,OO,SEA,"Seattle, WA",PDX,"Portland, OR",1
+1954,AA,PHX,"Phoenix, AZ",ONT,"Ontario, CA",2
+1955,NK,ORD,"Chicago, IL",LAS,"Las Vegas, NV",7
+1957,WN,MIA,"Miami, FL",DEN,"Denver, CO",7
+1958,OO,CLE,"Cleveland, OH",ORD,"Chicago, IL",2
+1960,HA,OGG,"Kahului, HI",LAX,"Los Angeles, CA",10
+1961,DL,MSP,"Minneapolis, MN",BOS,"Boston, MA",5
+1963,OO,STL,"St. Louis, MO",ORD,"Chicago, IL",2
+1964,UA,ORD,"Chicago, IL",RSW,"Fort Myers, FL",5
+1966,WN,LAS,"Las Vegas, NV",MDW,"Chicago, IL",7
+1967,B6,FLL,"Fort Lauderdale, FL",PHL,"Philadelphia, PA",4
+1968,F9,SAN,"San Diego, CA",LAS,"Las Vegas, NV",2
+1969,DL,LEX,"Lexington, KY",ATL,"Atlanta, GA",2
+1970,OH,ILM,"Wilmington, NC",CLT,"Charlotte, NC",1
+1972,NK,ATL,"Atlanta, GA",MSY,"New Orleans, LA",2
+1973,WN,DEN,"Denver, CO",LAX,"Los Angeles, CA",4
+1974,MQ,ORD,"Chicago, IL",CID,"Cedar Rapids/Iowa City, IA",1
+1975,QX,EUG,"Eugene, OR",SEA,"Seattle, WA",1
+1976,WN,HNL,"Honolulu, HI",LAX,"Los Angeles, CA",11
+1977,AA,PHL,"Philadelphia, PA",LAX,"Los Angeles, CA",10
+1981,DL,BOS,"Boston, MA",DFW,"Dallas/Fort Worth, TX",7
+1982,YV,DCA,"Washington, DC",IAH,"Houston, TX",5
+1986,F9,DEN,"Denver, CO",MSP,"Minneapolis, MN",3
+1991,WN,SFO,"San Francisco, CA",BUR,"Burbank, CA",2
+1992,OO,SAN,"San Diego, CA",SJC,"San Jose, CA",2
+1993,AS,SEA,"Seattle, WA",LAX,"Los Angeles, CA",4
+2003,F9,DEN,"Denver, CO",MIA,"Miami, FL",7
+2007,B6,ORD,"Chicago, IL",BOS,"Boston, MA",4
+2008,WN,MIA,"Miami, FL",ATL,"Atlanta, GA",3
+2009,9E,PIT,"Pittsburgh, PA",JFK,"New York, NY",2
+2010,WN,PDX,"Portland, OR",DEN,"Denver, CO",4
+2011,B6,FLL,"Fort Lauderdale, FL",LGA,"New York, NY",5
+2012,MQ,BNA,"Nashville, TN",AUS,"Austin, TX",4
+2013,AS,ANC,"Anchorage, AK",FAI,"Fairbanks, AK",2
+2015,OO,ORD,"Chicago, IL",SLC,"Salt Lake City, UT",6
+2021,WN,ATL,"Atlanta, GA",STL,"St. Louis, MO",2
+2022,NK,ORD,"Chicago, IL",FLL,"Fort Lauderdale, FL",5
+2037,B6,FLL,"Fort Lauderdale, FL",DCA,"Washington, DC",4
+2038,UA,IAD,"Washington, DC",SFO,"San Francisco, CA",10
+2041,DL,ATL,"Atlanta, GA",STL,"St. Louis, MO",2
+2042,OH,CLT,"Charlotte, NC",GSO,"Greensboro/High Point, NC",1
+2048,WN,AUS,"Austin, TX",DEN,"Denver, CO",4
+2051,F9,DFW,"Dallas/Fort Worth, TX",LAS,"Las Vegas, NV",5
+2053,WN,ONT,"Ontario, CA",LAS,"Las Vegas, NV",1
+2059,DL,PHX,"Phoenix, AZ",ATL,"Atlanta, GA",7
+2060,WN,ORD,"Chicago, IL",TPA,"Tampa, FL",5
+2063,WN,MCI,"Kansas City, MO",MDW,"Chicago, IL",2
+2064,F9,BWI,"Baltimore, MD",MCO,"Orlando, FL",4
+2066,AA,MIA,"Miami, FL",DFW,"Dallas/Fort Worth, TX",5
+2068,OO,DEN,"Denver, CO",ICT,"Wichita, KS",2
+2070,DL,ATL,"Atlanta, GA",MSP,"Minneapolis, MN",4
+2071,WN,PHX,"Phoenix, AZ",ELP,"El Paso, TX",2
+2073,MQ,BUF,"Buffalo, NY",ORD,"Chicago, IL",2
+2074,DL,ANC,"Anchorage, AK",SEA,"Seattle, WA",6
+2076,UA,IAH,"Houston, TX",DFW,"Dallas/Fort Worth, TX",1
+2077,F9,LAS,"Las Vegas, NV",RNO,"Reno, NV",2
+2080,WN,STL,"St. Louis, MO",CLT,"Charlotte, NC",3
+2081,WN,BWI,"Baltimore, MD",ORD,"Chicago, IL",3
+2082,WN,OAK,"Oakland, CA",SEA,"Seattle, WA",3
+2086,F9,DEN,"Denver, CO",OMA,"Omaha, NE",2
+2087,DL,PNS,"Pensacola, FL",ATL,"Atlanta, GA",2
+2088,AA,CLT,"Charlotte, NC",PHL,"Philadelphia, PA",2
+2089,WN,PHX,"Phoenix, AZ",BUR,"Burbank, CA",2
+2090,AA,PHX,"Phoenix, AZ",PHL,"Philadelphia, PA",9
+2093,OO,OAK,"Oakland, CA",SLC,"Salt Lake City, UT",3
+2094,UA,IAH,"Houston, TX",EWR,"Newark, NJ",6
+2095,B6,BOS,"Boston, MA",DEN,"Denver, CO",8
+2096,YX,BNA,"Nashville, TN",LGA,"New York, NY",4
+2097,AA,SLC,"Salt Lake City, UT",DFW,"Dallas/Fort Worth, TX",4
+2101,WN,STL,"St. Louis, MO",LGA,"New York, NY",4
+2105,UA,SNA,"Santa Ana, CA",SFO,"San Francisco, CA",2
+2106,AA,MIA,"Miami, FL",LGA,"New York, NY",5
+2107,B6,JFK,"New York, NY",BUF,"Buffalo, NY",2
+2109,OH,ORF,"Norfolk, VA",CLT,"Charlotte, NC",2
+2112,NK,MSY,"New Orleans, LA",IAH,"Houston, TX",2
+2114,WN,MCO,"Orlando, FL",DCA,"Washington, DC",4
+2115,AA,DFW,"Dallas/Fort Worth, TX",MCO,"Orlando, FL",4
+2116,WN,SAN,"San Diego, CA",SMF,"Sacramento, CA",2
+2117,UA,EWR,"Newark, NJ",SFO,"San Francisco, CA",11
+2120,DL,DTW,"Detroit, MI",BNA,"Nashville, TN",2
+2128,WN,MSY,"New Orleans, LA",MCO,"Orlando, FL",3
+2130,UA,MSN,"Madison, WI",ORD,"Chicago, IL",1
+2131,UA,SNA,"Santa Ana, CA",DEN,"Denver, CO",4
+2132,YX,MSP,"Minneapolis, MN",EWR,"Newark, NJ",5
+2138,DL,DFW,"Dallas/Fort Worth, TX",BOS,"Boston, MA",7
+2139,WN,LIH,"Lihue, HI",HNL,"Honolulu, HI",1
+2145,WN,LAS,"Las Vegas, NV",SNA,"Santa Ana, CA",1
+2149,B6,MIA,"Miami, FL",BOS,"Boston, MA",6
+2150,YV,LGB,"Long Beach, CA",PHX,"Phoenix, AZ",2
+2151,AA,DFW,"Dallas/Fort Worth, TX",ELP,"El Paso, TX",3
+2154,9E,LGA,"New York, NY",RDU,"Raleigh/Durham, NC",2
+2158,OO,SFO,"San Francisco, CA",DFW,"Dallas/Fort Worth, TX",6
+2162,B6,BOS,"Boston, MA",TPA,"Tampa, FL",5
+2163,ZW,ORD,"Chicago, IL",MKE,"Milwaukee, WI",1
+2164,ZW,ORD,"Chicago, IL",ATW,"Appleton, WI",1
+2168,F9,DEN,"Denver, CO",PDX,"Portland, OR",4
+2171,NK,SEA,"Seattle, WA",LAS,"Las Vegas, NV",4
+2172,AA,FLL,"Fort Lauderdale, FL",CLT,"Charlotte, NC",3
+2173,OO,SFO,"San Francisco, CA",PDX,"Portland, OR",3
+2174,OO,CLT,"Charlotte, NC",ORD,"Chicago, IL",3
+2176,WN,ABQ,"Albuquerque, NM",DEN,"Denver, CO",2
+2183,DL,MSP,"Minneapolis, MN",LAX,"Los Angeles, CA",7
+2185,DL,LAX,"Los Angeles, CA",HNL,"Honolulu, HI",11
+2186,WN,BUR,"Burbank, CA",PHX,"Phoenix, AZ",2
+2188,9E,CLT,"Charlotte, NC",LGA,"New York, NY",3
+2189,F9,MCO,"Orlando, FL",PHL,"Philadelphia, PA",4
+2193,NK,IAH,"Houston, TX",FLL,"Fort Lauderdale, FL",4
+2194,DL,ATL,"Atlanta, GA",VPS,"Valparaiso, FL",2
+2195,DL,IAH,"Houston, TX",ATL,"Atlanta, GA",3
+2197,B6,RDU,"Raleigh/Durham, NC",BOS,"Boston, MA",3
+2204,WN,DCA,"Washington, DC",BNA,"Nashville, TN",3
+2206,B6,MCO,"Orlando, FL",JFK,"New York, NY",4
+2207,YX,ILM,"Wilmington, NC",CLT,"Charlotte, NC",1
+2210,NK,MCO,"Orlando, FL",RDU,"Raleigh/Durham, NC",3
+2223,DL,LGA,"New York, NY",RDU,"Raleigh/Durham, NC",2
+2225,DL,DCA,"Washington, DC",MSP,"Minneapolis, MN",4
+2228,AS,PDX,"Portland, OR",SFO,"San Francisco, CA",3
+2229,DL,FLL,"Fort Lauderdale, FL",JFK,"New York, NY",5
+2230,DL,SEA,"Seattle, WA",ORD,"Chicago, IL",7
+2231,9E,RDU,"Raleigh/Durham, NC",EWR,"Newark, NJ",2
+2232,OH,PHL,"Philadelphia, PA",DTW,"Detroit, MI",2
+2235,WN,DAL,"Dallas, TX",SAT,"San Antonio, TX",1
+2236,DL,BOS,"Boston, MA",ORD,"Chicago, IL",4
+2237,B6,LAX,"Los Angeles, CA",SFO,"San Francisco, CA",2
+2241,MQ,CRP,"Corpus Christi, TX",DFW,"Dallas/Fort Worth, TX",2
+2243,UA,ORD,"Chicago, IL",EWR,"Newark, NJ",3
+2245,UA,DEN,"Denver, CO",ATL,"Atlanta, GA",5
+2246,DL,HNL,"Honolulu, HI",LAX,"Los Angeles, CA",11
+2249,ZW,DSM,"Des Moines, IA",ORD,"Chicago, IL",2
+2252,B6,JFK,"New York, NY",AUS,"Austin, TX",7
+2253,AA,DCA,"Washington, DC",MCO,"Orlando, FL",4
+2255,9E,LEX,"Lexington, KY",ATL,"Atlanta, GA",2
+2256,AA,DFW,"Dallas/Fort Worth, TX",LAX,"Los Angeles, CA",5
+2258,AA,SFO,"San Francisco, CA",ORD,"Chicago, IL",8
+2259,F9,PHX,"Phoenix, AZ",ORD,"Chicago, IL",6
+2261,OO,DTW,"Detroit, MI",PHL,"Philadelphia, PA",2
+2262,F9,DEN,"Denver, CO",BWI,"Baltimore, MD",6
+2264,NK,LAS,"Las Vegas, NV",EWR,"Newark, NJ",9
+2273,AS,IAD,"Washington, DC",LAX,"Los Angeles, CA",10
+2275,UA,RSW,"Fort Myers, FL",EWR,"Newark, NJ",5
+2276,NK,MCO,"Orlando, FL",IAH,"Houston, TX",4
+2277,AA,DTW,"Detroit, MI",PHX,"Phoenix, AZ",7
+2278,OH,CLT,"Charlotte, NC",TYS,"Knoxville, TN",1
+2282,QX,PDX,"Portland, OR",OAK,"Oakland, CA",3
+2286,AA,JFK,"New York, NY",DFW,"Dallas/Fort Worth, TX",6
+2293,WN,BNA,"Nashville, TN",BOS,"Boston, MA",4
+2294,AS,JFK,"New York, NY",SFO,"San Francisco, CA",11
+2297,WN,SJC,"San Jose, CA",PHX,"Phoenix, AZ",3
+2303,NK,SJU,"San Juan, PR",MCO,"Orlando, FL",5
+2304,AS,PDX,"Portland, OR",SEA,"Seattle, WA",1
+2306,DL,MCO,"Orlando, FL",BOS,"Boston, MA",5
+2307,B6,EWR,"Newark, NJ",BOS,"Boston, MA",1
+2308,MQ,MEM,"Memphis, TN",DFW,"Dallas/Fort Worth, TX",2
+2309,AA,MIA,"Miami, FL",DCA,"Washington, DC",4
+2313,AS,BOS,"Boston, MA",SEA,"Seattle, WA",10
+2316,AA,MIA,"Miami, FL",RDU,"Raleigh/Durham, NC",3
+2317,DL,LAS,"Las Vegas, NV",ATL,"Atlanta, GA",7
+2320,AA,LGA,"New York, NY",DFW,"Dallas/Fort Worth, TX",6
+2324,PT,GSO,"Greensboro/High Point, NC",CLT,"Charlotte, NC",1
+2325,9E,PIT,"Pittsburgh, PA",LGA,"New York, NY",2
+2329,NK,PHX,"Phoenix, AZ",ORD,"Chicago, IL",6
+2331,F9,MCO,"Orlando, FL",MIA,"Miami, FL",1
+2332,AA,BWI,"Baltimore, MD",MIA,"Miami, FL",4
+2334,YV,ORD,"Chicago, IL",GRR,"Grand Rapids, MI",1
+2340,YX,BOS,"Boston, MA",DCA,"Washington, DC",2
+2341,MQ,IND,"Indianapolis, IN",ORD,"Chicago, IL",1
+2344,UA,SFO,"San Francisco, CA",SNA,"Santa Ana, CA",2
+2349,NK,LAS,"Las Vegas, NV",ATL,"Atlanta, GA",7
+2350,DL,PHX,"Phoenix, AZ",JFK,"New York, NY",9
+2351,OO,PDX,"Portland, OR",SEA,"Seattle, WA",1
+2357,AA,CLT,"Charlotte, NC",JAX,"Jacksonville, FL",2
+2358,UA,FLL,"Fort Lauderdale, FL",ORD,"Chicago, IL",5
+2359,B6,DCA,"Washington, DC",MCO,"Orlando, FL",4
+2360,OO,SLC,"Salt Lake City, UT",OAK,"Oakland, CA",3
+2361,NK,LGA,"New York, NY",MIA,"Miami, FL",5
+2362,UA,MIA,"Miami, FL",IAH,"Houston, TX",4
+2365,B6,CLT,"Charlotte, NC",BOS,"Boston, MA",3
+2366,NK,LAS,"Las Vegas, NV",ORD,"Chicago, IL",7
+2369,DL,MSP,"Minneapolis, MN",PHX,"Phoenix, AZ",6
+2371,MQ,RDU,"Raleigh/Durham, NC",ORD,"Chicago, IL",3
+2377,DL,DEN,"Denver, CO",ATL,"Atlanta, GA",5
+2378,WN,MSY,"New Orleans, LA",DAL,"Dallas, TX",2
+2382,B6,SFO,"San Francisco, CA",EWR,"Newark, NJ",11
+2383,NK,LAS,"Las Vegas, NV",LAX,"Los Angeles, CA",1
+2384,UA,MCO,"Orlando, FL",ORD,"Chicago, IL",5
+2386,AA,LAX,"Los Angeles, CA",OGG,"Kahului, HI",10
+2388,NK,ATL,"Atlanta, GA",ORD,"Chicago, IL",3
+2390,YV,IAH,"Houston, TX",CLT,"Charlotte, NC",4
+2391,AA,DFW,"Dallas/Fort Worth, TX",MCI,"Kansas City, MO",2
+2394,F9,ORD,"Chicago, IL",LAS,"Las Vegas, NV",7
+2395,OO,SLC,"Salt Lake City, UT",PHX,"Phoenix, AZ",3
+2398,YX,LGA,"New York, NY",MCI,"Kansas City, MO",5
+2399,AS,LAX,"Los Angeles, CA",PDX,"Portland, OR",4
+2402,AS,SFO,"San Francisco, CA",EWR,"Newark, NJ",11
+2404,AA,ORD,"Chicago, IL",TPA,"Tampa, FL",5
+2405,YV,ATL,"Atlanta, GA",IAH,"Houston, TX",3
+2414,DL,ATL,"Atlanta, GA",GSO,"Greensboro/High Point, NC",2
+2419,AA,PHX,"Phoenix, AZ",ATL,"Atlanta, GA",7
+2421,WN,SAT,"San Antonio, TX",ATL,"Atlanta, GA",4
+2423,B6,BOS,"Boston, MA",LAX,"Los Angeles, CA",11
+2425,NK,BOS,"Boston, MA",MIA,"Miami, FL",6
+2426,OO,DEN,"Denver, CO",MKE,"Milwaukee, WI",4
+2431,NK,DFW,"Dallas/Fort Worth, TX",MIA,"Miami, FL",5
+2434,DL,TPA,"Tampa, FL",BOS,"Boston, MA",5
+2436,WN,MIA,"Miami, FL",AUS,"Austin, TX",5
+2438,NK,BWI,"Baltimore, MD",MIA,"Miami, FL",4
+2444,YX,CMH,"Columbus, OH",ORD,"Chicago, IL",2
+2447,PT,CAE,"Columbia, SC",CLT,"Charlotte, NC",1
+2449,AA,PHL,"Philadelphia, PA",PHX,"Phoenix, AZ",9
+2452,AA,RIC,"Richmond, VA",CLT,"Charlotte, NC",2
+2462,AA,IAH,"Houston, TX",CLT,"Charlotte, NC",4
+2465,WN,ATL,"Atlanta, GA",PNS,"Pensacola, FL",2
+2468,YX,DCA,"Washington, DC",BNA,"Nashville, TN",3
+2469,QX,GEG,"Spokane, WA",SEA,"Seattle, WA",1
+2472,WN,DEN,"Denver, CO",STL,"St. Louis, MO",4
+2473,B6,JFK,"New York, NY",ORD,"Chicago, IL",3
+2474,DL,SLC,"Salt Lake City, UT",LAS,"Las Vegas, NV",2
+2476,OO,LAX,"Los Angeles, CA",SLC,"Salt Lake City, UT",3
+2478,UA,ORD,"Chicago, IL",SNA,"Santa Ana, CA",7
+2485,MQ,ORD,"Chicago, IL",MCI,"Kansas City, MO",2
+2486,DL,ATL,"Atlanta, GA",BWI,"Baltimore, MD",3
+2489,G7,IND,"Indianapolis, IN",ORD,"Chicago, IL",1
+2496,AA,TPA,"Tampa, FL",PHL,"Philadelphia, PA",4
+2497,F9,MIA,"Miami, FL",LGA,"New York, NY",5
+2501,DL,MIA,"Miami, FL",JFK,"New York, NY",5
+2506,F9,MCO,"Orlando, FL",EWR,"Newark, NJ",4
+2510,MQ,AUS,"Austin, TX",BNA,"Nashville, TN",4
+2512,YX,BOS,"Boston, MA",PHL,"Philadelphia, PA",2
+2513,WN,DEN,"Denver, CO",DTW,"Detroit, MI",5
+2517,OO,DEN,"Denver, CO",ABQ,"Albuquerque, NM",2
+2522,UA,TPA,"Tampa, FL",DEN,"Denver, CO",7
+2528,DL,SAN,"San Diego, CA",SEA,"Seattle, WA",5
+2529,OO,SDF,"Louisville, KY",ORD,"Chicago, IL",2
+2542,NK,TPA,"Tampa, FL",DTW,"Detroit, MI",4
+2543,AS,BOI,"Boise, ID",SEA,"Seattle, WA",2
+2546,AA,SEA,"Seattle, WA",ORD,"Chicago, IL",7
+2549,AA,CHS,"Charleston, SC",CLT,"Charlotte, NC",1
+2553,NK,CLT,"Charlotte, NC",MCO,"Orlando, FL",2
+2556,F9,SAN,"San Diego, CA",DEN,"Denver, CO",4
+2557,DL,DCA,"Washington, DC",ATL,"Atlanta, GA",3
+2559,WN,LGA,"New York, NY",TPA,"Tampa, FL",5
+2560,DL,ATL,"Atlanta, GA",LIT,"Little Rock, AR",2
+2574,AA,FLL,"Fort Lauderdale, FL",DFW,"Dallas/Fort Worth, TX",5
+2575,DL,SFO,"San Francisco, CA",SEA,"Seattle, WA",3
+2576,WN,AUS,"Austin, TX",DAL,"Dallas, TX",1
+2577,NK,SMF,"Sacramento, CA",SNA,"Santa Ana, CA",2
+2579,OO,ORD,"Chicago, IL",LGA,"New York, NY",3
+2593,AA,IAH,"Houston, TX",DFW,"Dallas/Fort Worth, TX",1
+2596,UA,SLC,"Salt Lake City, UT",IAH,"Houston, TX",5
+2600,MQ,ORD,"Chicago, IL",OMA,"Omaha, NE",2
+2603,ZW,ORD,"Chicago, IL",IND,"Indianapolis, IN",1
+2604,ZW,SDF,"Louisville, KY",ORD,"Chicago, IL",2
+2608,NK,FLL,"Fort Lauderdale, FL",DFW,"Dallas/Fort Worth, TX",5
+2609,WN,MSY,"New Orleans, LA",IAH,"Houston, TX",2
+2611,UA,DEN,"Denver, CO",LAS,"Las Vegas, NV",3
+2613,AA,LGA,"New York, NY",RDU,"Raleigh/Durham, NC",2
+2615,AA,TPA,"Tampa, FL",CLT,"Charlotte, NC",3
+2617,AA,LAX,"Los Angeles, CA",HNL,"Honolulu, HI",11
+2622,ZW,ORD,"Chicago, IL",HPN,"White Plains, NY",3
+2623,OO,CLT,"Charlotte, NC",DEN,"Denver, CO",6
+2626,WN,LAX,"Los Angeles, CA",LAS,"Las Vegas, NV",1
+2627,UA,PHL,"Philadelphia, PA",DEN,"Denver, CO",7
+2636,AA,DFW,"Dallas/Fort Worth, TX",LAS,"Las Vegas, NV",5
+2637,F9,SNA,"Santa Ana, CA",LAS,"Las Vegas, NV",1
+2641,AS,DFW,"Dallas/Fort Worth, TX",SEA,"Seattle, WA",7
+2646,WN,LAS,"Las Vegas, NV",SLC,"Salt Lake City, UT",2
+2647,UA,EWR,"Newark, NJ",PHX,"Phoenix, AZ",9
+2648,F9,MCO,"Orlando, FL",SJU,"San Juan, PR",5
+2652,B6,PBI,"West Palm Beach/Palm Beach, FL",EWR,"Newark, NJ",5
+2654,AA,SEA,"Seattle, WA",DFW,"Dallas/Fort Worth, TX",7
+2655,B6,BOS,"Boston, MA",ATL,"Atlanta, GA",4
+2657,WN,PBI,"West Palm Beach/Palm Beach, FL",ATL,"Atlanta, GA",3
+2665,DL,CHA,"Chattanooga, TN",ATL,"Atlanta, GA",1
+2666,NK,MIA,"Miami, FL",PHL,"Philadelphia, PA",5
+2668,AA,CLT,"Charlotte, NC",JFK,"New York, NY",3
+2670,NK,LAS,"Las Vegas, NV",DFW,"Dallas/Fort Worth, TX",5
+2672,OO,ORD,"Chicago, IL",CVG,"Cincinnati, OH",2
+2675,ZW,BUF,"Buffalo, NY",ORD,"Chicago, IL",2
+2687,DL,DAL,"Dallas, TX",ATL,"Atlanta, GA",3
+2696,NK,SAN,"San Diego, CA",LAS,"Las Vegas, NV",2
+2698,OO,LAX,"Los Angeles, CA",ABQ,"Albuquerque, NM",3
+2700,UA,SJU,"San Juan, PR",EWR,"Newark, NJ",7
+2706,WN,BNA,"Nashville, TN",LGA,"New York, NY",4
+2711,AA,PHX,"Phoenix, AZ",EWR,"Newark, NJ",9
+2718,AA,MIA,"Miami, FL",IAH,"Houston, TX",4
+2720,YX,EWR,"Newark, NJ",RDU,"Raleigh/Durham, NC",2
+2726,UA,EWR,"Newark, NJ",IAD,"Washington, DC",1
+2727,UA,LAS,"Las Vegas, NV",ORD,"Chicago, IL",7
+2734,AA,DTW,"Detroit, MI",CLT,"Charlotte, NC",3
+2736,YV,ORD,"Chicago, IL",CLT,"Charlotte, NC",3
+2741,DL,LGA,"New York, NY",DTW,"Detroit, MI",3
+2742,AA,ORD,"Chicago, IL",DFW,"Dallas/Fort Worth, TX",4
+2743,NK,MIA,"Miami, FL",DEN,"Denver, CO",7
+2752,AS,PHX,"Phoenix, AZ",SEA,"Seattle, WA",5
+2754,9E,JFK,"New York, NY",RDU,"Raleigh/Durham, NC",2
+2756,AS,SEA,"Seattle, WA",SNA,"Santa Ana, CA",4
+2759,DL,ATL,"Atlanta, GA",ORF,"Norfolk, VA",3
+2760,DL,LAX,"Los Angeles, CA",ATL,"Atlanta, GA",8
+2761,UA,LAX,"Los Angeles, CA",LAS,"Las Vegas, NV",1
+2769,AA,DFW,"Dallas/Fort Worth, TX",ORD,"Chicago, IL",4
+2771,OO,SFO,"San Francisco, CA",BUR,"Burbank, CA",2
+2773,AA,OGG,"Kahului, HI",LAX,"Los Angeles, CA",10
+2776,AS,SFO,"San Francisco, CA",LAS,"Las Vegas, NV",2
+2781,DL,ATL,"Atlanta, GA",RSW,"Fort Myers, FL",3
+2783,AS,SEA,"Seattle, WA",HNL,"Honolulu, HI",11
+2784,B6,EWR,"Newark, NJ",TPA,"Tampa, FL",4
+2786,YX,PHL,"Philadelphia, PA",ATL,"Atlanta, GA",3
+2788,OO,SEA,"Seattle, WA",EUG,"Eugene, OR",1
+2798,NK,DEN,"Denver, CO",DTW,"Detroit, MI",5
+2802,PT,CLT,"Charlotte, NC",CHO,"Charlottesville, VA",1
+2807,DL,DTW,"Detroit, MI",DFW,"Dallas/Fort Worth, TX",4
+2811,DL,SFO,"San Francisco, CA",JFK,"New York, NY",11
+2813,YX,LGA,"New York, NY",RIC,"Richmond, VA",2
+2820,YX,JFK,"New York, NY",JAX,"Jacksonville, FL",4
+2823,UA,AUS,"Austin, TX",DEN,"Denver, CO",4
+2827,AA,DFW,"Dallas/Fort Worth, TX",SFO,"San Francisco, CA",6
+2832,NK,DFW,"Dallas/Fort Worth, TX",LGA,"New York, NY",6
+2833,NK,SJU,"San Juan, PR",FLL,"Fort Lauderdale, FL",5
+2834,NK,MSP,"Minneapolis, MN",LAX,"Los Angeles, CA",7
+2835,F9,EWR,"Newark, NJ",MCO,"Orlando, FL",4
+2836,AA,ORD,"Chicago, IL",DCA,"Washington, DC",3
+2837,YX,ATL,"Atlanta, GA",LGA,"New York, NY",4
+2838,F9,BWI,"Baltimore, MD",ATL,"Atlanta, GA",3
+2840,B6,EWR,"Newark, NJ",LAS,"Las Vegas, NV",9
+2847,UA,SAN,"San Diego, CA",SFO,"San Francisco, CA",2
+2848,DL,SEA,"Seattle, WA",LAS,"Las Vegas, NV",4
+2849,9E,ORD,"Chicago, IL",JFK,"New York, NY",3
+2852,9E,CLT,"Charlotte, NC",JFK,"New York, NY",3
+2854,OO,EUG,"Eugene, OR",SEA,"Seattle, WA",1
+2856,AA,PHX,"Phoenix, AZ",AUS,"Austin, TX",4
+2859,AS,SEA,"Seattle, WA",SMF,"Sacramento, CA",3
+2861,WN,SFO,"San Francisco, CA",PHX,"Phoenix, AZ",3
+2863,ZW,ATW,"Appleton, WI",ORD,"Chicago, IL",1
+2874,UA,PHX,"Phoenix, AZ",IAH,"Houston, TX",5
+2878,AA,ORD,"Chicago, IL",LAX,"Los Angeles, CA",7
+2879,DL,DTW,"Detroit, MI",CLT,"Charlotte, NC",3
+2882,WN,ATL,"Atlanta, GA",JAN,"Jackson/Vicksburg, MS",2
+2883,F9,DEN,"Denver, CO",SFO,"San Francisco, CA",4
+2885,UA,PHX,"Phoenix, AZ",LAX,"Los Angeles, CA",2
+2887,DL,BDL,"Hartford, CT",ATL,"Atlanta, GA",4
+2889,UA,DCA,"Washington, DC",ORD,"Chicago, IL",3
+2893,AA,MCO,"Orlando, FL",DCA,"Washington, DC",4
+2902,UA,JFK,"New York, NY",SFO,"San Francisco, CA",11
+2905,DL,SEA,"Seattle, WA",HNL,"Honolulu, HI",11
+2913,DL,LAS,"Las Vegas, NV",LAX,"Los Angeles, CA",1
+2916,AA,MYR,"Myrtle Beach, SC",CLT,"Charlotte, NC",1
+2917,UA,DEN,"Denver, CO",BOS,"Boston, MA",8
+2918,WN,LAS,"Las Vegas, NV",DEN,"Denver, CO",3
+2926,AS,PDX,"Portland, OR",LAS,"Las Vegas, NV",4
+2927,WN,ATL,"Atlanta, GA",SRQ,"Sarasota/Bradenton, FL",2
+2929,9E,JFK,"New York, NY",ORF,"Norfolk, VA",2
+2931,OO,SEA,"Seattle, WA",DEN,"Denver, CO",5
+2932,NK,ORD,"Chicago, IL",PHX,"Phoenix, AZ",6
+2945,AA,STL,"St. Louis, MO",ORD,"Chicago, IL",2
+2946,AA,TPA,"Tampa, FL",DFW,"Dallas/Fort Worth, TX",4
+2950,YX,SDF,"Louisville, KY",ORD,"Chicago, IL",2
+2957,OO,PDX,"Portland, OR",LAX,"Los Angeles, CA",4
+2960,9E,ATL,"Atlanta, GA",JAN,"Jackson/Vicksburg, MS",2
+2961,AS,ORD,"Chicago, IL",SFO,"San Francisco, CA",8
+2966,QX,ANC,"Anchorage, AK",FAI,"Fairbanks, AK",2
+2968,OO,LAS,"Las Vegas, NV",LAX,"Los Angeles, CA",1
+2969,MQ,ORD,"Chicago, IL",MKE,"Milwaukee, WI",1
+2973,WN,MDW,"Chicago, IL",DAL,"Dallas, TX",4
+2977,F9,ATL,"Atlanta, GA",LGA,"New York, NY",4
+2978,UA,DEN,"Denver, CO",SEA,"Seattle, WA",5
+2984,UA,ORD,"Chicago, IL",IAH,"Houston, TX",4
+2986,AA,CLT,"Charlotte, NC",DEN,"Denver, CO",6
+2987,DL,ATL,"Atlanta, GA",IAH,"Houston, TX",3
+2989,WN,SLC,"Salt Lake City, UT",OAK,"Oakland, CA",3
+2994,UA,GRR,"Grand Rapids, MI",ORD,"Chicago, IL",1
+2997,AS,HNL,"Honolulu, HI",SEA,"Seattle, WA",11
+2998,DL,CMH,"Columbus, OH",ATL,"Atlanta, GA",2
+3001,PT,ORD,"Chicago, IL",DAY,"Dayton, OH",1
+3014,OO,BOI,"Boise, ID",SEA,"Seattle, WA",2
+3015,WN,MDW,"Chicago, IL",PHX,"Phoenix, AZ",6
+3026,NK,PHL,"Philadelphia, PA",TPA,"Tampa, FL",4
+3029,DL,DTW,"Detroit, MI",ORD,"Chicago, IL",1
+3037,B6,PBI,"West Palm Beach/Palm Beach, FL",JFK,"New York, NY",5
+3039,AA,LAX,"Los Angeles, CA",ORD,"Chicago, IL",7
+3040,OO,DFW,"Dallas/Fort Worth, TX",OKC,"Oklahoma City, OK",1
+3056,DL,OGG,"Kahului, HI",LAX,"Los Angeles, CA",10
+3060,NK,LGA,"New York, NY",TPA,"Tampa, FL",5
+3062,UA,PIT,"Pittsburgh, PA",EWR,"Newark, NJ",2
+3066,B6,JFK,"New York, NY",RDU,"Raleigh/Durham, NC",2
+3069,DL,DTW,"Detroit, MI",DEN,"Denver, CO",5
+3070,WN,BUR,"Burbank, CA",SFO,"San Francisco, CA",2
+3071,F9,SAN,"San Diego, CA",PHX,"Phoenix, AZ",2
+3077,AS,SJC,"San Jose, CA",PDX,"Portland, OR",3
+3078,AA,MSY,"New Orleans, LA",DFW,"Dallas/Fort Worth, TX",2
+3079,UA,BOI,"Boise, ID",DEN,"Denver, CO",3
+3083,NK,PHL,"Philadelphia, PA",FLL,"Fort Lauderdale, FL",4
+3085,WN,FLL,"Fort Lauderdale, FL",BWI,"Baltimore, MD",4
+3088,DL,CVG,"Cincinnati, OH",ATL,"Atlanta, GA",2
+3091,AA,BNA,"Nashville, TN",DFW,"Dallas/Fort Worth, TX",3
+3100,YV,RIC,"Richmond, VA",ORD,"Chicago, IL",3
+3103,YX,LGA,"New York, NY",CLT,"Charlotte, NC",3
+3104,YX,ORF,"Norfolk, VA",LGA,"New York, NY",2
+3105,WN,MDW,"Chicago, IL",MCO,"Orlando, FL",4
+3106,WN,SMF,"Sacramento, CA",SEA,"Seattle, WA",3
+3108,DL,PHX,"Phoenix, AZ",DTW,"Detroit, MI",7
+3111,WN,OKC,"Oklahoma City, OK",DEN,"Denver, CO",2
+3114,WN,MCO,"Orlando, FL",AUS,"Austin, TX",4
+3115,WN,DEN,"Denver, CO",AUS,"Austin, TX",4
+3122,WN,ATL,"Atlanta, GA",SAT,"San Antonio, TX",4
+3123,WN,PIT,"Pittsburgh, PA",ATL,"Atlanta, GA",3
+3124,DL,BOS,"Boston, MA",MSP,"Minneapolis, MN",5
+3129,WN,LAX,"Los Angeles, CA",SLC,"Salt Lake City, UT",3
+3134,WN,ABQ,"Albuquerque, NM",LAX,"Los Angeles, CA",3
+3136,UA,ORD,"Chicago, IL",TPA,"Tampa, FL",5
+3137,WN,SJC,"San Jose, CA",SAN,"San Diego, CA",2
+3141,YV,LIT,"Little Rock, AR",DFW,"Dallas/Fort Worth, TX",2
+3146,9E,JFK,"New York, NY",CLE,"Cleveland, OH",2
+3149,WN,SAN,"San Diego, CA",OAK,"Oakland, CA",2
+3152,MQ,ORD,"Chicago, IL",BOS,"Boston, MA",4
+3158,9E,BOS,"Boston, MA",PHL,"Philadelphia, PA",2
+3159,AA,DFW,"Dallas/Fort Worth, TX",TUL,"Tulsa, OK",1
+3161,G7,ORD,"Chicago, IL",TVC,"Traverse City, MI",1
+3166,OO,DTW,"Detroit, MI",DEN,"Denver, CO",5
+3169,DL,TYS,"Knoxville, TN",ATL,"Atlanta, GA",1
+3171,UA,MIA,"Miami, FL",DEN,"Denver, CO",7
+3172,QX,SEA,"Seattle, WA",SJC,"San Jose, CA",3
+3173,OO,RDM,"Bend/Redmond, OR",SEA,"Seattle, WA",1
+3174,MQ,LIT,"Little Rock, AR",DFW,"Dallas/Fort Worth, TX",2
+3176,WN,TUS,"Tucson, AZ",DEN,"Denver, CO",3
+3178,UA,TUS,"Tucson, AZ",DEN,"Denver, CO",3
+3179,ZW,ORD,"Chicago, IL",DAY,"Dayton, OH",1
+3181,NK,LAX,"Los Angeles, CA",AUS,"Austin, TX",5
+3183,WN,SEA,"Seattle, WA",SJC,"San Jose, CA",3
+3192,DL,ATL,"Atlanta, GA",MKE,"Milwaukee, WI",3
+3193,AA,PHX,"Phoenix, AZ",SEA,"Seattle, WA",5
+3203,UA,DEN,"Denver, CO",TPA,"Tampa, FL",7
+3211,UA,DEN,"Denver, CO",IAD,"Washington, DC",6
+3219,OO,DEN,"Denver, CO",BOI,"Boise, ID",3
+3221,AA,BNA,"Nashville, TN",LGA,"New York, NY",4
+3225,B6,LAX,"Los Angeles, CA",BOS,"Boston, MA",11
+3226,YX,JFK,"New York, NY",CLT,"Charlotte, NC",3
+3227,WN,LAS,"Las Vegas, NV",AUS,"Austin, TX",5
+3228,WN,DEN,"Denver, CO",MCI,"Kansas City, MO",3
+3232,NK,MCO,"Orlando, FL",EWR,"Newark, NJ",4
+3236,YX,BOS,"Boston, MA",CLT,"Charlotte, NC",3
+3241,WN,SFO,"San Francisco, CA",LAS,"Las Vegas, NV",2
+3242,DL,ATL,"Atlanta, GA",CHA,"Chattanooga, TN",1
+3243,WN,ATL,"Atlanta, GA",ECP,"Panama City, FL",1
+3246,DL,ATL,"Atlanta, GA",BDL,"Hartford, CT",4
+3249,YX,BNA,"Nashville, TN",DCA,"Washington, DC",3
+3252,AA,CLT,"Charlotte, NC",IAH,"Houston, TX",4
+3254,DL,LAX,"Los Angeles, CA",BOS,"Boston, MA",11
+3258,YX,ATL,"Atlanta, GA",PHL,"Philadelphia, PA",3
+3267,NK,MCO,"Orlando, FL",ORD,"Chicago, IL",5
+3272,AA,MCI,"Kansas City, MO",DFW,"Dallas/Fort Worth, TX",2
+3273,NK,ATL,"Atlanta, GA",CLE,"Cleveland, OH",3
+3277,OO,SAN,"San Diego, CA",SFO,"San Francisco, CA",2
+3281,WN,ATL,"Atlanta, GA",MSY,"New Orleans, LA",2
+3282,DL,HOU,"Houston, TX",ATL,"Atlanta, GA",3
+3283,HA,SFO,"San Francisco, CA",HNL,"Honolulu, HI",10
+3287,YX,LGA,"New York, NY",PIT,"Pittsburgh, PA",2
+3291,QX,MFR,"Medford, OR",SEA,"Seattle, WA",2
+3293,WN,ONT,"Ontario, CA",PHX,"Phoenix, AZ",2
+3295,UA,DEN,"Denver, CO",COS,"Colorado Springs, CO",1
+3296,OO,EWR,"Newark, NJ",ORD,"Chicago, IL",3
+3300,NK,DTW,"Detroit, MI",IAH,"Houston, TX",5
+3303,AA,PHX,"Phoenix, AZ",SMF,"Sacramento, CA",3
+3304,WN,SNA,"Santa Ana, CA",DEN,"Denver, CO",4
+3305,WN,DAL,"Dallas, TX",PHX,"Phoenix, AZ",4
+3310,OO,TUL,"Tulsa, OK",DEN,"Denver, CO",3
+3311,DL,SEA,"Seattle, WA",PHX,"Phoenix, AZ",5
+3315,WN,CLT,"Charlotte, NC",DEN,"Denver, CO",6
+3324,YX,CVG,"Cincinnati, OH",LGA,"New York, NY",3
+3325,F9,DEN,"Denver, CO",MSY,"New Orleans, LA",5
+3332,YX,ATL,"Atlanta, GA",EWR,"Newark, NJ",3
+3336,WN,DEN,"Denver, CO",SMF,"Sacramento, CA",4
+3337,YX,PHL,"Philadelphia, PA",BOS,"Boston, MA",2
+3339,NK,LAS,"Las Vegas, NV",PHX,"Phoenix, AZ",2
+3341,9E,LGA,"New York, NY",CVG,"Cincinnati, OH",3
+3346,NK,BWI,"Baltimore, MD",FLL,"Fort Lauderdale, FL",4
+3349,WN,ECP,"Panama City, FL",ATL,"Atlanta, GA",1
+3366,B6,BOS,"Boston, MA",PHL,"Philadelphia, PA",2
+3371,YV,DFW,"Dallas/Fort Worth, TX",ELP,"El Paso, TX",3
+3377,AA,DFW,"Dallas/Fort Worth, TX",IAH,"Houston, TX",1
+3387,ZW,GRR,"Grand Rapids, MI",ORD,"Chicago, IL",1
+3396,WN,RNO,"Reno, NV",LAS,"Las Vegas, NV",2
+3400,DL,SEA,"Seattle, WA",ANC,"Anchorage, AK",6
+3401,YX,CLE,"Cleveland, OH",LGA,"New York, NY",2
+3406,NK,LGA,"New York, NY",FLL,"Fort Lauderdale, FL",5
+3414,F9,MCO,"Orlando, FL",DEN,"Denver, CO",7
+3417,OO,ATL,"Atlanta, GA",ORD,"Chicago, IL",3
+3418,F9,DEN,"Denver, CO",SLC,"Salt Lake City, UT",2
+3421,YV,IAH,"Houston, TX",LGA,"New York, NY",6
+3425,WN,OAK,"Oakland, CA",SLC,"Salt Lake City, UT",3
+3428,AA,DFW,"Dallas/Fort Worth, TX",BOS,"Boston, MA",7
+3439,AA,JAX,"Jacksonville, FL",CLT,"Charlotte, NC",2
+3448,QX,SFO,"San Francisco, CA",SNA,"Santa Ana, CA",2
+3457,AA,ORD,"Chicago, IL",BOS,"Boston, MA",4
+3458,NK,MSY,"New Orleans, LA",MCO,"Orlando, FL",3
+3461,OO,DFW,"Dallas/Fort Worth, TX",SFO,"San Francisco, CA",6
+3471,WN,BWI,"Baltimore, MD",MIA,"Miami, FL",4
+3472,AS,SEA,"Seattle, WA",GEG,"Spokane, WA",1
+3481,WN,DEN,"Denver, CO",CLT,"Charlotte, NC",6
+3482,OO,MCI,"Kansas City, MO",DEN,"Denver, CO",3
+3483,WN,TPA,"Tampa, FL",ORD,"Chicago, IL",5
+3484,OO,BZN,"Bozeman, MT",DEN,"Denver, CO",3
+3486,WN,DTW,"Detroit, MI",BNA,"Nashville, TN",2
+3488,AA,ORD,"Chicago, IL",SFO,"San Francisco, CA",8
+3491,MQ,EWR,"Newark, NJ",ORD,"Chicago, IL",3
+3493,NK,ORD,"Chicago, IL",LAX,"Los Angeles, CA",7
+3498,OH,CLT,"Charlotte, NC",JAX,"Jacksonville, FL",2
+3507,WN,MDW,"Chicago, IL",DEN,"Denver, CO",4
+3511,MQ,PIT,"Pittsburgh, PA",ORD,"Chicago, IL",2
+3512,OH,DCA,"Washington, DC",BNA,"Nashville, TN",3
+3520,DL,ATL,"Atlanta, GA",PIT,"Pittsburgh, PA",3
+3521,AA,CLT,"Charlotte, NC",EWR,"Newark, NJ",3
+3530,UA,DEN,"Denver, CO",MCO,"Orlando, FL",7
+3535,B6,AUS,"Austin, TX",JFK,"New York, NY",7
+3538,NK,MCO,"Orlando, FL",CLT,"Charlotte, NC",2
+3540,NK,AUS,"Austin, TX",LAS,"Las Vegas, NV",5
+3543,AA,PHL,"Philadelphia, PA",BNA,"Nashville, TN",3
+3554,UA,EWR,"Newark, NJ",DEN,"Denver, CO",7
+3565,UA,DEN,"Denver, CO",TUL,"Tulsa, OK",3
+3571,NK,FLL,"Fort Lauderdale, FL",DTW,"Detroit, MI",5
+3574,WN,PHX,"Phoenix, AZ",ORD,"Chicago, IL",6
+3575,UA,SFO,"San Francisco, CA",HNL,"Honolulu, HI",10
+3579,OO,SLC,"Salt Lake City, UT",DEN,"Denver, CO",2
+3582,WN,DCA,"Washington, DC",ATL,"Atlanta, GA",3
+3586,B6,SEA,"Seattle, WA",JFK,"New York, NY",10
+3598,UA,ORD,"Chicago, IL",ATL,"Atlanta, GA",3
+3604,WN,LGA,"New York, NY",MCI,"Kansas City, MO",5
+3607,AA,DFW,"Dallas/Fort Worth, TX",DTW,"Detroit, MI",4
+3608,WN,IND,"Indianapolis, IN",ATL,"Atlanta, GA",2
+3609,QX,SMF,"Sacramento, CA",SEA,"Seattle, WA",3
+3611,DL,ATL,"Atlanta, GA",ECP,"Panama City, FL",1
+3613,DL,CLT,"Charlotte, NC",ATL,"Atlanta, GA",1
+3627,OH,CLT,"Charlotte, NC",ORF,"Norfolk, VA",2
+3628,WN,LAS,"Las Vegas, NV",SEA,"Seattle, WA",4
+3644,UA,OMA,"Omaha, NE",ORD,"Chicago, IL",2
+3651,DL,ORD,"Chicago, IL",SEA,"Seattle, WA",7
+3653,OO,SFO,"San Francisco, CA",SEA,"Seattle, WA",3
+3657,QX,SEA,"Seattle, WA",SLC,"Salt Lake City, UT",3
+3658,DL,SLC,"Salt Lake City, UT",SNA,"Santa Ana, CA",3
+3660,OO,DEN,"Denver, CO",BNA,"Nashville, TN",5
+3662,WN,LAS,"Las Vegas, NV",OAK,"Oakland, CA",2
+3665,OO,DSM,"Des Moines, IA",DEN,"Denver, CO",3
+3668,MQ,SGF,"Springfield, MO",DFW,"Dallas/Fort Worth, TX",2
+3675,DL,SLC,"Salt Lake City, UT",ORD,"Chicago, IL",6
+3679,DL,SEA,"Seattle, WA",PDX,"Portland, OR",1
+3682,AA,CLT,"Charlotte, NC",ORF,"Norfolk, VA",2
+3694,AA,IAH,"Houston, TX",ORD,"Chicago, IL",4
+3695,WN,ATL,"Atlanta, GA",DCA,"Washington, DC",3
+3699,DL,LGA,"New York, NY",FLL,"Fort Lauderdale, FL",5
+3701,AA,PHL,"Philadelphia, PA",FLL,"Fort Lauderdale, FL",4
+3707,AA,JFK,"New York, NY",ORD,"Chicago, IL",3
+3712,NK,TPA,"Tampa, FL",EWR,"Newark, NJ",4
+3714,DL,SJU,"San Juan, PR",JFK,"New York, NY",7
+3718,DL,ATL,"Atlanta, GA",RIC,"Richmond, VA",2
+3719,WN,DEN,"Denver, CO",OKC,"Oklahoma City, OK",2
+3723,YX,JFK,"New York, NY",PIT,"Pittsburgh, PA",2
+3726,AS,DEN,"Denver, CO",SEA,"Seattle, WA",5
+3734,DL,LGA,"New York, NY",BOS,"Boston, MA",1
+3737,G7,EWR,"Newark, NJ",CVG,"Cincinnati, OH",3
+3739,OH,PVD,"Providence, RI",DCA,"Washington, DC",2
+3741,F9,MCO,"Orlando, FL",DTW,"Detroit, MI",4
+3742,F9,LAS,"Las Vegas, NV",IAH,"Houston, TX",5
+3744,WN,BNA,"Nashville, TN",AUS,"Austin, TX",4
+3746,F9,DEN,"Denver, CO",MCO,"Orlando, FL",7
+3753,B6,PHX,"Phoenix, AZ",EWR,"Newark, NJ",9
+3756,DL,SEA,"Seattle, WA",SNA,"Santa Ana, CA",4
+3771,F9,SJU,"San Juan, PR",MCO,"Orlando, FL",5
+3772,WN,MDW,"Chicago, IL",DTW,"Detroit, MI",1
+3777,AS,SEA,"Seattle, WA",SLC,"Salt Lake City, UT",3
+3788,B6,JFK,"New York, NY",SAN,"San Diego, CA",10
+3797,UA,DEN,"Denver, CO",TUS,"Tucson, AZ",3
+3800,UA,BWI,"Baltimore, MD",DEN,"Denver, CO",6
+3801,AA,FLL,"Fort Lauderdale, FL",ORD,"Chicago, IL",5
+3804,YV,ONT,"Ontario, CA",PHX,"Phoenix, AZ",2
+3805,B6,BUF,"Buffalo, NY",JFK,"New York, NY",2
+3813,AA,CLT,"Charlotte, NC",STL,"St. Louis, MO",3
+3818,OH,PHL,"Philadelphia, PA",ATL,"Atlanta, GA",3
+3829,NK,MIA,"Miami, FL",ATL,"Atlanta, GA",3
+3832,B6,FLL,"Fort Lauderdale, FL",JFK,"New York, NY",5
+3847,MQ,ORD,"Chicago, IL",BNA,"Nashville, TN",2
+3849,WN,DEN,"Denver, CO",COS,"Colorado Springs, CO",1
+3854,YX,PHL,"Philadelphia, PA",ORD,"Chicago, IL",3
+3855,OO,DTW,"Detroit, MI",IAD,"Washington, DC",2
+3861,WN,LAS,"Las Vegas, NV",BUR,"Burbank, CA",1
+3871,WN,PDX,"Portland, OR",SJC,"San Jose, CA",3
+3876,G7,ORD,"Chicago, IL",GRB,"Green Bay, WI",1
+3884,UA,LGA,"New York, NY",ORD,"Chicago, IL",3
+3885,WN,PHX,"Phoenix, AZ",SEA,"Seattle, WA",5
+3889,F9,STL,"St. Louis, MO",DEN,"Denver, CO",4
+3892,OO,DEN,"Denver, CO",STL,"St. Louis, MO",4
+3897,YX,JFK,"New York, NY",ORD,"Chicago, IL",3
+3898,DL,ATL,"Atlanta, GA",LEX,"Lexington, KY",2
+3900,UA,ORD,"Chicago, IL",AUS,"Austin, TX",4
+3916,OO,MKE,"Milwaukee, WI",ORD,"Chicago, IL",1
+3917,B6,BOS,"Boston, MA",SFO,"San Francisco, CA",11
+3918,B6,TPA,"Tampa, FL",LGA,"New York, NY",5
+3919,WN,MSY,"New Orleans, LA",DCA,"Washington, DC",4
+3929,F9,LAS,"Las Vegas, NV",BUR,"Burbank, CA",1
+3932,WN,SRQ,"Sarasota/Bradenton, FL",ATL,"Atlanta, GA",2
+3949,MQ,DSM,"Des Moines, IA",ORD,"Chicago, IL",2
+3954,YX,EWR,"Newark, NJ",DTW,"Detroit, MI",2
+3959,YX,DTW,"Detroit, MI",EWR,"Newark, NJ",2
+3960,OO,GRR,"Grand Rapids, MI",ORD,"Chicago, IL",1
+3962,AA,BOS,"Boston, MA",DFW,"Dallas/Fort Worth, TX",7
+3966,AA,LAS,"Las Vegas, NV",PHX,"Phoenix, AZ",2
+3978,WN,ORD,"Chicago, IL",MCO,"Orlando, FL",5
+3984,WN,MCO,"Orlando, FL",PHL,"Philadelphia, PA",4
+3986,UA,DEN,"Denver, CO",BZN,"Bozeman, MT",3
+3988,UA,LAX,"Los Angeles, CA",BOS,"Boston, MA",11
+3989,AA,OKC,"Oklahoma City, OK",DFW,"Dallas/Fort Worth, TX",1
+3990,UA,IAH,"Houston, TX",FLL,"Fort Lauderdale, FL",4
+3998,DL,LAX,"Los Angeles, CA",IAH,"Houston, TX",6
+4002,UA,DEN,"Denver, CO",PHL,"Philadelphia, PA",7
+4013,WN,HNL,"Honolulu, HI",KOA,"Kona, HI",1
+4016,OH,STL,"St. Louis, MO",DCA,"Washington, DC",3
+4019,UA,AUS,"Austin, TX",LAX,"Los Angeles, CA",5
+4025,WN,DEN,"Denver, CO",PDX,"Portland, OR",4
+4047,NK,TPA,"Tampa, FL",BOS,"Boston, MA",5
+4051,B6,MIA,"Miami, FL",JFK,"New York, NY",5
+4052,NK,MCO,"Orlando, FL",MIA,"Miami, FL",1
+4061,MQ,ORD,"Chicago, IL",IAH,"Houston, TX",4
+4062,OH,ATL,"Atlanta, GA",CLT,"Charlotte, NC",1
+4076,NK,ORD,"Chicago, IL",IAH,"Houston, TX",4
+4078,MQ,ORD,"Chicago, IL",EWR,"Newark, NJ",3
+4090,B6,MCO,"Orlando, FL",BDL,"Hartford, CT",5
+4091,UA,ORD,"Chicago, IL",MCI,"Kansas City, MO",2
+4103,YV,IAH,"Houston, TX",MSP,"Minneapolis, MN",5
+4114,DL,LGA,"New York, NY",ATL,"Atlanta, GA",4
+4115,WN,DEN,"Denver, CO",BZN,"Bozeman, MT",3
+4123,WN,BDL,"Hartford, CT",MCO,"Orlando, FL",5
+4125,G7,CMH,"Columbus, OH",ORD,"Chicago, IL",2
+4129,UA,DTW,"Detroit, MI",DEN,"Denver, CO",5
+4130,ZW,ORD,"Chicago, IL",GRB,"Green Bay, WI",1
+4133,DL,MSP,"Minneapolis, MN",SEA,"Seattle, WA",6
+4136,B6,JFK,"New York, NY",LAS,"Las Vegas, NV",9
+4141,9E,EWR,"Newark, NJ",DTW,"Detroit, MI",2
+4148,DL,SEA,"Seattle, WA",JFK,"New York, NY",10
+4157,F9,BOS,"Boston, MA",MCO,"Orlando, FL",5
+4167,WN,MSY,"New Orleans, LA",ATL,"Atlanta, GA",2
+4168,AA,ORD,"Chicago, IL",SNA,"Santa Ana, CA",7
+4178,NK,LAX,"Los Angeles, CA",MSP,"Minneapolis, MN",7
+4182,AS,LAX,"Los Angeles, CA",EWR,"Newark, NJ",10
+4185,NK,IAH,"Houston, TX",MCO,"Orlando, FL",4
+4188,DL,BOS,"Boston, MA",DTW,"Detroit, MI",3
+4191,MQ,ORD,"Chicago, IL",AUS,"Austin, TX",4
+4198,YV,IAH,"Houston, TX",DFW,"Dallas/Fort Worth, TX",1
+4199,AS,SFO,"San Francisco, CA",BOS,"Boston, MA",11
+4204,WN,LAX,"Los Angeles, CA",HNL,"Honolulu, HI",11
+4214,B6,BNA,"Nashville, TN",BOS,"Boston, MA",4
+4215,DL,VPS,"Valparaiso, FL",ATL,"Atlanta, GA",2
+4220,YX,ORD,"Chicago, IL",RDU,"Raleigh/Durham, NC",3
+4222,B6,EWR,"Newark, NJ",LAX,"Los Angeles, CA",10
+4228,WN,BNA,"Nashville, TN",DTW,"Detroit, MI",2
+4233,DL,ATL,"Atlanta, GA",OKC,"Oklahoma City, OK",4
+4236,OO,LAX,"Los Angeles, CA",SMF,"Sacramento, CA",2
+4241,F9,DEN,"Denver, CO",MKE,"Milwaukee, WI",4
+4242,AS,PDX,"Portland, OR",SJC,"San Jose, CA",3
+4247,YV,MSP,"Minneapolis, MN",IAH,"Houston, TX",5
+4252,NK,OAK,"Oakland, CA",LAX,"Los Angeles, CA",2
+4265,YX,EWR,"Newark, NJ",ATL,"Atlanta, GA",3
+4280,OO,RIC,"Richmond, VA",ORD,"Chicago, IL",3
+4289,DL,IAH,"Houston, TX",DTW,"Detroit, MI",5
+4291,UA,IAH,"Houston, TX",MIA,"Miami, FL",4
+4293,AA,LAS,"Las Vegas, NV",JFK,"New York, NY",9
+4295,NK,TPA,"Tampa, FL",DFW,"Dallas/Fort Worth, TX",4
+4300,YV,SAT,"San Antonio, TX",IAH,"Houston, TX",1
+4302,UA,LAS,"Las Vegas, NV",EWR,"Newark, NJ",9
+4303,YV,ORD,"Chicago, IL",STL,"St. Louis, MO",2
+4311,WN,PHX,"Phoenix, AZ",MDW,"Chicago, IL",6
+4317,AA,PHX,"Phoenix, AZ",MSP,"Minneapolis, MN",6
+4322,F9,LAS,"Las Vegas, NV",SNA,"Santa Ana, CA",1
+4324,WN,ATL,"Atlanta, GA",IND,"Indianapolis, IN",2
+4339,B6,BNA,"Nashville, TN",JFK,"New York, NY",4
+4341,WN,RIC,"Richmond, VA",ATL,"Atlanta, GA",2
+4348,WN,ATL,"Atlanta, GA",MDW,"Chicago, IL",3
+4349,QX,RDM,"Bend/Redmond, OR",SEA,"Seattle, WA",1
+4353,WN,DEN,"Denver, CO",ICT,"Wichita, KS",2
+4356,WN,SAN,"San Diego, CA",AUS,"Austin, TX",5
+4368,MQ,CID,"Cedar Rapids/Iowa City, IA",ORD,"Chicago, IL",1
+4379,WN,TUL,"Tulsa, OK",DEN,"Denver, CO",3
+4382,YV,OKC,"Oklahoma City, OK",IAH,"Houston, TX",2
+4383,F9,SJU,"San Juan, PR",MIA,"Miami, FL",5
+4400,WN,ATL,"Atlanta, GA",RDU,"Raleigh/Durham, NC",2
+4420,AA,SLC,"Salt Lake City, UT",ORD,"Chicago, IL",6
+4421,YX,CLE,"Cleveland, OH",JFK,"New York, NY",2
+4424,UA,ABQ,"Albuquerque, NM",DEN,"Denver, CO",2
+4451,YX,JAX,"Jacksonville, FL",JFK,"New York, NY",4
+4462,DL,MSP,"Minneapolis, MN",DFW,"Dallas/Fort Worth, TX",4
+4468,UA,ORD,"Chicago, IL",GRR,"Grand Rapids, MI",1
+4479,MQ,IAH,"Houston, TX",MIA,"Miami, FL",4
+4486,AA,ORD,"Chicago, IL",SEA,"Seattle, WA",7
+4491,OO,ORD,"Chicago, IL",ATL,"Atlanta, GA",3
+4493,OO,LAX,"Los Angeles, CA",SEA,"Seattle, WA",4
+4496,OH,BNA,"Nashville, TN",DCA,"Washington, DC",3
+4503,AS,SEA,"Seattle, WA",SAN,"San Diego, CA",5
+4504,OO,DEN,"Denver, CO",TUS,"Tucson, AZ",3
+4510,AA,ORD,"Chicago, IL",SAN,"San Diego, CA",7
+4514,NK,MIA,"Miami, FL",SJU,"San Juan, PR",5
+4525,PT,RIC,"Richmond, VA",ORD,"Chicago, IL",3
+4531,AA,FLL,"Fort Lauderdale, FL",PHL,"Philadelphia, PA",4
+4539,NK,IAH,"Houston, TX",MIA,"Miami, FL",4
+4541,OH,GSO,"Greensboro/High Point, NC",CLT,"Charlotte, NC",1
+4546,UA,LAX,"Los Angeles, CA",PHX,"Phoenix, AZ",2
+4548,F9,LAS,"Las Vegas, NV",ONT,"Ontario, CA",1
+4574,YX,DCA,"Washington, DC",STL,"St. Louis, MO",3
+4587,DL,IAD,"Washington, DC",ATL,"Atlanta, GA",3
+4589,DL,LAS,"Las Vegas, NV",DTW,"Detroit, MI",7
+4596,YX,ORD,"Chicago, IL",DCA,"Washington, DC",3
+4598,WN,ATL,"Atlanta, GA",CMH,"Columbus, OH",2
+4606,WN,SFO,"San Francisco, CA",SAN,"San Diego, CA",2
+4609,AA,JFK,"New York, NY",MIA,"Miami, FL",5
+4611,WN,TPA,"Tampa, FL",LGA,"New York, NY",5
+4623,WN,ATL,"Atlanta, GA",OKC,"Oklahoma City, OK",4
+4625,OO,AUS,"Austin, TX",SFO,"San Francisco, CA",7
+4635,G7,TVC,"Traverse City, MI",ORD,"Chicago, IL",1
+4636,YX,AUS,"Austin, TX",ORD,"Chicago, IL",4
+4640,MQ,DCA,"Washington, DC",DTW,"Detroit, MI",2
+4661,AA,DFW,"Dallas/Fort Worth, TX",TPA,"Tampa, FL",4
+4670,NK,MCO,"Orlando, FL",DTW,"Detroit, MI",4
+4672,UA,SFO,"San Francisco, CA",PHX,"Phoenix, AZ",3
+4682,F9,ORD,"Chicago, IL",DEN,"Denver, CO",4
+4683,F9,MKE,"Milwaukee, WI",DEN,"Denver, CO",4
+4693,OO,ORD,"Chicago, IL",DCA,"Washington, DC",3
+4695,WN,DEN,"Denver, CO",BOS,"Boston, MA",8
+4697,DL,ATL,"Atlanta, GA",DAL,"Dallas, TX",3
+4701,YV,PHX,"Phoenix, AZ",ONT,"Ontario, CA",2
+4724,UA,LGA,"New York, NY",DEN,"Denver, CO",7
+4736,UA,RIC,"Richmond, VA",ORD,"Chicago, IL",3
+4738,DL,BOS,"Boston, MA",MIA,"Miami, FL",6
+4741,UA,DFW,"Dallas/Fort Worth, TX",IAH,"Houston, TX",1
+4748,AA,ORD,"Chicago, IL",JFK,"New York, NY",3
+4754,NK,EWR,"Newark, NJ",IAH,"Houston, TX",6
+4760,NK,MIA,"Miami, FL",BWI,"Baltimore, MD",4
+4767,MQ,ORD,"Chicago, IL",CLE,"Cleveland, OH",2
+4776,DL,JFK,"New York, NY",MIA,"Miami, FL",5
+4781,OH,CLT,"Charlotte, NC",PIT,"Pittsburgh, PA",2
+4790,F9,MIA,"Miami, FL",ORD,"Chicago, IL",5
+4792,AS,HNL,"Honolulu, HI",SFO,"San Francisco, CA",10
+4803,OO,IAH,"Houston, TX",SLC,"Salt Lake City, UT",5
+4804,DL,LAX,"Los Angeles, CA",PDX,"Portland, OR",4
+4813,NK,IAH,"Houston, TX",LAS,"Las Vegas, NV",5
+4823,AA,DCA,"Washington, DC",BNA,"Nashville, TN",3
+4825,WN,MSP,"Minneapolis, MN",MDW,"Chicago, IL",2
+4831,DL,JFK,"New York, NY",TPA,"Tampa, FL",5
+4835,UA,ATL,"Atlanta, GA",DEN,"Denver, CO",5
+4842,9E,CVG,"Cincinnati, OH",EWR,"Newark, NJ",3
+4847,PT,DAY,"Dayton, OH",ORD,"Chicago, IL",1
+4848,YX,LGA,"New York, NY",STL,"St. Louis, MO",4
+4859,WN,DCA,"Washington, DC",FLL,"Fort Lauderdale, FL",4
+4861,B6,SLC,"Salt Lake City, UT",LAX,"Los Angeles, CA",3
+4866,NK,MIA,"Miami, FL",RDU,"Raleigh/Durham, NC",3
+4871,YX,RDU,"Raleigh/Durham, NC",JFK,"New York, NY",2
+4897,B6,EWR,"Newark, NJ",SFO,"San Francisco, CA",11
+4899,HA,HNL,"Honolulu, HI",SEA,"Seattle, WA",11
+4900,B6,MCO,"Orlando, FL",LGA,"New York, NY",4
+4913,9E,DCA,"Washington, DC",RDU,"Raleigh/Durham, NC",1
+4921,YV,IAH,"Houston, TX",DCA,"Washington, DC",5
+4924,AA,ATL,"Atlanta, GA",CLT,"Charlotte, NC",1
+4927,AA,JFK,"New York, NY",BOS,"Boston, MA",1
+4929,YV,LGA,"New York, NY",IAH,"Houston, TX",6
+4930,OO,SAN,"San Diego, CA",AUS,"Austin, TX",5
+4953,UA,DEN,"Denver, CO",OMA,"Omaha, NE",2
+4959,YX,BOS,"Boston, MA",EWR,"Newark, NJ",1
+4961,B6,BOS,"Boston, MA",CLT,"Charlotte, NC",3
+4980,F9,ORD,"Chicago, IL",MIA,"Miami, FL",5
+4981,F9,ATL,"Atlanta, GA",LAS,"Las Vegas, NV",7
+4989,WN,OAK,"Oakland, CA",SAN,"San Diego, CA",2
+4995,DL,JFK,"New York, NY",LAX,"Los Angeles, CA",10
+5003,B6,CHS,"Charleston, SC",LGA,"New York, NY",3
+5005,B6,LAX,"Los Angeles, CA",JFK,"New York, NY",10
+5007,DL,CLE,"Cleveland, OH",ATL,"Atlanta, GA",3
+5018,OO,DFW,"Dallas/Fort Worth, TX",SEA,"Seattle, WA",7
+5027,YV,IAH,"Houston, TX",AUS,"Austin, TX",1
+5042,AA,EWR,"Newark, NJ",DFW,"Dallas/Fort Worth, TX",6
+5043,WN,DEN,"Denver, CO",MKE,"Milwaukee, WI",4
+5060,WN,SLC,"Salt Lake City, UT",LAS,"Las Vegas, NV",2
+5061,AA,MIA,"Miami, FL",SJU,"San Juan, PR",5
+5072,DL,LAS,"Las Vegas, NV",SEA,"Seattle, WA",4
+5076,OO,DEN,"Denver, CO",MCI,"Kansas City, MO",3
+5080,DL,MSP,"Minneapolis, MN",ORD,"Chicago, IL",2
+5082,B6,JFK,"New York, NY",ATL,"Atlanta, GA",4
+5091,WN,DSM,"Des Moines, IA",DEN,"Denver, CO",3
+5093,UA,DEN,"Denver, CO",BNA,"Nashville, TN",5
+5094,AA,ORD,"Chicago, IL",DEN,"Denver, CO",4
+5100,F9,MCO,"Orlando, FL",ATL,"Atlanta, GA",2
+5103,F9,MIA,"Miami, FL",MCO,"Orlando, FL",1
+5117,YX,ORD,"Chicago, IL",PHL,"Philadelphia, PA",3
+5120,YX,PIT,"Pittsburgh, PA",BOS,"Boston, MA",2
+5121,C5,COS,"Colorado Springs, CO",DEN,"Denver, CO",1
+5126,YV,ORD,"Chicago, IL",DCA,"Washington, DC",3
+5142,AA,PHX,"Phoenix, AZ",BUR,"Burbank, CA",2
+5146,AA,DFW,"Dallas/Fort Worth, TX",EWR,"Newark, NJ",6
+5147,DL,LGA,"New York, NY",IAH,"Houston, TX",6
+5152,WN,AUS,"Austin, TX",MIA,"Miami, FL",5
+5153,F9,DFW,"Dallas/Fort Worth, TX",ATL,"Atlanta, GA",3
+5158,NK,PHL,"Philadelphia, PA",MIA,"Miami, FL",5
+5160,WN,RNO,"Reno, NV",LAX,"Los Angeles, CA",2
+5169,NK,LAS,"Las Vegas, NV",DEN,"Denver, CO",3
+5201,NK,BOS,"Boston, MA",MCO,"Orlando, FL",5
+5206,WN,SEA,"Seattle, WA",SMF,"Sacramento, CA",3
+5214,AA,SAT,"San Antonio, TX",PHX,"Phoenix, AZ",4
+5215,UA,SLC,"Salt Lake City, UT",SFO,"San Francisco, CA",3
+5216,UA,EWR,"Newark, NJ",BNA,"Nashville, TN",3
+5225,DL,BNA,"Nashville, TN",DTW,"Detroit, MI",2
+5231,DL,BOS,"Boston, MA",SFO,"San Francisco, CA",11
+5244,AA,MEM,"Memphis, TN",DFW,"Dallas/Fort Worth, TX",2
+5271,WN,STL,"St. Louis, MO",MCO,"Orlando, FL",4
+5273,WN,STL,"St. Louis, MO",ATL,"Atlanta, GA",2
+5288,HA,LAX,"Los Angeles, CA",HNL,"Honolulu, HI",11
+5297,OH,CLT,"Charlotte, NC",BNA,"Nashville, TN",2
+5302,YV,IAH,"Houston, TX",PHX,"Phoenix, AZ",5
+5324,AS,SFO,"San Francisco, CA",LAX,"Los Angeles, CA",2
+5330,WN,MCI,"Kansas City, MO",LGA,"New York, NY",5
+5334,OO,PHX,"Phoenix, AZ",LAX,"Los Angeles, CA",2
+5339,OO,DTW,"Detroit, MI",EWR,"Newark, NJ",2
+5362,B6,RDU,"Raleigh/Durham, NC",EWR,"Newark, NJ",2
+5364,WN,SLC,"Salt Lake City, UT",LAX,"Los Angeles, CA",3
+5367,F9,MCO,"Orlando, FL",ORD,"Chicago, IL",5
+5368,F9,PDX,"Portland, OR",DEN,"Denver, CO",4
+5373,AA,BUR,"Burbank, CA",PHX,"Phoenix, AZ",2
+5376,WN,DEN,"Denver, CO",SEA,"Seattle, WA",5
+5385,WN,SNA,"Santa Ana, CA",SLC,"Salt Lake City, UT",3
+5388,AA,FLL,"Fort Lauderdale, FL",BOS,"Boston, MA",5
+5389,AA,MCI,"Kansas City, MO",ORD,"Chicago, IL",2
+5404,NK,ATL,"Atlanta, GA",PHL,"Philadelphia, PA",3
+5409,WN,COS,"Colorado Springs, CO",DEN,"Denver, CO",1
+5416,WN,CLT,"Charlotte, NC",BWI,"Baltimore, MD",2
+5417,OO,ORD,"Chicago, IL",CID,"Cedar Rapids/Iowa City, IA",1
+5422,WN,DCA,"Washington, DC",STL,"St. Louis, MO",3
+5431,DL,JFK,"New York, NY",DFW,"Dallas/Fort Worth, TX",6
+5467,WN,DEN,"Denver, CO",BOI,"Boise, ID",3
+5469,OO,DEN,"Denver, CO",SLC,"Salt Lake City, UT",2
+5484,F9,TPA,"Tampa, FL",ATL,"Atlanta, GA",2
+5485,NK,DTW,"Detroit, MI",LAS,"Las Vegas, NV",7
+5487,WN,CLT,"Charlotte, NC",BNA,"Nashville, TN",2
+5490,AA,PHX,"Phoenix, AZ",SFO,"San Francisco, CA",3
+5499,WN,FLL,"Fort Lauderdale, FL",ATL,"Atlanta, GA",3
+5506,9E,MDW,"Chicago, IL",MSP,"Minneapolis, MN",2
+5514,NK,ATL,"Atlanta, GA",BWI,"Baltimore, MD",3
+5517,DL,LGA,"New York, NY",DEN,"Denver, CO",7
+5523,DL,LAX,"Los Angeles, CA",OGG,"Kahului, HI",10
+5526,WN,DEN,"Denver, CO",TUL,"Tulsa, OK",3
+5565,9E,EWR,"Newark, NJ",CVG,"Cincinnati, OH",3
+5571,NK,LAS,"Las Vegas, NV",SAN,"San Diego, CA",2
+5573,DL,MIA,"Miami, FL",LGA,"New York, NY",5
+5581,ZW,TVC,"Traverse City, MI",ORD,"Chicago, IL",1
+5586,B6,LGA,"New York, NY",MCO,"Orlando, FL",4
+5588,WN,LAX,"Los Angeles, CA",RNO,"Reno, NV",2
+5607,C5,DEN,"Denver, CO",ABQ,"Albuquerque, NM",2
+5617,MQ,DFW,"Dallas/Fort Worth, TX",ABQ,"Albuquerque, NM",3
+5618,AA,AUS,"Austin, TX",MCO,"Orlando, FL",4
+5622,NK,MIA,"Miami, FL",EWR,"Newark, NJ",5
+5624,WN,PHX,"Phoenix, AZ",LGB,"Long Beach, CA",2
+5627,NK,LAX,"Los Angeles, CA",ORD,"Chicago, IL",7
+5637,OO,PDX,"Portland, OR",SFO,"San Francisco, CA",3
+5638,WN,ATL,"Atlanta, GA",JAX,"Jacksonville, FL",2
+5639,B6,BOS,"Boston, MA",EWR,"Newark, NJ",1
+5640,F9,PHL,"Philadelphia, PA",CLT,"Charlotte, NC",2
+5644,AA,SNA,"Santa Ana, CA",PHX,"Phoenix, AZ",2
+5651,B6,LAX,"Los Angeles, CA",MIA,"Miami, FL",10
+5652,AA,MCO,"Orlando, FL",ORD,"Chicago, IL",5
+5669,MQ,ORD,"Chicago, IL",ATL,"Atlanta, GA",3
+5674,AS,SEA,"Seattle, WA",BOS,"Boston, MA",10
+5693,OO,DCA,"Washington, DC",ORD,"Chicago, IL",3
+5698,F9,DEN,"Denver, CO",SNA,"Santa Ana, CA",4
+5701,WN,HNL,"Honolulu, HI",LIH,"Lihue, HI",1
+5707,F9,ATL,"Atlanta, GA",MCO,"Orlando, FL",2
+5727,WN,CLT,"Charlotte, NC",STL,"St. Louis, MO",3
+5744,OO,EWR,"Newark, NJ",MSP,"Minneapolis, MN",5
+5748,YX,ORD,"Chicago, IL",BOS,"Boston, MA",4
+5750,UA,LGA,"New York, NY",IAH,"Houston, TX",6
+5755,DL,RDU,"Raleigh/Durham, NC",MCO,"Orlando, FL",3
+5757,YX,JFK,"New York, NY",BOS,"Boston, MA",1
+5776,MQ,SDF,"Louisville, KY",ORD,"Chicago, IL",2
+5783,YX,DTW,"Detroit, MI",LGA,"New York, NY",3
+5805,AA,JFK,"New York, NY",PHX,"Phoenix, AZ",9
+5806,ZW,ORD,"Chicago, IL",TVC,"Traverse City, MI",1
+5810,DL,BOS,"Boston, MA",JFK,"New York, NY",1
+5811,OO,STL,"St. Louis, MO",DEN,"Denver, CO",4
+5813,B6,JFK,"New York, NY",DTW,"Detroit, MI",3
+5814,DL,PBI,"West Palm Beach/Palm Beach, FL",LGA,"New York, NY",5
+5818,UA,IAD,"Washington, DC",DTW,"Detroit, MI",2
+5821,YX,DCA,"Washington, DC",ORD,"Chicago, IL",3
+5822,B6,ORD,"Chicago, IL",JFK,"New York, NY",3
+5826,WN,LGA,"New York, NY",MCO,"Orlando, FL",4
+5829,DL,DFW,"Dallas/Fort Worth, TX",MSP,"Minneapolis, MN",4
+5832,AS,SEA,"Seattle, WA",EWR,"Newark, NJ",10
+5843,NK,MCO,"Orlando, FL",AUS,"Austin, TX",4
+5864,AA,AUS,"Austin, TX",PHX,"Phoenix, AZ",4
+5899,AA,TPA,"Tampa, FL",ORD,"Chicago, IL",5
+5901,B6,JFK,"New York, NY",MIA,"Miami, FL",5
+5902,YV,DTW,"Detroit, MI",IAD,"Washington, DC",2
+5905,OO,BUR,"Burbank, CA",SFO,"San Francisco, CA",2
+5913,UA,SAT,"San Antonio, TX",DEN,"Denver, CO",4
+5919,OO,ORD,"Chicago, IL",MKE,"Milwaukee, WI",1
+5923,UA,ORD,"Chicago, IL",DSM,"Des Moines, IA",2
+5924,AA,JFK,"New York, NY",LAX,"Los Angeles, CA",10
+5929,QX,OAK,"Oakland, CA",SEA,"Seattle, WA",3
+5932,DL,ATL,"Atlanta, GA",CVG,"Cincinnati, OH",2
+5940,OH,JAX,"Jacksonville, FL",CLT,"Charlotte, NC",2
+5943,AS,OGG,"Kahului, HI",LAX,"Los Angeles, CA",10
+5948,YX,DCA,"Washington, DC",EWR,"Newark, NJ",1
+5950,AA,AUS,"Austin, TX",ORD,"Chicago, IL",4
+5965,F9,DEN,"Denver, CO",TPA,"Tampa, FL",7
+5972,DL,SAN,"San Diego, CA",JFK,"New York, NY",10
+5977,AA,DEN,"Denver, CO",ORD,"Chicago, IL",4
+5980,F9,DEN,"Denver, CO",MCI,"Kansas City, MO",3
+6004,F9,SFO,"San Francisco, CA",DEN,"Denver, CO",4
+6013,MQ,CMH,"Columbus, OH",ORD,"Chicago, IL",2
+6022,YV,PHX,"Phoenix, AZ",ABQ,"Albuquerque, NM",2
+6024,OO,ORD,"Chicago, IL",RIC,"Richmond, VA",3
+6042,YX,LGA,"New York, NY",IAH,"Houston, TX",6
+6073,OO,SFO,"San Francisco, CA",AUS,"Austin, TX",7
+6090,WN,DEN,"Denver, CO",ABQ,"Albuquerque, NM",2
+6114,WN,AUS,"Austin, TX",ORD,"Chicago, IL",4
+6131,DL,MSP,"Minneapolis, MN",IAH,"Houston, TX",5
+6134,F9,LAS,"Las Vegas, NV",ATL,"Atlanta, GA",7
+6135,B6,SFO,"San Francisco, CA",BOS,"Boston, MA",11
+6148,AS,SEA,"Seattle, WA",DFW,"Dallas/Fort Worth, TX",7
+6149,MQ,ORD,"Chicago, IL",DSM,"Des Moines, IA",2
+6161,OO,TUS,"Tucson, AZ",DEN,"Denver, CO",3
+6172,AS,PDX,"Portland, OR",PHX,"Phoenix, AZ",5
+6192,OO,SAN,"San Diego, CA",SLC,"Salt Lake City, UT",3
+6202,WN,MSP,"Minneapolis, MN",PHX,"Phoenix, AZ",6
+6209,OH,CLT,"Charlotte, NC",DCA,"Washington, DC",2
+6216,DL,ATL,"Atlanta, GA",HOU,"Houston, TX",3
+6217,9E,RDU,"Raleigh/Durham, NC",DCA,"Washington, DC",1
+6226,UA,ORD,"Chicago, IL",PHL,"Philadelphia, PA",3
+6227,UA,DEN,"Denver, CO",ONT,"Ontario, CA",4
+6253,9E,JFK,"New York, NY",ORD,"Chicago, IL",3
+6256,B6,JFK,"New York, NY",SEA,"Seattle, WA",10
+6261,WN,IAH,"Houston, TX",MCO,"Orlando, FL",4
+6271,UA,SEA,"Seattle, WA",ORD,"Chicago, IL",7
+6273,OO,OKC,"Oklahoma City, OK",IAH,"Houston, TX",2
+6281,DL,SFO,"San Francisco, CA",BOS,"Boston, MA",11
+6284,DL,LGA,"New York, NY",DCA,"Washington, DC",1
+6289,UA,CLT,"Charlotte, NC",EWR,"Newark, NJ",3
+6290,OO,PHX,"Phoenix, AZ",SFO,"San Francisco, CA",3
+6292,ZW,ORD,"Chicago, IL",MSN,"Madison, WI",1
+6299,NK,PHL,"Philadelphia, PA",ATL,"Atlanta, GA",3
+6306,UA,ORD,"Chicago, IL",BWI,"Baltimore, MD",3
+6317,DL,JFK,"New York, NY",SFO,"San Francisco, CA",11
+6328,UA,EWR,"Newark, NJ",SEA,"Seattle, WA",10
+6336,DL,ORD,"Chicago, IL",BOS,"Boston, MA",4
+6365,F9,SFO,"San Francisco, CA",LAS,"Las Vegas, NV",2
+6368,DL,LGA,"New York, NY",MIA,"Miami, FL",5
+6380,AA,DFW,"Dallas/Fort Worth, TX",XNA,"Fayetteville, AR",2
+6409,AA,PHX,"Phoenix, AZ",SLC,"Salt Lake City, UT",3
+6416,YV,DFW,"Dallas/Fort Worth, TX",ORD,"Chicago, IL",4
+6421,WN,ATL,"Atlanta, GA",MKE,"Milwaukee, WI",3
+6424,WN,ATL,"Atlanta, GA",RIC,"Richmond, VA",2
+6425,B6,MIA,"Miami, FL",EWR,"Newark, NJ",5
+6437,OO,MFR,"Medford, OR",SEA,"Seattle, WA",2
+6438,WN,PHL,"Philadelphia, PA",ATL,"Atlanta, GA",3
+6449,F9,PHX,"Phoenix, AZ",SFO,"San Francisco, CA",3
+6525,NK,LAX,"Los Angeles, CA",LAS,"Las Vegas, NV",1
+6526,WN,ATL,"Atlanta, GA",BNA,"Nashville, TN",1
+6531,WN,PVD,"Providence, RI",DCA,"Washington, DC",2
+6534,NK,FLL,"Fort Lauderdale, FL",BOS,"Boston, MA",5
+6551,F9,DEN,"Denver, CO",IND,"Indianapolis, IN",4
+6558,WN,DEN,"Denver, CO",ONT,"Ontario, CA",4
+6572,AA,AUS,"Austin, TX",DEN,"Denver, CO",4
+6589,DL,JFK,"New York, NY",FLL,"Fort Lauderdale, FL",5
+6619,YX,PIT,"Pittsburgh, PA",ORD,"Chicago, IL",2
+6627,B6,SJU,"San Juan, PR",FLL,"Fort Lauderdale, FL",5
+6664,YX,MSP,"Minneapolis, MN",DCA,"Washington, DC",4
+6677,QX,LAS,"Las Vegas, NV",LAX,"Los Angeles, CA",1
+6679,UA,ORD,"Chicago, IL",RDU,"Raleigh/Durham, NC",3
+6681,YX,ATL,"Atlanta, GA",ORD,"Chicago, IL",3
+6691,NK,DEN,"Denver, CO",IAH,"Houston, TX",4
+6693,AA,MCO,"Orlando, FL",CLT,"Charlotte, NC",2
+6694,F9,PHX,"Phoenix, AZ",SMF,"Sacramento, CA",3
+6703,F9,BWI,"Baltimore, MD",MIA,"Miami, FL",4
+6738,NK,FLL,"Fort Lauderdale, FL",SJU,"San Juan, PR",5
+6747,WN,BOS,"Boston, MA",BNA,"Nashville, TN",4
+6784,WN,LAX,"Los Angeles, CA",ABQ,"Albuquerque, NM",3
+6789,B6,PBI,"West Palm Beach/Palm Beach, FL",LGA,"New York, NY",5
+6790,9E,DTW,"Detroit, MI",MDW,"Chicago, IL",1
+6795,AA,EWR,"Newark, NJ",ORD,"Chicago, IL",3
+6812,WN,LAS,"Las Vegas, NV",IAH,"Houston, TX",5
+6816,AA,DEN,"Denver, CO",PHL,"Philadelphia, PA",7
+6827,NK,DTW,"Detroit, MI",LAX,"Los Angeles, CA",8
+6832,UA,BOS,"Boston, MA",LAX,"Los Angeles, CA",11
+6840,C5,DEN,"Denver, CO",TUL,"Tulsa, OK",3
+6858,UA,RDU,"Raleigh/Durham, NC",ORD,"Chicago, IL",3
+6867,AS,LAX,"Los Angeles, CA",IAD,"Washington, DC",10
+6870,AA,STL,"St. Louis, MO",LGA,"New York, NY",4
+6907,MQ,ORD,"Chicago, IL",MSP,"Minneapolis, MN",2
+6915,F9,LAS,"Las Vegas, NV",DEN,"Denver, CO",3
+6919,UA,DEN,"Denver, CO",BOI,"Boise, ID",3
+6927,UA,DEN,"Denver, CO",SAT,"San Antonio, TX",4
+6955,WN,PHX,"Phoenix, AZ",MSP,"Minneapolis, MN",6
+6960,OO,SAN,"San Diego, CA",SMF,"Sacramento, CA",2
+6965,YX,BNA,"Nashville, TN",ORD,"Chicago, IL",2
+6968,NK,LAS,"Las Vegas, NV",PDX,"Portland, OR",4
+7000,B6,RSW,"Fort Myers, FL",EWR,"Newark, NJ",5
+7005,UA,ORD,"Chicago, IL",RIC,"Richmond, VA",3
+7012,MQ,ORD,"Chicago, IL",CMH,"Columbus, OH",2
+7045,WN,ATL,"Atlanta, GA",BWI,"Baltimore, MD",3
+7048,NK,EWR,"Newark, NJ",ATL,"Atlanta, GA",3
+7049,MQ,ORD,"Chicago, IL",SDF,"Louisville, KY",2
+7058,DL,DTW,"Detroit, MI",PHL,"Philadelphia, PA",2
+7101,WN,ATL,"Atlanta, GA",CLE,"Cleveland, OH",3
+7107,QX,SNA,"Santa Ana, CA",SFO,"San Francisco, CA",2
+7109,YX,ORD,"Chicago, IL",PIT,"Pittsburgh, PA",2
+7121,B6,LAS,"Las Vegas, NV",JFK,"New York, NY",9
+7123,OO,IAD,"Washington, DC",DTW,"Detroit, MI",2
+7129,YX,RDU,"Raleigh/Durham, NC",ORD,"Chicago, IL",3
+7149,OO,SLC,"Salt Lake City, UT",ORD,"Chicago, IL",6
+7158,B6,PIT,"Pittsburgh, PA",BOS,"Boston, MA",2
+7170,QX,LAX,"Los Angeles, CA",LAS,"Las Vegas, NV",1
+7176,NK,BNA,"Nashville, TN",MCO,"Orlando, FL",3
+7185,F9,DSM,"Des Moines, IA",DEN,"Denver, CO",3
+7198,UA,ORD,"Chicago, IL",SEA,"Seattle, WA",7
+7202,F9,LAS,"Las Vegas, NV",AUS,"Austin, TX",5
+7206,OO,ATL,"Atlanta, GA",IAH,"Houston, TX",3
+7245,F9,SNA,"Santa Ana, CA",DEN,"Denver, CO",4
+7246,UA,EWR,"Newark, NJ",CLT,"Charlotte, NC",3
+7256,PT,GSP,"Greer, SC",CLT,"Charlotte, NC",1
+7258,WN,IAH,"Houston, TX",DEN,"Denver, CO",4
+7277,B6,BOS,"Boston, MA",BNA,"Nashville, TN",4
+7281,B6,MCO,"Orlando, FL",LAX,"Los Angeles, CA",9
+7283,OH,CLT,"Charlotte, NC",CHS,"Charleston, SC",1
+7289,NK,MCO,"Orlando, FL",BNA,"Nashville, TN",3
+7304,AA,ORD,"Chicago, IL",RDU,"Raleigh/Durham, NC",3
+7306,OO,IAH,"Houston, TX",DFW,"Dallas/Fort Worth, TX",1
+7319,MQ,ATL,"Atlanta, GA",CLT,"Charlotte, NC",1
+7326,AS,PHX,"Phoenix, AZ",PDX,"Portland, OR",5
+7373,DL,LAX,"Los Angeles, CA",DFW,"Dallas/Fort Worth, TX",5
+7377,OO,CMH,"Columbus, OH",ORD,"Chicago, IL",2
+7385,C5,DEN,"Denver, CO",ICT,"Wichita, KS",2
+7390,9E,EWR,"Newark, NJ",RDU,"Raleigh/Durham, NC",2
+7401,DL,DTW,"Detroit, MI",IAH,"Houston, TX",5
+7405,YV,PHX,"Phoenix, AZ",LGB,"Long Beach, CA",2
+7408,WN,PHX,"Phoenix, AZ",IAH,"Houston, TX",5
+7413,WN,SAT,"San Antonio, TX",PHX,"Phoenix, AZ",4
+7446,OO,DEN,"Denver, CO",CLT,"Charlotte, NC",6
+7450,NK,DFW,"Dallas/Fort Worth, TX",ORD,"Chicago, IL",4
+7457,MQ,TVC,"Traverse City, MI",ORD,"Chicago, IL",1
+7467,WN,ATL,"Atlanta, GA",LIT,"Little Rock, AR",2
+7491,DL,MDW,"Chicago, IL",ATL,"Atlanta, GA",3
+7504,NK,ATL,"Atlanta, GA",IAH,"Houston, TX",3
+7509,DL,LAX,"Los Angeles, CA",LAS,"Las Vegas, NV",1
+7520,UA,DEN,"Denver, CO",STL,"St. Louis, MO",4
+7542,OO,MSP,"Minneapolis, MN",IAH,"Houston, TX",5
+7556,UA,ORD,"Chicago, IL",MSN,"Madison, WI",1
+7577,F9,DEN,"Denver, CO",CLT,"Charlotte, NC",6
+7579,UA,DCA,"Washington, DC",IAH,"Houston, TX",5
+7584,F9,CLT,"Charlotte, NC",MCO,"Orlando, FL",2
+7591,YV,CLT,"Charlotte, NC",IAH,"Houston, TX",4
+7603,F9,MCO,"Orlando, FL",STL,"St. Louis, MO",4
+7610,OO,ABQ,"Albuquerque, NM",DEN,"Denver, CO",2
+7613,9E,CAE,"Columbia, SC",ATL,"Atlanta, GA",1
+7615,C5,OKC,"Oklahoma City, OK",IAH,"Houston, TX",2
+7631,WN,MCO,"Orlando, FL",BDL,"Hartford, CT",5
+7634,YX,PIT,"Pittsburgh, PA",JFK,"New York, NY",2
+7671,YX,BOS,"Boston, MA",PIT,"Pittsburgh, PA",2
+7673,NK,TPA,"Tampa, FL",ORD,"Chicago, IL",5
+7675,AA,HNL,"Honolulu, HI",LAX,"Los Angeles, CA",11
+7681,UA,DEN,"Denver, CO",SLC,"Salt Lake City, UT",2
+7687,OO,ICT,"Wichita, KS",DEN,"Denver, CO",2
+7732,OH,DCA,"Washington, DC",DTW,"Detroit, MI",2
+7735,F9,MIA,"Miami, FL",SJU,"San Juan, PR",5
+7748,G4,LAS,"Las Vegas, NV",RNO,"Reno, NV",2
+7765,OO,DEN,"Denver, CO",SAT,"San Antonio, TX",4
+7766,DL,SLC,"Salt Lake City, UT",DFW,"Dallas/Fort Worth, TX",4
+7776,YX,MCI,"Kansas City, MO",ORD,"Chicago, IL",2
+7804,WN,DTW,"Detroit, MI",DEN,"Denver, CO",5
+7843,9E,RDU,"Raleigh/Durham, NC",LGA,"New York, NY",2
+7847,MQ,GRR,"Grand Rapids, MI",ORD,"Chicago, IL",1
+7855,F9,ATL,"Atlanta, GA",MSY,"New Orleans, LA",2
+7868,F9,MCO,"Orlando, FL",MSY,"New Orleans, LA",3
+7870,WN,SFO,"San Francisco, CA",DEN,"Denver, CO",4
+7878,UA,SAT,"San Antonio, TX",IAH,"Houston, TX",1
+7924,DL,DCA,"Washington, DC",LGA,"New York, NY",1
+7957,G7,GRB,"Green Bay, WI",ORD,"Chicago, IL",1
+7991,NK,RSW,"Fort Myers, FL",ORD,"Chicago, IL",5
+8000,F9,RDU,"Raleigh/Durham, NC",MCO,"Orlando, FL",3
+8005,YV,PHX,"Phoenix, AZ",SLC,"Salt Lake City, UT",3
+8018,OO,ORD,"Chicago, IL",GRB,"Green Bay, WI",1
+8033,F9,MIA,"Miami, FL",EWR,"Newark, NJ",5
+8040,F9,SAT,"San Antonio, TX",DEN,"Denver, CO",4
+8051,YV,IAD,"Washington, DC",ATL,"Atlanta, GA",3
+8057,F9,SEA,"Seattle, WA",DEN,"Denver, CO",5
+8063,DL,IAH,"Houston, TX",SLC,"Salt Lake City, UT",5
+8067,F9,SLC,"Salt Lake City, UT",PHX,"Phoenix, AZ",3
+8074,F9,PHX,"Phoenix, AZ",SAN,"San Diego, CA",2
+8081,AA,ATL,"Atlanta, GA",ORD,"Chicago, IL",3
+8082,MQ,AUS,"Austin, TX",DFW,"Dallas/Fort Worth, TX",1
+8090,DL,LGA,"New York, NY",BNA,"Nashville, TN",4
+8136,MQ,STL,"St. Louis, MO",ORD,"Chicago, IL",2
+8137,WN,ORD,"Chicago, IL",RSW,"Fort Myers, FL",5
+8144,QX,SEA,"Seattle, WA",ANC,"Anchorage, AK",6
+8158,UA,ORD,"Chicago, IL",OMA,"Omaha, NE",2
+8160,UA,MSP,"Minneapolis, MN",DEN,"Denver, CO",3
+8164,OO,DEN,"Denver, CO",OMA,"Omaha, NE",2
+8168,OO,DCA,"Washington, DC",IAH,"Houston, TX",5
+8172,B6,BOS,"Boston, MA",PIT,"Pittsburgh, PA",2
+8195,OO,PHX,"Phoenix, AZ",IAH,"Houston, TX",5
+8220,NK,IAH,"Houston, TX",DEN,"Denver, CO",4
+8225,DL,SLC,"Salt Lake City, UT",JFK,"New York, NY",8
+8245,F9,EWR,"Newark, NJ",MIA,"Miami, FL",5
+8264,AA,MIA,"Miami, FL",DEN,"Denver, CO",7
+8265,DL,LGA,"New York, NY",MCO,"Orlando, FL",4
+8269,AS,SAN,"San Diego, CA",JFK,"New York, NY",10
+8278,UA,RDU,"Raleigh/Durham, NC",EWR,"Newark, NJ",2
+8279,F9,LAS,"Las Vegas, NV",OAK,"Oakland, CA",2
+8281,DL,ORD,"Chicago, IL",SLC,"Salt Lake City, UT",6
+8288,MQ,ATL,"Atlanta, GA",MIA,"Miami, FL",3
+8300,ZW,ORD,"Chicago, IL",GRR,"Grand Rapids, MI",1
+8301,WN,DEN,"Denver, CO",IAD,"Washington, DC",6
+8305,UA,EWR,"Newark, NJ",ATL,"Atlanta, GA",3
+8311,OO,ORD,"Chicago, IL",OMA,"Omaha, NE",2
+8322,WN,LAX,"Los Angeles, CA",SJC,"San Jose, CA",2
+8349,NK,EWR,"Newark, NJ",LAS,"Las Vegas, NV",9
+8371,OO,MKE,"Milwaukee, WI",DEN,"Denver, CO",4
+8379,WN,LGA,"New York, NY",BNA,"Nashville, TN",4
+8395,AS,SFO,"San Francisco, CA",HNL,"Honolulu, HI",10
+8409,F9,BOS,"Boston, MA",MIA,"Miami, FL",6
+8413,MQ,DFW,"Dallas/Fort Worth, TX",ICT,"Wichita, KS",2
+8418,QX,PHX,"Phoenix, AZ",SFO,"San Francisco, CA",3
+8419,NK,MCO,"Orlando, FL",STL,"St. Louis, MO",4
+8420,WN,PHX,"Phoenix, AZ",SAT,"San Antonio, TX",4
+8432,B6,DFW,"Dallas/Fort Worth, TX",JFK,"New York, NY",6
+8461,OO,AUS,"Austin, TX",SAN,"San Diego, CA",5
+8486,OO,DFW,"Dallas/Fort Worth, TX",DEN,"Denver, CO",3
+8515,OO,ORD,"Chicago, IL",AUS,"Austin, TX",4
+8532,PT,CLT,"Charlotte, NC",TYS,"Knoxville, TN",1
+8545,DL,ORD,"Chicago, IL",DTW,"Detroit, MI",1
+8553,YX,MSP,"Minneapolis, MN",LGA,"New York, NY",5
+8578,B6,DTW,"Detroit, MI",JFK,"New York, NY",3
+8587,WN,MCO,"Orlando, FL",RDU,"Raleigh/Durham, NC",3
+8591,YV,ORD,"Chicago, IL",DFW,"Dallas/Fort Worth, TX",4
+8593,F9,LAS,"Las Vegas, NV",ORD,"Chicago, IL",7
+8602,OO,BWI,"Baltimore, MD",ORD,"Chicago, IL",3
+8639,F9,PHL,"Philadelphia, PA",ATL,"Atlanta, GA",3
+8654,QX,OAK,"Oakland, CA",PDX,"Portland, OR",3
+8657,9E,LGA,"New York, NY",BNA,"Nashville, TN",4
+8695,MQ,ORD,"Chicago, IL",MSN,"Madison, WI",1
+8726,UA,SFO,"San Francisco, CA",JFK,"New York, NY",11
+8749,QX,SLC,"Salt Lake City, UT",SEA,"Seattle, WA",3
+8767,ZW,CVG,"Cincinnati, OH",ORD,"Chicago, IL",2
+8768,UA,DEN,"Denver, CO",PDX,"Portland, OR",4
+8781,WN,IAD,"Washington, DC",ATL,"Atlanta, GA",3
+8793,WN,FLL,"Fort Lauderdale, FL",DCA,"Washington, DC",4
+8794,UA,ORD,"Chicago, IL",SLC,"Salt Lake City, UT",6
+8796,G7,ORD,"Chicago, IL",PIT,"Pittsburgh, PA",2
+8797,F9,MSY,"New Orleans, LA",DEN,"Denver, CO",5
+8813,YV,IAD,"Washington, DC",CLT,"Charlotte, NC",2
+8818,NK,RDU,"Raleigh/Durham, NC",MIA,"Miami, FL",3
+8827,F9,MIA,"Miami, FL",BOS,"Boston, MA",6
+8847,NK,SMF,"Sacramento, CA",LAS,"Las Vegas, NV",2
+8848,G4,SNA,"Santa Ana, CA",LAS,"Las Vegas, NV",1
+8850,F9,MIA,"Miami, FL",ATL,"Atlanta, GA",3
+8856,F9,ATL,"Atlanta, GA",BWI,"Baltimore, MD",3
+8869,F9,TUL,"Tulsa, OK",DEN,"Denver, CO",3
+8874,DL,BNA,"Nashville, TN",LGA,"New York, NY",4
+8877,AA,DFW,"Dallas/Fort Worth, TX",JFK,"New York, NY",6
+8883,DL,HNL,"Honolulu, HI",SEA,"Seattle, WA",11
+8891,QX,SFO,"San Francisco, CA",PHX,"Phoenix, AZ",3
+8920,B6,FLL,"Fort Lauderdale, FL",ATL,"Atlanta, GA",3
+8922,F9,DTW,"Detroit, MI",LAS,"Las Vegas, NV",7
+8931,NK,PDX,"Portland, OR",LAS,"Las Vegas, NV",4
+8933,UA,SLC,"Salt Lake City, UT",ORD,"Chicago, IL",6
+8941,NK,LGA,"New York, NY",MCO,"Orlando, FL",4
+8966,WN,MEM,"Memphis, TN",ATL,"Atlanta, GA",2
+9030,F9,LAS,"Las Vegas, NV",PDX,"Portland, OR",4
+9046,WN,LIT,"Little Rock, AR",ATL,"Atlanta, GA",2
+9050,G7,DCA,"Washington, DC",ORD,"Chicago, IL",3
+9066,MQ,DFW,"Dallas/Fort Worth, TX",OKC,"Oklahoma City, OK",1
+9092,UA,BUF,"Buffalo, NY",ORD,"Chicago, IL",2
+9111,OO,IAH,"Houston, TX",DTW,"Detroit, MI",5
+9115,B6,EWR,"Newark, NJ",RDU,"Raleigh/Durham, NC",2
+9117,F9,RDU,"Raleigh/Durham, NC",MIA,"Miami, FL",3
+9125,WN,ATL,"Atlanta, GA",MEM,"Memphis, TN",2
+9163,NK,ORD,"Chicago, IL",MCO,"Orlando, FL",5
+9184,NK,CLE,"Cleveland, OH",ATL,"Atlanta, GA",3
+9191,UA,IAH,"Houston, TX",SLC,"Salt Lake City, UT",5
+9194,OO,SEA,"Seattle, WA",DFW,"Dallas/Fort Worth, TX",7
+9243,B6,MSP,"Minneapolis, MN",BOS,"Boston, MA",5
+9259,WN,MCO,"Orlando, FL",ORD,"Chicago, IL",5
+9273,F9,OMA,"Omaha, NE",DEN,"Denver, CO",2
+9280,9E,BUF,"Buffalo, NY",JFK,"New York, NY",2
+9319,AA,PHX,"Phoenix, AZ",ABQ,"Albuquerque, NM",2
+9330,NK,IAH,"Houston, TX",LAX,"Los Angeles, CA",6
+9347,MQ,TUL,"Tulsa, OK",DFW,"Dallas/Fort Worth, TX",1
+9364,NK,AUS,"Austin, TX",LAX,"Los Angeles, CA",5
+9389,F9,OKC,"Oklahoma City, OK",DEN,"Denver, CO",2
+9420,WN,ATL,"Atlanta, GA",PBI,"West Palm Beach/Palm Beach, FL",3
+9445,DL,DFW,"Dallas/Fort Worth, TX",LGA,"New York, NY",6
+9454,C5,TUL,"Tulsa, OK",DEN,"Denver, CO",3
+9467,F9,SEA,"Seattle, WA",LAS,"Las Vegas, NV",4
+9493,DL,LIT,"Little Rock, AR",ATL,"Atlanta, GA",2
+9495,WN,MCO,"Orlando, FL",DEN,"Denver, CO",7
+9511,DL,PHL,"Philadelphia, PA",DTW,"Detroit, MI",2
+9514,YX,EWR,"Newark, NJ",MSP,"Minneapolis, MN",5
+9527,AA,ORD,"Chicago, IL",BNA,"Nashville, TN",2
+9536,NK,MIA,"Miami, FL",IAH,"Houston, TX",4
+9556,NK,MCO,"Orlando, FL",MSY,"New Orleans, LA",3
+9602,DL,DFW,"Dallas/Fort Worth, TX",LAX,"Los Angeles, CA",5
+9612,WN,SEA,"Seattle, WA",DEN,"Denver, CO",5
+9618,B6,MIA,"Miami, FL",LAX,"Los Angeles, CA",10
+9633,9E,PHL,"Philadelphia, PA",DTW,"Detroit, MI",2
+9700,OH,PIT,"Pittsburgh, PA",CLT,"Charlotte, NC",2
+9788,YX,ORD,"Chicago, IL",STL,"St. Louis, MO",2
+9797,YX,CLE,"Cleveland, OH",ORD,"Chicago, IL",2
+9802,MQ,ELP,"El Paso, TX",DFW,"Dallas/Fort Worth, TX",3
+9839,G4,RNO,"Reno, NV",LAS,"Las Vegas, NV",2
+9880,YX,ORD,"Chicago, IL",BWI,"Baltimore, MD",3
+9896,YX,ATL,"Atlanta, GA",CLT,"Charlotte, NC",1
+9897,YX,CLT,"Charlotte, NC",RIC,"Richmond, VA",2
+9903,ZW,MSN,"Madison, WI",ORD,"Chicago, IL",1
+9922,9E,JFK,"New York, NY",PIT,"Pittsburgh, PA",2
+9936,G7,EWR,"Newark, NJ",RDU,"Raleigh/Durham, NC",2
+9940,YV,ATL,"Atlanta, GA",IAD,"Washington, DC",3
+9942,WN,SJC,"San Jose, CA",SEA,"Seattle, WA",3
+9985,YV,PHX,"Phoenix, AZ",SJC,"San Jose, CA",3
+10005,OH,LIT,"Little Rock, AR",DFW,"Dallas/Fort Worth, TX",2
+10016,F9,ATL,"Atlanta, GA",PHL,"Philadelphia, PA",3
+10025,9E,MSP,"Minneapolis, MN",MDW,"Chicago, IL",2
+10091,NK,LGA,"New York, NY",DTW,"Detroit, MI",3
+10093,NK,IAH,"Houston, TX",MSY,"New Orleans, LA",2
+10127,WN,CMH,"Columbus, OH",ATL,"Atlanta, GA",2
+10159,AS,SEA,"Seattle, WA",ATL,"Atlanta, GA",9
+10189,YV,ORD,"Chicago, IL",ATL,"Atlanta, GA",3
+10202,OO,ORD,"Chicago, IL",MSN,"Madison, WI",1
+10245,NK,MSY,"New Orleans, LA",ATL,"Atlanta, GA",2
+10296,AA,ORD,"Chicago, IL",EWR,"Newark, NJ",3
+10306,YX,IAH,"Houston, TX",LGA,"New York, NY",6
+10357,UA,LAX,"Los Angeles, CA",OGG,"Kahului, HI",10
+10364,AA,BOS,"Boston, MA",FLL,"Fort Lauderdale, FL",5
+10376,WN,SEA,"Seattle, WA",LAS,"Las Vegas, NV",4
+10377,F9,DFW,"Dallas/Fort Worth, TX",PHX,"Phoenix, AZ",4
+10397,WN,SLC,"Salt Lake City, UT",SNA,"Santa Ana, CA",3
+10417,WN,DEN,"Denver, CO",DSM,"Des Moines, IA",3
+10467,AA,ONT,"Ontario, CA",PHX,"Phoenix, AZ",2
+10492,MQ,RIC,"Richmond, VA",ORD,"Chicago, IL",3
+10495,AS,SEA,"Seattle, WA",MSP,"Minneapolis, MN",6
+10522,UA,ICT,"Wichita, KS",DEN,"Denver, CO",2
+10534,UA,BWI,"Baltimore, MD",ORD,"Chicago, IL",3
+10537,MQ,DTW,"Detroit, MI",DCA,"Washington, DC",2
+10592,WN,LAX,"Los Angeles, CA",OGG,"Kahului, HI",10
+10659,AA,ORD,"Chicago, IL",IAH,"Houston, TX",4
+10726,NK,EWR,"Newark, NJ",TPA,"Tampa, FL",4
+10740,F9,LAS,"Las Vegas, NV",CLT,"Charlotte, NC",8
+10745,G7,OMA,"Omaha, NE",ORD,"Chicago, IL",2
+10756,WN,DCA,"Washington, DC",TPA,"Tampa, FL",4
+10775,NK,BUR,"Burbank, CA",LAS,"Las Vegas, NV",1
+10793,OO,ORD,"Chicago, IL",CLT,"Charlotte, NC",3
+10799,MQ,MSN,"Madison, WI",ORD,"Chicago, IL",1
+10811,B6,BOS,"Boston, MA",DFW,"Dallas/Fort Worth, TX",7
+10850,NK,EWR,"Newark, NJ",MIA,"Miami, FL",5
+10899,YX,CLT,"Charlotte, NC",PIT,"Pittsburgh, PA",2
+10920,YV,AUS,"Austin, TX",IAH,"Houston, TX",1
+10930,UA,DEN,"Denver, CO",MIA,"Miami, FL",7
+10938,NK,TPA,"Tampa, FL",LGA,"New York, NY",5
+10942,NK,EWR,"Newark, NJ",RSW,"Fort Myers, FL",5
+11025,F9,DFW,"Dallas/Fort Worth, TX",MCO,"Orlando, FL",4
+11065,DL,EWR,"Newark, NJ",MSP,"Minneapolis, MN",5
+11073,OO,IAH,"Houston, TX",LAX,"Los Angeles, CA",6
+11078,UA,DSM,"Des Moines, IA",DEN,"Denver, CO",3
+11081,UA,ORD,"Chicago, IL",CVG,"Cincinnati, OH",2
+11103,OO,DEN,"Denver, CO",DSM,"Des Moines, IA",3
+11104,UA,LAX,"Los Angeles, CA",AUS,"Austin, TX",5
+11130,AA,ATL,"Atlanta, GA",PHL,"Philadelphia, PA",3
+11157,B6,DEN,"Denver, CO",BOS,"Boston, MA",8
+11160,AA,DCA,"Washington, DC",MSY,"New Orleans, LA",4
+11198,YX,CLT,"Charlotte, NC",BNA,"Nashville, TN",2
+11201,B6,FLL,"Fort Lauderdale, FL",SJU,"San Juan, PR",5
+11236,OO,ORD,"Chicago, IL",CMH,"Columbus, OH",2
+11290,DL,MCO,"Orlando, FL",LAX,"Los Angeles, CA",9
+11322,OO,DSM,"Des Moines, IA",ORD,"Chicago, IL",2
+11349,AS,BOS,"Boston, MA",SFO,"San Francisco, CA",11
+11354,WN,DEN,"Denver, CO",MIA,"Miami, FL",7
+11411,AA,SLC,"Salt Lake City, UT",PHX,"Phoenix, AZ",3
+11451,F9,MCO,"Orlando, FL",BNA,"Nashville, TN",3
+11480,YV,MSY,"New Orleans, LA",IAH,"Houston, TX",2
+11535,B6,SAN,"San Diego, CA",JFK,"New York, NY",10
+11551,MQ,ORD,"Chicago, IL",SLC,"Salt Lake City, UT",6
+11577,NK,PHX,"Phoenix, AZ",DTW,"Detroit, MI",7
+11588,OO,PHX,"Phoenix, AZ",SAT,"San Antonio, TX",4
+11628,AA,JFK,"New York, NY",LAS,"Las Vegas, NV",9
+11629,B6,TPA,"Tampa, FL",EWR,"Newark, NJ",4
+11666,B6,SJU,"San Juan, PR",EWR,"Newark, NJ",7
+11684,OH,STL,"St. Louis, MO",CLT,"Charlotte, NC",3
+11694,F9,ATL,"Atlanta, GA",EWR,"Newark, NJ",3
+11731,WN,PDX,"Portland, OR",LAS,"Las Vegas, NV",4
+11743,DL,BOS,"Boston, MA",FLL,"Fort Lauderdale, FL",5
+11765,OO,IAH,"Houston, TX",ATL,"Atlanta, GA",3
+11771,OH,DCA,"Washington, DC",RDU,"Raleigh/Durham, NC",1
+11782,B6,LAS,"Las Vegas, NV",EWR,"Newark, NJ",9
+11844,WN,PHL,"Philadelphia, PA",BNA,"Nashville, TN",3
+11852,MQ,MIA,"Miami, FL",IAH,"Houston, TX",4
+11860,WN,DTW,"Detroit, MI",MDW,"Chicago, IL",1
+11881,QX,SJC,"San Jose, CA",LAX,"Los Angeles, CA",2
+11895,OO,ATL,"Atlanta, GA",DEN,"Denver, CO",5
+11901,WN,ORD,"Chicago, IL",LAS,"Las Vegas, NV",7
+11955,YV,ORD,"Chicago, IL",OMA,"Omaha, NE",2
+12033,AS,LAX,"Los Angeles, CA",AUS,"Austin, TX",5
+12050,DL,SEA,"Seattle, WA",BOS,"Boston, MA",10
+12060,OO,ORD,"Chicago, IL",CLE,"Cleveland, OH",2
+12100,B6,LAX,"Los Angeles, CA",AUS,"Austin, TX",5
+12120,MQ,MFE,"Mission/McAllen/Edinburg, TX",DFW,"Dallas/Fort Worth, TX",2
+12129,OO,IAH,"Houston, TX",MSP,"Minneapolis, MN",5
+12133,UA,EWR,"Newark, NJ",MSP,"Minneapolis, MN",5
+12140,NK,LAX,"Los Angeles, CA",DFW,"Dallas/Fort Worth, TX",5
+12178,OH,CAE,"Columbia, SC",CLT,"Charlotte, NC",1
+12290,NK,SNA,"Santa Ana, CA",OAK,"Oakland, CA",2
+12299,NK,TPA,"Tampa, FL",ATL,"Atlanta, GA",2
+12306,F9,MCO,"Orlando, FL",LGA,"New York, NY",4
+12315,F9,DEN,"Denver, CO",ABQ,"Albuquerque, NM",2
+12408,UA,IAH,"Houston, TX",CLT,"Charlotte, NC",4
+12412,PT,DTW,"Detroit, MI",PHL,"Philadelphia, PA",2
+12440,YV,DSM,"Des Moines, IA",ORD,"Chicago, IL",2
+12477,MQ,BWI,"Baltimore, MD",ORD,"Chicago, IL",3
+12537,UA,CLT,"Charlotte, NC",IAH,"Houston, TX",4
+12540,OO,IAH,"Houston, TX",PHX,"Phoenix, AZ",5
+12548,9E,LGA,"New York, NY",CMH,"Columbus, OH",2
+12576,HA,HNL,"Honolulu, HI",SFO,"San Francisco, CA",10
+12583,AA,BNA,"Nashville, TN",DCA,"Washington, DC",3
+12693,YX,IAD,"Washington, DC",CLT,"Charlotte, NC",2
+12737,NK,MSP,"Minneapolis, MN",PHX,"Phoenix, AZ",6
+12744,DL,IAH,"Houston, TX",MSP,"Minneapolis, MN",5
+12769,B6,PHX,"Phoenix, AZ",JFK,"New York, NY",9
+12778,ZW,ORD,"Chicago, IL",BUF,"Buffalo, NY",2
+12800,NK,ATL,"Atlanta, GA",MSP,"Minneapolis, MN",4
+12855,F9,ATL,"Atlanta, GA",DFW,"Dallas/Fort Worth, TX",3
+12863,UA,COS,"Colorado Springs, CO",DEN,"Denver, CO",1
+12934,YX,CLT,"Charlotte, NC",ATL,"Atlanta, GA",1
+12952,NK,LGA,"New York, NY",DFW,"Dallas/Fort Worth, TX",6
+13048,MQ,CVG,"Cincinnati, OH",ORD,"Chicago, IL",2
+13102,YX,ORD,"Chicago, IL",OMA,"Omaha, NE",2
+13126,UA,JFK,"New York, NY",LAX,"Los Angeles, CA",10
+13156,WN,PNS,"Pensacola, FL",ATL,"Atlanta, GA",2
+13212,G4,LAS,"Las Vegas, NV",SNA,"Santa Ana, CA",1
+13213,F9,ATL,"Atlanta, GA",MIA,"Miami, FL",3
+13221,F9,SMF,"Sacramento, CA",LAS,"Las Vegas, NV",2
+13277,OO,AUS,"Austin, TX",LAX,"Los Angeles, CA",5
+13284,WN,DTW,"Detroit, MI",MCO,"Orlando, FL",4
+13309,F9,PHL,"Philadelphia, PA",DEN,"Denver, CO",7
+13359,WN,RDU,"Raleigh/Durham, NC",MCO,"Orlando, FL",3
+13379,YX,IND,"Indianapolis, IN",ORD,"Chicago, IL",1
+13384,ZW,IAD,"Washington, DC",DTW,"Detroit, MI",2
+13424,UA,ONT,"Ontario, CA",DEN,"Denver, CO",4
+13481,DL,JFK,"New York, NY",PBI,"West Palm Beach/Palm Beach, FL",5
+13494,UA,DTW,"Detroit, MI",ORD,"Chicago, IL",1
+13557,NK,MSY,"New Orleans, LA",DFW,"Dallas/Fort Worth, TX",2
+13571,AS,EWR,"Newark, NJ",LAX,"Los Angeles, CA",10
+13580,NK,LAX,"Los Angeles, CA",OAK,"Oakland, CA",2
+13630,MQ,ORD,"Chicago, IL",STL,"St. Louis, MO",2
+13672,DL,PBI,"West Palm Beach/Palm Beach, FL",JFK,"New York, NY",5
+13697,MQ,ORD,"Chicago, IL",RIC,"Richmond, VA",3
+13715,9E,ATL,"Atlanta, GA",TYS,"Knoxville, TN",1
+13723,YX,LGA,"New York, NY",MSP,"Minneapolis, MN",5
+13754,OO,ORD,"Chicago, IL",IND,"Indianapolis, IN",1
+13763,YX,ORD,"Chicago, IL",IAH,"Houston, TX",4
+13766,ZW,LGA,"New York, NY",ORD,"Chicago, IL",3
+13770,NK,DFW,"Dallas/Fort Worth, TX",MSY,"New Orleans, LA",2
+13790,YV,ELP,"El Paso, TX",DFW,"Dallas/Fort Worth, TX",3
+13802,OO,IND,"Indianapolis, IN",ORD,"Chicago, IL",1
+13806,OH,BWI,"Baltimore, MD",CLT,"Charlotte, NC",2
+13853,YV,IAH,"Houston, TX",MSY,"New Orleans, LA",2
+13859,YX,IAD,"Washington, DC",EWR,"Newark, NJ",1
+13930,AS,JFK,"New York, NY",SAN,"San Diego, CA",10
+13934,YX,ORD,"Chicago, IL",LGA,"New York, NY",3
+13947,NK,MCO,"Orlando, FL",LGA,"New York, NY",4
+13969,G7,ORD,"Chicago, IL",CVG,"Cincinnati, OH",2
+13978,OO,PIT,"Pittsburgh, PA",ORD,"Chicago, IL",2
+14055,NK,ORD,"Chicago, IL",TPA,"Tampa, FL",5
+14060,ZW,IND,"Indianapolis, IN",ORD,"Chicago, IL",1
+14088,NK,DTW,"Detroit, MI",ATL,"Atlanta, GA",3
+14118,NK,LAX,"Los Angeles, CA",IAH,"Houston, TX",6
+14203,G4,LAS,"Las Vegas, NV",OAK,"Oakland, CA",2
+14229,F9,MCO,"Orlando, FL",BOS,"Boston, MA",5
+14244,UA,IAD,"Washington, DC",LAX,"Los Angeles, CA",10
+14257,AA,ICT,"Wichita, KS",DFW,"Dallas/Fort Worth, TX",2
+14276,WN,IAH,"Houston, TX",LAS,"Las Vegas, NV",5
+14502,B6,DFW,"Dallas/Fort Worth, TX",BOS,"Boston, MA",7
+14512,NK,TPA,"Tampa, FL",PHL,"Philadelphia, PA",4
+14529,NK,BNA,"Nashville, TN",EWR,"Newark, NJ",3
+14536,G7,RIC,"Richmond, VA",ORD,"Chicago, IL",3
+14564,YX,RIC,"Richmond, VA",CLT,"Charlotte, NC",2
+14584,YX,EWR,"Newark, NJ",CVG,"Cincinnati, OH",3
+14608,OH,CLT,"Charlotte, NC",CAE,"Columbia, SC",1
+14612,F9,MSY,"New Orleans, LA",MCO,"Orlando, FL",3
+14623,AA,MSY,"New Orleans, LA",DCA,"Washington, DC",4
+14707,ZW,GRB,"Green Bay, WI",ORD,"Chicago, IL",1
+14771,WN,ORD,"Chicago, IL",AUS,"Austin, TX",4
+14791,AA,LAX,"Los Angeles, CA",ATL,"Atlanta, GA",8
+14814,WN,PHL,"Philadelphia, PA",FLL,"Fort Lauderdale, FL",4
+14820,MQ,ORD,"Chicago, IL",GRR,"Grand Rapids, MI",1
+14836,9E,LGA,"New York, NY",IND,"Indianapolis, IN",3
+14839,AA,FLL,"Fort Lauderdale, FL",JFK,"New York, NY",5
+14876,F9,DEN,"Denver, CO",AUS,"Austin, TX",4
+14883,MQ,RDU,"Raleigh/Durham, NC",DCA,"Washington, DC",1
+14889,PT,CLT,"Charlotte, NC",GSP,"Greer, SC",1
+14917,OO,PHX,"Phoenix, AZ",BUR,"Burbank, CA",2
+14952,WN,MCO,"Orlando, FL",LGA,"New York, NY",4
+14986,WN,MCO,"Orlando, FL",IAH,"Houston, TX",4
+15031,OO,BUR,"Burbank, CA",PHX,"Phoenix, AZ",2
+15074,WN,DCA,"Washington, DC",PVD,"Providence, RI",2
+15090,F9,DEN,"Denver, CO",SEA,"Seattle, WA",5
+15111,WN,LAS,"Las Vegas, NV",PDX,"Portland, OR",4
+15123,AA,BOS,"Boston, MA",ORD,"Chicago, IL",4
+15136,YV,DTW,"Detroit, MI",IAH,"Houston, TX",5
+15141,NK,DFW,"Dallas/Fort Worth, TX",TPA,"Tampa, FL",4
+15172,UA,MSP,"Minneapolis, MN",EWR,"Newark, NJ",5
+15175,MQ,DFW,"Dallas/Fort Worth, TX",AUS,"Austin, TX",1
+15188,F9,LAS,"Las Vegas, NV",SLC,"Salt Lake City, UT",2
+15190,WN,ATL,"Atlanta, GA",IAD,"Washington, DC",3
+15204,MQ,OMA,"Omaha, NE",ORD,"Chicago, IL",2
+15419,WN,SJC,"San Jose, CA",PDX,"Portland, OR",3
+15442,YX,IAH,"Houston, TX",ORD,"Chicago, IL",4
+15479,G7,IAD,"Washington, DC",EWR,"Newark, NJ",1
+15490,UA,DEN,"Denver, CO",ICT,"Wichita, KS",2
+15575,OH,CLT,"Charlotte, NC",RDU,"Raleigh/Durham, NC",1
+15593,DL,DEN,"Denver, CO",SEA,"Seattle, WA",5
+15598,WN,SAN,"San Diego, CA",SLC,"Salt Lake City, UT",3
+15628,OO,DFW,"Dallas/Fort Worth, TX",ORD,"Chicago, IL",4
+15638,OO,MSN,"Madison, WI",ORD,"Chicago, IL",1
+15750,MQ,ORD,"Chicago, IL",RDU,"Raleigh/Durham, NC",3
+15776,F9,LGA,"New York, NY",ATL,"Atlanta, GA",4
+15781,F9,MSP,"Minneapolis, MN",DEN,"Denver, CO",3
+16088,MQ,DFW,"Dallas/Fort Worth, TX",MCI,"Kansas City, MO",2
+16201,WN,CLE,"Cleveland, OH",ATL,"Atlanta, GA",3
+16253,OO,BNA,"Nashville, TN",DEN,"Denver, CO",5
+16433,C5,ABQ,"Albuquerque, NM",DEN,"Denver, CO",2
+16440,WN,MKE,"Milwaukee, WI",ATL,"Atlanta, GA",3
+16490,YX,EWR,"Newark, NJ",BOS,"Boston, MA",1
+16569,MQ,ATL,"Atlanta, GA",ORD,"Chicago, IL",3
+16586,WN,OKC,"Oklahoma City, OK",ATL,"Atlanta, GA",4
+16668,MQ,ORD,"Chicago, IL",BWI,"Baltimore, MD",3
+16718,UA,PSP,"Palm Springs, CA",SFO,"San Francisco, CA",2
+16758,F9,MIA,"Miami, FL",BWI,"Baltimore, MD",4
+16799,ZW,ORD,"Chicago, IL",CVG,"Cincinnati, OH",2
+16821,WN,BNA,"Nashville, TN",CLT,"Charlotte, NC",2
+16863,YX,PIT,"Pittsburgh, PA",CLT,"Charlotte, NC",2
+16903,F9,ATL,"Atlanta, GA",TPA,"Tampa, FL",2
+17006,OO,LGB,"Long Beach, CA",PHX,"Phoenix, AZ",2
+17059,NK,PHL,"Philadelphia, PA",LAX,"Los Angeles, CA",10
+17150,F9,LAS,"Las Vegas, NV",SMF,"Sacramento, CA",2
+17152,F9,MIA,"Miami, FL",DEN,"Denver, CO",7
+17229,G7,ORD,"Chicago, IL",DCA,"Washington, DC",3
+17274,YV,DFW,"Dallas/Fort Worth, TX",TUL,"Tulsa, OK",1
+17323,NK,IAH,"Houston, TX",ORD,"Chicago, IL",4
+17374,OO,OMA,"Omaha, NE",DEN,"Denver, CO",2
+17392,MQ,DCA,"Washington, DC",RDU,"Raleigh/Durham, NC",1
+17432,WN,LAX,"Los Angeles, CA",TUS,"Tucson, AZ",2
+17450,MQ,MSP,"Minneapolis, MN",ORD,"Chicago, IL",2
+17509,B6,FLL,"Fort Lauderdale, FL",ORD,"Chicago, IL",5
+17528,F9,RNO,"Reno, NV",LAS,"Las Vegas, NV",2
+17536,F9,LGA,"New York, NY",TPA,"Tampa, FL",5
+17540,UA,ATL,"Atlanta, GA",IAD,"Washington, DC",3
+17596,G7,RDU,"Raleigh/Durham, NC",EWR,"Newark, NJ",2
+17780,F9,DEN,"Denver, CO",TUL,"Tulsa, OK",3
+17799,PT,PHL,"Philadelphia, PA",DTW,"Detroit, MI",2
+17972,NK,CLT,"Charlotte, NC",FLL,"Fort Lauderdale, FL",3
+17983,B6,BOS,"Boston, MA",MSP,"Minneapolis, MN",5
+18013,HA,SEA,"Seattle, WA",HNL,"Honolulu, HI",11
+18038,WN,SLC,"Salt Lake City, UT",SAN,"San Diego, CA",3
+18051,PT,TYS,"Knoxville, TN",CLT,"Charlotte, NC",1
+18131,YX,LGA,"New York, NY",ORD,"Chicago, IL",3
+18179,OH,CLT,"Charlotte, NC",ATL,"Atlanta, GA",1
+18194,NK,MIA,"Miami, FL",DFW,"Dallas/Fort Worth, TX",5
+18200,MQ,IAH,"Houston, TX",ORD,"Chicago, IL",4
+18247,NK,MSP,"Minneapolis, MN",LAS,"Las Vegas, NV",6
+18275,NK,BDL,"Hartford, CT",MCO,"Orlando, FL",5
+18301,OO,PHX,"Phoenix, AZ",SLC,"Salt Lake City, UT",3
+18363,OH,PHL,"Philadelphia, PA",BNA,"Nashville, TN",3
+18395,PT,ILM,"Wilmington, NC",CLT,"Charlotte, NC",1
+18413,B6,JFK,"New York, NY",BNA,"Nashville, TN",4
+18539,MQ,GRB,"Green Bay, WI",ORD,"Chicago, IL",1
+18608,F9,MCO,"Orlando, FL",RDU,"Raleigh/Durham, NC",3
+18623,C5,IAH,"Houston, TX",OKC,"Oklahoma City, OK",2
+18655,F9,ATL,"Atlanta, GA",DEN,"Denver, CO",5
+18658,NK,LAX,"Los Angeles, CA",ATL,"Atlanta, GA",8
+18748,F9,MCO,"Orlando, FL",IAH,"Houston, TX",4
+18832,OH,DTW,"Detroit, MI",DCA,"Washington, DC",2
+18865,F9,AUS,"Austin, TX",LAS,"Las Vegas, NV",5
+18876,AA,JFK,"New York, NY",FLL,"Fort Lauderdale, FL",5
+18992,G7,ORD,"Chicago, IL",IND,"Indianapolis, IN",1
+19049,YV,IAH,"Houston, TX",OKC,"Oklahoma City, OK",2
+19089,OO,PHX,"Phoenix, AZ",LGB,"Long Beach, CA",2
+19198,F9,DEN,"Denver, CO",SMF,"Sacramento, CA",4
+19226,MQ,BNA,"Nashville, TN",ORD,"Chicago, IL",2
+19403,YX,DTW,"Detroit, MI",ORD,"Chicago, IL",1
+19415,YX,STL,"St. Louis, MO",DCA,"Washington, DC",3
+19427,F9,EWR,"Newark, NJ",ATL,"Atlanta, GA",3
+19461,YV,CLT,"Charlotte, NC",ORD,"Chicago, IL",3
+19677,ZW,PHL,"Philadelphia, PA",ORD,"Chicago, IL",3
+19837,B6,BOS,"Boston, MA",ORD,"Chicago, IL",4
+19877,WN,MCO,"Orlando, FL",DTW,"Detroit, MI",4
+19969,OH,BNA,"Nashville, TN",PHL,"Philadelphia, PA",3
+20072,F9,OAK,"Oakland, CA",LAS,"Las Vegas, NV",2
+20203,ZW,BWI,"Baltimore, MD",ORD,"Chicago, IL",3
+20371,QX,SEA,"Seattle, WA",SMF,"Sacramento, CA",3
+20380,AA,DEN,"Denver, CO",MIA,"Miami, FL",7
+20396,MQ,SLC,"Salt Lake City, UT",ORD,"Chicago, IL",6
+20410,9E,IND,"Indianapolis, IN",LGA,"New York, NY",3
+20532,AA,LAX,"Los Angeles, CA",SFO,"San Francisco, CA",2
+20553,MQ,DFW,"Dallas/Fort Worth, TX",TUL,"Tulsa, OK",1
+20555,9E,CMH,"Columbus, OH",LGA,"New York, NY",2
+20727,NK,SNA,"Santa Ana, CA",SMF,"Sacramento, CA",2
+20857,UA,ORD,"Chicago, IL",BUF,"Buffalo, NY",2
+20896,WN,LAS,"Las Vegas, NV",ORD,"Chicago, IL",7
+20961,NK,LAS,"Las Vegas, NV",AUS,"Austin, TX",5
+20981,F9,PHX,"Phoenix, AZ",DFW,"Dallas/Fort Worth, TX",4
+21134,NK,BOS,"Boston, MA",TPA,"Tampa, FL",5
+21157,OH,RDU,"Raleigh/Durham, NC",CLT,"Charlotte, NC",1
+21230,B6,AUS,"Austin, TX",LAX,"Los Angeles, CA",5
+21283,NK,LAS,"Las Vegas, NV",CLT,"Charlotte, NC",8
+21454,OO,MSY,"New Orleans, LA",IAH,"Houston, TX",2
+21455,F9,LGA,"New York, NY",MIA,"Miami, FL",5
+21487,UA,IAH,"Houston, TX",OKC,"Oklahoma City, OK",2
+21546,DL,MIA,"Miami, FL",RDU,"Raleigh/Durham, NC",3
+21553,YX,CLT,"Charlotte, NC",IAD,"Washington, DC",2
+21651,NK,BWI,"Baltimore, MD",TPA,"Tampa, FL",4
+21693,NK,DTW,"Detroit, MI",PHX,"Phoenix, AZ",7
+21703,F9,DEN,"Denver, CO",DTW,"Detroit, MI",5
+21705,YV,PIT,"Pittsburgh, PA",ORD,"Chicago, IL",2
+21728,NK,ATL,"Atlanta, GA",DTW,"Detroit, MI",3
+21801,NK,TPA,"Tampa, FL",BWI,"Baltimore, MD",4
+21855,F9,SAN,"San Diego, CA",DFW,"Dallas/Fort Worth, TX",5
+21870,NK,PHX,"Phoenix, AZ",MSP,"Minneapolis, MN",6
+21885,YV,ORD,"Chicago, IL",PHL,"Philadelphia, PA",3
+21940,UA,SFO,"San Francisco, CA",PSP,"Palm Springs, CA",2
+22184,F9,PHX,"Phoenix, AZ",ONT,"Ontario, CA",2
+22223,AA,ORD,"Chicago, IL",MSP,"Minneapolis, MN",2
+22235,G7,CLT,"Charlotte, NC",EWR,"Newark, NJ",3
+22260,DL,SEA,"Seattle, WA",SFO,"San Francisco, CA",3
+22373,B6,RNO,"Reno, NV",LAX,"Los Angeles, CA",2
+22393,B6,LAX,"Los Angeles, CA",MCO,"Orlando, FL",9
+22414,9E,DTW,"Detroit, MI",EWR,"Newark, NJ",2
+22468,B6,ATL,"Atlanta, GA",FLL,"Fort Lauderdale, FL",3
+22497,YX,BNA,"Nashville, TN",BOS,"Boston, MA",4
+22590,YX,ORD,"Chicago, IL",CLE,"Cleveland, OH",2
+22726,OO,ABQ,"Albuquerque, NM",PHX,"Phoenix, AZ",2
+22828,B6,EWR,"Newark, NJ",ATL,"Atlanta, GA",3
+22833,AA,MSP,"Minneapolis, MN",ORD,"Chicago, IL",2
+22922,NK,RDU,"Raleigh/Durham, NC",MCO,"Orlando, FL",3
+23066,YV,PHX,"Phoenix, AZ",BUR,"Burbank, CA",2
+23081,F9,BUR,"Burbank, CA",LAS,"Las Vegas, NV",1
+23093,OO,DEN,"Denver, CO",SJC,"San Jose, CA",4
+23124,YV,MFE,"Mission/McAllen/Edinburg, TX",DFW,"Dallas/Fort Worth, TX",2
+23150,YX,ORD,"Chicago, IL",MSN,"Madison, WI",1
+23157,9E,PIT,"Pittsburgh, PA",BOS,"Boston, MA",2
+23247,F9,MCO,"Orlando, FL",CLT,"Charlotte, NC",2
+23446,F9,IAH,"Houston, TX",DEN,"Denver, CO",4
+23538,OO,ORD,"Chicago, IL",PHL,"Philadelphia, PA",3
+23677,B6,BOS,"Boston, MA",SEA,"Seattle, WA",10
+23703,OO,DFW,"Dallas/Fort Worth, TX",AUS,"Austin, TX",1
+23719,NK,BNA,"Nashville, TN",LGA,"New York, NY",4
+23729,WN,AUS,"Austin, TX",SAN,"San Diego, CA",5
+23755,OO,SLC,"Salt Lake City, UT",SEA,"Seattle, WA",3
+23762,NK,MIA,"Miami, FL",BOS,"Boston, MA",6
+23789,G4,OAK,"Oakland, CA",LAS,"Las Vegas, NV",2
+23798,F9,PHL,"Philadelphia, PA",BNA,"Nashville, TN",3
+23816,YV,ATL,"Atlanta, GA",ORD,"Chicago, IL",3
+23868,NK,DFW,"Dallas/Fort Worth, TX",ATL,"Atlanta, GA",3
+23982,NK,STL,"St. Louis, MO",MCO,"Orlando, FL",4
+24064,YV,ORD,"Chicago, IL",MCI,"Kansas City, MO",2
+24110,F9,ONT,"Ontario, CA",DEN,"Denver, CO",4
+24140,G4,LAS,"Las Vegas, NV",AUS,"Austin, TX",5
+24144,OO,MCI,"Kansas City, MO",ORD,"Chicago, IL",2
+24347,YV,OMA,"Omaha, NE",ORD,"Chicago, IL",2
+24358,G4,AUS,"Austin, TX",LAS,"Las Vegas, NV",5
+24608,YV,SLC,"Salt Lake City, UT",PHX,"Phoenix, AZ",3
+24662,NK,IAH,"Houston, TX",EWR,"Newark, NJ",6
+24734,G4,CVG,"Cincinnati, OH",EWR,"Newark, NJ",3
+24789,NK,RSW,"Fort Myers, FL",EWR,"Newark, NJ",5
+24889,F9,BDL,"Hartford, CT",MCO,"Orlando, FL",5
+25300,YV,ICT,"Wichita, KS",DFW,"Dallas/Fort Worth, TX",2
+25351,B6,ATL,"Atlanta, GA",EWR,"Newark, NJ",3
+25398,OO,ORD,"Chicago, IL",EWR,"Newark, NJ",3
+25436,B6,LAX,"Los Angeles, CA",SLC,"Salt Lake City, UT",3
+25798,UA,OKC,"Oklahoma City, OK",IAH,"Houston, TX",2
+26083,F9,PDX,"Portland, OR",LAS,"Las Vegas, NV",4
+26267,MQ,CLT,"Charlotte, NC",PIT,"Pittsburgh, PA",2
+26308,YV,IAD,"Washington, DC",LGA,"New York, NY",1
+26309,F9,SMF,"Sacramento, CA",PHX,"Phoenix, AZ",3
+26363,YX,CVG,"Cincinnati, OH",ORD,"Chicago, IL",2
+26535,UA,DEN,"Denver, CO",DTW,"Detroit, MI",5
+26617,F9,DEN,"Denver, CO",SAT,"San Antonio, TX",4
+26700,OO,OKC,"Oklahoma City, OK",DFW,"Dallas/Fort Worth, TX",1
+27124,DL,DEN,"Denver, CO",LGA,"New York, NY",7
+27660,F9,ABQ,"Albuquerque, NM",DEN,"Denver, CO",2
+27691,OO,ORD,"Chicago, IL",SDF,"Louisville, KY",2
+27786,YV,DFW,"Dallas/Fort Worth, TX",MFE,"Mission/McAllen/Edinburg, TX",2
+27948,YX,CLT,"Charlotte, NC",ILM,"Wilmington, NC",1
+27949,AS,LAX,"Los Angeles, CA",OGG,"Kahului, HI",10
+28067,OO,IAH,"Houston, TX",SAT,"San Antonio, TX",1
+28842,NK,LAS,"Las Vegas, NV",BUR,"Burbank, CA",1
+29010,B6,BOS,"Boston, MA",DTW,"Detroit, MI",3
+29132,F9,ONT,"Ontario, CA",PHX,"Phoenix, AZ",2
+29165,ZW,ORD,"Chicago, IL",PHL,"Philadelphia, PA",3
+29212,MQ,DTW,"Detroit, MI",ORD,"Chicago, IL",1
+29386,AA,DEN,"Denver, CO",LAX,"Los Angeles, CA",4
+29462,YX,ORD,"Chicago, IL",EWR,"Newark, NJ",3
+29467,UA,EWR,"Newark, NJ",PIT,"Pittsburgh, PA",2
+29566,F9,DTW,"Detroit, MI",DEN,"Denver, CO",5
+29972,YV,IAH,"Houston, TX",SAT,"San Antonio, TX",1
+29986,QX,SJC,"San Jose, CA",PDX,"Portland, OR",3
+29989,WN,ATL,"Atlanta, GA",PHL,"Philadelphia, PA",3
+30083,OO,BUF,"Buffalo, NY",ORD,"Chicago, IL",2
+30161,QX,LAX,"Los Angeles, CA",SJC,"San Jose, CA",2
+30526,B6,LAX,"Los Angeles, CA",RNO,"Reno, NV",2
+31085,YV,CVG,"Cincinnati, OH",ORD,"Chicago, IL",2
+31573,NK,LGA,"New York, NY",BNA,"Nashville, TN",4
+31700,9E,JAN,"Jackson/Vicksburg, MS",ATL,"Atlanta, GA",2
+31787,B6,ORD,"Chicago, IL",FLL,"Fort Lauderdale, FL",5
+31897,AA,IAH,"Houston, TX",LGA,"New York, NY",6
+31952,UA,ATL,"Atlanta, GA",IAH,"Houston, TX",3
+32128,NK,SJU,"San Juan, PR",EWR,"Newark, NJ",7
+32194,OO,SEA,"Seattle, WA",OAK,"Oakland, CA",3
+32383,F9,AUS,"Austin, TX",DEN,"Denver, CO",4
+32411,UA,LAX,"Los Angeles, CA",SEA,"Seattle, WA",4
+32414,NK,PHX,"Phoenix, AZ",LAS,"Las Vegas, NV",2
+32436,9E,PHL,"Philadelphia, PA",BOS,"Boston, MA",2
+32671,F9,LAS,"Las Vegas, NV",MSP,"Minneapolis, MN",6
+32952,NK,LAX,"Los Angeles, CA",PHL,"Philadelphia, PA",10
+33115,WN,ATL,"Atlanta, GA",SDF,"Louisville, KY",2
+33224,F9,DEN,"Denver, CO",DSM,"Des Moines, IA",3
+33480,NK,DFW,"Dallas/Fort Worth, TX",PHX,"Phoenix, AZ",4
+33661,AA,ORD,"Chicago, IL",MCI,"Kansas City, MO",2
+67564,YV,PHL,"Philadelphia, PA",ORD,"Chicago, IL",3
+67584,AS,SAN,"San Diego, CA",AUS,"Austin, TX",5
+67592,YV,XNA,"Fayetteville, AR",DFW,"Dallas/Fort Worth, TX",2
+67638,YV,DFW,"Dallas/Fort Worth, TX",MCI,"Kansas City, MO",2
+67646,YV,ORD,"Chicago, IL",BNA,"Nashville, TN",2
+67676,NK,ORD,"Chicago, IL",DFW,"Dallas/Fort Worth, TX",4
+67702,YX,EWR,"Newark, NJ",DCA,"Washington, DC",1
+67718,QX,LAS,"Las Vegas, NV",PDX,"Portland, OR",4
+67807,AS,LAX,"Los Angeles, CA",HNL,"Honolulu, HI",11
+67992,OO,ORD,"Chicago, IL",RDU,"Raleigh/Durham, NC",3
+68191,OH,CLT,"Charlotte, NC",STL,"St. Louis, MO",3
+68347,YX,ORD,"Chicago, IL",CLT,"Charlotte, NC",3
+68469,F9,PHX,"Phoenix, AZ",BUR,"Burbank, CA",2
+68471,F9,FLL,"Fort Lauderdale, FL",PHL,"Philadelphia, PA",4
+68624,WN,BOS,"Boston, MA",MCO,"Orlando, FL",5
+68651,UA,TUL,"Tulsa, OK",DEN,"Denver, CO",3
+68881,OO,ATW,"Appleton, WI",ORD,"Chicago, IL",1
+68917,YX,ORD,"Chicago, IL",ATL,"Atlanta, GA",3
+69121,F9,DEN,"Denver, CO",DFW,"Dallas/Fort Worth, TX",3
+69202,YX,ATL,"Atlanta, GA",LEX,"Lexington, KY",2
+69366,AA,ILM,"Wilmington, NC",CLT,"Charlotte, NC",1
+69420,AS,SEA,"Seattle, WA",OAK,"Oakland, CA",3
+69499,YV,ORD,"Chicago, IL",CVG,"Cincinnati, OH",2
+69595,UA,ORD,"Chicago, IL",IND,"Indianapolis, IN",1
+69599,F9,DFW,"Dallas/Fort Worth, TX",SAN,"San Diego, CA",5
+69646,YX,CLT,"Charlotte, NC",GSO,"Greensboro/High Point, NC",1
+69710,OO,ELP,"El Paso, TX",DFW,"Dallas/Fort Worth, TX",3
+69772,AS,OAK,"Oakland, CA",SEA,"Seattle, WA",3
+69936,YX,ORD,"Chicago, IL",DSM,"Des Moines, IA",2
+69961,YX,LEX,"Lexington, KY",ATL,"Atlanta, GA",2
+70082,B6,JFK,"New York, NY",PHX,"Phoenix, AZ",9
+70163,OO,ELP,"El Paso, TX",PHX,"Phoenix, AZ",2
+70219,OO,LGA,"New York, NY",IAH,"Houston, TX",6
+70239,OO,ORD,"Chicago, IL",BUF,"Buffalo, NY",2
+70276,YX,EWR,"Newark, NJ",PBI,"West Palm Beach/Palm Beach, FL",5
+70446,YX,CHS,"Charleston, SC",LGA,"New York, NY",3
+70463,MQ,ORD,"Chicago, IL",TVC,"Traverse City, MI",1
+70574,DL,RDU,"Raleigh/Durham, NC",BOS,"Boston, MA",3
+70584,YV,TUL,"Tulsa, OK",DFW,"Dallas/Fort Worth, TX",1
+70591,OO,IAH,"Houston, TX",ORD,"Chicago, IL",4
+70661,YV,OKC,"Oklahoma City, OK",DFW,"Dallas/Fort Worth, TX",1
+70684,YX,ORF,"Norfolk, VA",CLT,"Charlotte, NC",2
+70688,QX,LAX,"Los Angeles, CA",PDX,"Portland, OR",4
+70973,AS,LAX,"Los Angeles, CA",LAS,"Las Vegas, NV",1
+70975,F9,MIA,"Miami, FL",RDU,"Raleigh/Durham, NC",3
+70992,9E,BOS,"Boston, MA",RDU,"Raleigh/Durham, NC",3
+71047,YX,MSN,"Madison, WI",ORD,"Chicago, IL",1
+71062,OO,ORD,"Chicago, IL",MCI,"Kansas City, MO",2
+71094,G7,ORD,"Chicago, IL",BUF,"Buffalo, NY",2
+71509,OO,AUS,"Austin, TX",ORD,"Chicago, IL",4
+71562,C5,DEN,"Denver, CO",OMA,"Omaha, NE",2
+71690,UA,MSP,"Minneapolis, MN",IAH,"Houston, TX",5
+71694,AA,CLT,"Charlotte, NC",ILM,"Wilmington, NC",1
+71735,UA,ORD,"Chicago, IL",PIT,"Pittsburgh, PA",2
+71770,AS,AUS,"Austin, TX",SAN,"San Diego, CA",5
+71794,YX,PBI,"West Palm Beach/Palm Beach, FL",EWR,"Newark, NJ",5
+71928,OO,LAX,"Los Angeles, CA",AUS,"Austin, TX",5
+72316,YX,GSO,"Greensboro/High Point, NC",CLT,"Charlotte, NC",1
+72522,OO,DFW,"Dallas/Fort Worth, TX",MFE,"Mission/McAllen/Edinburg, TX",2
+72601,OO,AUS,"Austin, TX",IAH,"Houston, TX",1
+72704,DL,BOS,"Boston, MA",RDU,"Raleigh/Durham, NC",3
+73027,OO,DFW,"Dallas/Fort Worth, TX",IAH,"Houston, TX",1
+73143,YX,PHL,"Philadelphia, PA",BNA,"Nashville, TN",3
+73445,F9,DEN,"Denver, CO",OKC,"Oklahoma City, OK",2
+73599,YV,SLC,"Salt Lake City, UT",IAH,"Houston, TX",5
+73725,OO,MFE,"Mission/McAllen/Edinburg, TX",DFW,"Dallas/Fort Worth, TX",2
+73809,YX,DCA,"Washington, DC",MSP,"Minneapolis, MN",4
+73852,G4,EWR,"Newark, NJ",CVG,"Cincinnati, OH",3
+74073,B6,LGA,"New York, NY",BNA,"Nashville, TN",4
+74335,OO,ORD,"Chicago, IL",IAH,"Houston, TX",4
+74422,OO,ICT,"Wichita, KS",DFW,"Dallas/Fort Worth, TX",2
+74484,YX,IAD,"Washington, DC",ATL,"Atlanta, GA",3
+74633,MQ,MIA,"Miami, FL",BWI,"Baltimore, MD",4
+74693,G7,PHL,"Philadelphia, PA",ORD,"Chicago, IL",3
+74705,QX,PDX,"Portland, OR",LAS,"Las Vegas, NV",4
+74726,YX,DFW,"Dallas/Fort Worth, TX",ORD,"Chicago, IL",4
+74947,NK,ATL,"Atlanta, GA",LAS,"Las Vegas, NV",7
+75013,MQ,AUS,"Austin, TX",DEN,"Denver, CO",4
+75085,C5,ICT,"Wichita, KS",DEN,"Denver, CO",2
+75208,F9,FLL,"Fort Lauderdale, FL",ATL,"Atlanta, GA",3
+75275,MQ,ORD,"Chicago, IL",DTW,"Detroit, MI",1
+75843,G7,ORD,"Chicago, IL",OMA,"Omaha, NE",2
+76003,F9,MCI,"Kansas City, MO",DEN,"Denver, CO",3
+76158,MQ,BWI,"Baltimore, MD",MIA,"Miami, FL",4
+76253,UA,MKE,"Milwaukee, WI",DEN,"Denver, CO",4
+76335,YX,DTW,"Detroit, MI",PHL,"Philadelphia, PA",2
+76384,UA,CVG,"Cincinnati, OH",ORD,"Chicago, IL",2
+76479,YX,ORD,"Chicago, IL",CVG,"Cincinnati, OH",2
+76602,B6,DTW,"Detroit, MI",BOS,"Boston, MA",3
+76853,QX,SEA,"Seattle, WA",SAN,"San Diego, CA",5
+76988,ZW,CMH,"Columbus, OH",ORD,"Chicago, IL",2
+77296,YX,CLT,"Charlotte, NC",ORF,"Norfolk, VA",2
+77337,UA,DEN,"Denver, CO",MKE,"Milwaukee, WI",4
+77501,F9,IAH,"Houston, TX",MCO,"Orlando, FL",4
+77586,PT,PHL,"Philadelphia, PA",BNA,"Nashville, TN",3
+77786,YV,DFW,"Dallas/Fort Worth, TX",AUS,"Austin, TX",1
+77972,F9,DEN,"Denver, CO",STL,"St. Louis, MO",4
+78028,YV,MCI,"Kansas City, MO",DFW,"Dallas/Fort Worth, TX",2
+78057,WN,FLL,"Fort Lauderdale, FL",PHL,"Philadelphia, PA",4
+78294,YX,BNA,"Nashville, TN",PHL,"Philadelphia, PA",3
+78558,G7,BUF,"Buffalo, NY",ORD,"Chicago, IL",2
+78668,G4,LAS,"Las Vegas, NV",SAN,"San Diego, CA",2
+78743,PT,ORD,"Chicago, IL",RIC,"Richmond, VA",3
+78831,OO,PHX,"Phoenix, AZ",ONT,"Ontario, CA",2
+79110,OO,OAK,"Oakland, CA",PDX,"Portland, OR",3
+79138,G7,EWR,"Newark, NJ",CLT,"Charlotte, NC",3
+79319,YV,DFW,"Dallas/Fort Worth, TX",OKC,"Oklahoma City, OK",1
+79567,F9,TPA,"Tampa, FL",LGA,"New York, NY",5
+79681,OO,DFW,"Dallas/Fort Worth, TX",ELP,"El Paso, TX",3
+79847,9E,LGA,"New York, NY",MCI,"Kansas City, MO",5
+79957,YX,PHL,"Philadelphia, PA",DTW,"Detroit, MI",2
+80036,F9,TPA,"Tampa, FL",DFW,"Dallas/Fort Worth, TX",4
+80237,G7,DSM,"Des Moines, IA",ORD,"Chicago, IL",2
+80446,YV,AUS,"Austin, TX",DFW,"Dallas/Fort Worth, TX",1
+80518,F9,BWI,"Baltimore, MD",DEN,"Denver, CO",6
+80568,ZW,OMA,"Omaha, NE",ORD,"Chicago, IL",2
+80875,MQ,DEN,"Denver, CO",AUS,"Austin, TX",4
+81346,OH,CLT,"Charlotte, NC",EWR,"Newark, NJ",3
+81366,YV,SMF,"Sacramento, CA",PHX,"Phoenix, AZ",3
+81453,UA,IAH,"Houston, TX",MSP,"Minneapolis, MN",5
+81654,OO,DFW,"Dallas/Fort Worth, TX",CRP,"Corpus Christi, TX",2
+81929,G4,SAN,"San Diego, CA",LAS,"Las Vegas, NV",2
+82070,YV,PHX,"Phoenix, AZ",IAH,"Houston, TX",5
+82328,OO,CLT,"Charlotte, NC",IAH,"Houston, TX",4
+82596,F9,SMF,"Sacramento, CA",DEN,"Denver, CO",4
+82694,YV,IAH,"Houston, TX",SLC,"Salt Lake City, UT",5
+82816,G7,ORD,"Chicago, IL",MSN,"Madison, WI",1
+83856,G7,MSN,"Madison, WI",ORD,"Chicago, IL",1
+83992,OO,PHX,"Phoenix, AZ",ELP,"El Paso, TX",2
+84248,YX,ORD,"Chicago, IL",DFW,"Dallas/Fort Worth, TX",4
+84550,OH,EWR,"Newark, NJ",CLT,"Charlotte, NC",3
+85078,OO,DFW,"Dallas/Fort Worth, TX",ICT,"Wichita, KS",2
+85618,PT,BNA,"Nashville, TN",PHL,"Philadelphia, PA",3
+85707,UA,DTW,"Detroit, MI",EWR,"Newark, NJ",2
+86040,F9,DFW,"Dallas/Fort Worth, TX",TPA,"Tampa, FL",4
+86152,ZW,ORD,"Chicago, IL",OMA,"Omaha, NE",2
+86492,OO,RDU,"Raleigh/Durham, NC",ORD,"Chicago, IL",3
+86747,B6,BNA,"Nashville, TN",LGA,"New York, NY",4
+86975,YX,CLT,"Charlotte, NC",CHS,"Charleston, SC",1
+86979,OO,PDX,"Portland, OR",OAK,"Oakland, CA",3
+87281,F9,MSY,"New Orleans, LA",ATL,"Atlanta, GA",2
+87591,OO,AUS,"Austin, TX",DEN,"Denver, CO",4
+87983,YV,DCA,"Washington, DC",ORD,"Chicago, IL",3
+88100,OO,ONT,"Ontario, CA",PHX,"Phoenix, AZ",2
+88446,F9,DEN,"Denver, CO",BNA,"Nashville, TN",5
+88718,OO,TUL,"Tulsa, OK",DFW,"Dallas/Fort Worth, TX",1
+89251,QX,PDX,"Portland, OR",LAX,"Los Angeles, CA",4
+89548,OO,DEN,"Denver, CO",DFW,"Dallas/Fort Worth, TX",3
+89631,F9,DEN,"Denver, CO",ORD,"Chicago, IL",4
+90062,9E,MCI,"Kansas City, MO",LGA,"New York, NY",5
+90189,AS,SFO,"San Francisco, CA",SAN,"San Diego, CA",2
+90573,YV,BUR,"Burbank, CA",PHX,"Phoenix, AZ",2
+90643,G7,GRR,"Grand Rapids, MI",ORD,"Chicago, IL",1
+90867,OO,SAT,"San Antonio, TX",IAH,"Houston, TX",1
+90996,QX,PDX,"Portland, OR",SLC,"Salt Lake City, UT",3
+91204,WN,TPA,"Tampa, FL",DTW,"Detroit, MI",4
+91397,UA,CLT,"Charlotte, NC",IAD,"Washington, DC",2
+92101,QX,SLC,"Salt Lake City, UT",PDX,"Portland, OR",3
+92547,YV,ORD,"Chicago, IL",PIT,"Pittsburgh, PA",2
+93055,F9,ATL,"Atlanta, GA",FLL,"Fort Lauderdale, FL",3
+93947,UA,IAH,"Houston, TX",BNA,"Nashville, TN",3
+94013,YX,ORD,"Chicago, IL",RIC,"Richmond, VA",3
+94423,UA,IAD,"Washington, DC",CLT,"Charlotte, NC",2
+96772,NK,DEN,"Denver, CO",MCO,"Orlando, FL",7
+97277,B6,EWR,"Newark, NJ",PHX,"Phoenix, AZ",9
+98283,UA,DFW,"Dallas/Fort Worth, TX",SFO,"San Francisco, CA",6
+98419,YV,DFW,"Dallas/Fort Worth, TX",XNA,"Fayetteville, AR",2
+99194,9E,RDU,"Raleigh/Durham, NC",BOS,"Boston, MA",3
+99417,OO,IAH,"Houston, TX",AUS,"Austin, TX",1
+100459,YX,DSM,"Des Moines, IA",ORD,"Chicago, IL",2
+135070,9E,ATL,"Atlanta, GA",VPS,"Valparaiso, FL",2
+135110,G7,ORD,"Chicago, IL",DTW,"Detroit, MI",1
+135120,PT,CLT,"Charlotte, NC",AVL,"Asheville, NC",1
+135133,YX,EWR,"Newark, NJ",MIA,"Miami, FL",5
+135237,PT,ORD,"Chicago, IL",BUF,"Buffalo, NY",2
+135378,G7,DTW,"Detroit, MI",ORD,"Chicago, IL",1
+136068,C5,DEN,"Denver, CO",COS,"Colorado Springs, CO",1
+136104,AS,SFO,"San Francisco, CA",AUS,"Austin, TX",7
+136172,OO,SMF,"Sacramento, CA",PHX,"Phoenix, AZ",3
+136189,UA,SFO,"San Francisco, CA",SLC,"Salt Lake City, UT",3
+136339,OO,BOS,"Boston, MA",ORD,"Chicago, IL",4
+136351,YV,LGA,"New York, NY",IAD,"Washington, DC",1
+136389,G7,IAD,"Washington, DC",CLT,"Charlotte, NC",2
+136514,DL,SEA,"Seattle, WA",GEG,"Spokane, WA",1
+136840,OO,IAH,"Houston, TX",MSY,"New Orleans, LA",2
+136991,F9,RSW,"Fort Myers, FL",ORD,"Chicago, IL",5
+138080,OO,ORD,"Chicago, IL",BOS,"Boston, MA",4
+138205,PT,ORD,"Chicago, IL",CLE,"Cleveland, OH",2
+138303,YX,ORD,"Chicago, IL",CID,"Cedar Rapids/Iowa City, IA",1
+138441,YX,GRB,"Green Bay, WI",ORD,"Chicago, IL",1
+138497,PT,DTW,"Detroit, MI",ORD,"Chicago, IL",1
+138533,YV,DTW,"Detroit, MI",ORD,"Chicago, IL",1
+138903,MQ,TPA,"Tampa, FL",MIA,"Miami, FL",1
+138962,YV,CMH,"Columbus, OH",ORD,"Chicago, IL",2
+139194,AS,PDX,"Portland, OR",DEN,"Denver, CO",4
+139297,F9,PBI,"West Palm Beach/Palm Beach, FL",EWR,"Newark, NJ",5
+139562,PT,ORD,"Chicago, IL",DTW,"Detroit, MI",1
+139589,QX,DFW,"Dallas/Fort Worth, TX",SEA,"Seattle, WA",7
+139738,OO,GRK,"Killeen, TX",DFW,"Dallas/Fort Worth, TX",1
+139744,AA,IND,"Indianapolis, IN",ORD,"Chicago, IL",1
+139759,WN,IAH,"Houston, TX",PHX,"Phoenix, AZ",5
+139819,OO,DEN,"Denver, CO",PHX,"Phoenix, AZ",3
+140119,OO,SFO,"San Francisco, CA",LAS,"Las Vegas, NV",2
+140779,OH,DTW,"Detroit, MI",CLT,"Charlotte, NC",3
+141219,UA,DTW,"Detroit, MI",IAD,"Washington, DC",2
+141297,OO,PHX,"Phoenix, AZ",ABQ,"Albuquerque, NM",2
+141322,QX,LAX,"Los Angeles, CA",SEA,"Seattle, WA",4
+141333,YX,RDU,"Raleigh/Durham, NC",MIA,"Miami, FL",3
+142275,PT,CLE,"Cleveland, OH",ORD,"Chicago, IL",2
+142348,DL,SFO,"San Francisco, CA",LAX,"Los Angeles, CA",2
+142633,9E,IND,"Indianapolis, IN",ATL,"Atlanta, GA",2
+142807,YV,DFW,"Dallas/Fort Worth, TX",CRP,"Corpus Christi, TX",2
+143060,9E,GSO,"Greensboro/High Point, NC",ATL,"Atlanta, GA",2
+143355,OH,CLT,"Charlotte, NC",DTW,"Detroit, MI",3
+144178,OO,LAS,"Las Vegas, NV",SFO,"San Francisco, CA",2
+145039,PT,BUF,"Buffalo, NY",ORD,"Chicago, IL",2
+145668,YX,ORD,"Chicago, IL",MKE,"Milwaukee, WI",1
+145679,AA,BOS,"Boston, MA",LGA,"New York, NY",1
+145809,OO,MSP,"Minneapolis, MN",DFW,"Dallas/Fort Worth, TX",4
+146140,QX,SAN,"San Diego, CA",SMF,"Sacramento, CA",2
+146246,YX,MIA,"Miami, FL",RDU,"Raleigh/Durham, NC",3
+146395,YV,MIA,"Miami, FL",IAH,"Houston, TX",4
+146465,AA,ORD,"Chicago, IL",IND,"Indianapolis, IN",1
+146550,PT,AVL,"Asheville, NC",CLT,"Charlotte, NC",1
+146605,UA,EWR,"Newark, NJ",DTW,"Detroit, MI",2
+147057,QX,SEA,"Seattle, WA",DFW,"Dallas/Fort Worth, TX",7
+147293,9E,ORD,"Chicago, IL",DTW,"Detroit, MI",1
+147358,MQ,DFW,"Dallas/Fort Worth, TX",IAH,"Houston, TX",1
+147448,OO,DEN,"Denver, CO",ATL,"Atlanta, GA",5
+147773,F9,BNA,"Nashville, TN",DFW,"Dallas/Fort Worth, TX",3
+147996,OO,DFW,"Dallas/Fort Worth, TX",LIT,"Little Rock, AR",2
+148111,OO,SAT,"San Antonio, TX",PHX,"Phoenix, AZ",4
+149282,YV,ORD,"Chicago, IL",IND,"Indianapolis, IN",1
+149871,UA,SJC,"San Jose, CA",LAS,"Las Vegas, NV",2
+149906,YV,MEM,"Memphis, TN",DFW,"Dallas/Fort Worth, TX",2
+150033,QX,SFO,"San Francisco, CA",SEA,"Seattle, WA",3
+150391,OO,PHX,"Phoenix, AZ",DEN,"Denver, CO",3
+150610,QX,SJC,"San Jose, CA",SAN,"San Diego, CA",2
+150705,OO,PHX,"Phoenix, AZ",SMF,"Sacramento, CA",3
+151068,YX,CID,"Cedar Rapids/Iowa City, IA",ORD,"Chicago, IL",1
+151403,OO,MEM,"Memphis, TN",DFW,"Dallas/Fort Worth, TX",2
+151738,ZW,ORD,"Chicago, IL",CMH,"Columbus, OH",2
+152513,UA,MCI,"Kansas City, MO",ORD,"Chicago, IL",2
+152547,YV,CRP,"Corpus Christi, TX",DFW,"Dallas/Fort Worth, TX",2
+153609,WN,DTW,"Detroit, MI",LAS,"Las Vegas, NV",7
+154173,UA,CLT,"Charlotte, NC",ORD,"Chicago, IL",3
+154611,9E,ATL,"Atlanta, GA",ECP,"Panama City, FL",1
+154771,AS,DEN,"Denver, CO",PDX,"Portland, OR",4
+156088,OO,ORD,"Chicago, IL",DAY,"Dayton, OH",1
+156741,YV,SJC,"San Jose, CA",PHX,"Phoenix, AZ",3
+156821,OH,DCA,"Washington, DC",MSY,"New Orleans, LA",4
+157082,F9,IAH,"Houston, TX",ATL,"Atlanta, GA",3
+157182,F9,BNA,"Nashville, TN",PHL,"Philadelphia, PA",3
+158450,MQ,DCA,"Washington, DC",MSP,"Minneapolis, MN",4
+158502,YV,ORD,"Chicago, IL",BWI,"Baltimore, MD",3
+158509,G7,BWI,"Baltimore, MD",ORD,"Chicago, IL",3
+158876,YX,ORD,"Chicago, IL",SLC,"Salt Lake City, UT",6
+159029,OO,XNA,"Fayetteville, AR",DFW,"Dallas/Fort Worth, TX",2
+159722,G7,EWR,"Newark, NJ",IAD,"Washington, DC",1
+159818,YX,ORD,"Chicago, IL",AUS,"Austin, TX",4
+159957,9E,BHM,"Birmingham, AL",ATL,"Atlanta, GA",1
+160363,QX,PDX,"Portland, OR",SJC,"San Jose, CA",3
+160392,YX,DTW,"Detroit, MI",IAD,"Washington, DC",2
+160507,9E,ATL,"Atlanta, GA",GSO,"Greensboro/High Point, NC",2
+162046,OO,DFW,"Dallas/Fort Worth, TX",XNA,"Fayetteville, AR",2
+162059,QX,SFO,"San Francisco, CA",LAS,"Las Vegas, NV",2
+163075,YX,MSP,"Minneapolis, MN",ORD,"Chicago, IL",2
+163121,OH,ATL,"Atlanta, GA",DCA,"Washington, DC",3
+163174,AA,BWI,"Baltimore, MD",ORD,"Chicago, IL",3
+163401,G7,ORD,"Chicago, IL",GRR,"Grand Rapids, MI",1
+163709,YV,ORD,"Chicago, IL",DSM,"Des Moines, IA",2
+164046,WN,DTW,"Detroit, MI",TPA,"Tampa, FL",4
+165049,F9,ORD,"Chicago, IL",ATL,"Atlanta, GA",3
+165246,WN,PHX,"Phoenix, AZ",DTW,"Detroit, MI",7
+165436,AS,SAN,"San Diego, CA",SFO,"San Francisco, CA",2
+166367,AA,LGA,"New York, NY",BOS,"Boston, MA",1
+167381,F9,SJU,"San Juan, PR",EWR,"Newark, NJ",7
+167451,WN,MCO,"Orlando, FL",BOS,"Boston, MA",5
+167609,OO,SJC,"San Jose, CA",PDX,"Portland, OR",3
+167645,AS,AUS,"Austin, TX",SFO,"San Francisco, CA",7
+167930,G7,CVG,"Cincinnati, OH",ORD,"Chicago, IL",2
+168559,NK,BOS,"Boston, MA",BWI,"Baltimore, MD",2
+168608,OO,LAS,"Las Vegas, NV",SJC,"San Jose, CA",2
+202766,YX,CLT,"Charlotte, NC",MYR,"Myrtle Beach, SC",1
+202933,F9,DFW,"Dallas/Fort Worth, TX",SFO,"San Francisco, CA",6
+203233,OO,SEA,"Seattle, WA",PHX,"Phoenix, AZ",5
+203292,OO,MDW,"Chicago, IL",MSP,"Minneapolis, MN",2
+203304,MQ,RDU,"Raleigh/Durham, NC",MIA,"Miami, FL",3
+203550,YV,DFW,"Dallas/Fort Worth, TX",ICT,"Wichita, KS",2
+203688,NK,ATL,"Atlanta, GA",BOS,"Boston, MA",4
+203714,YX,MYR,"Myrtle Beach, SC",CLT,"Charlotte, NC",1
+203786,UA,IND,"Indianapolis, IN",ORD,"Chicago, IL",1
+203945,OO,DFW,"Dallas/Fort Worth, TX",GRK,"Killeen, TX",1
+203986,AA,RDU,"Raleigh/Durham, NC",DCA,"Washington, DC",1
+204044,AA,CLT,"Charlotte, NC",SAV,"Savannah, GA",1
+204064,PT,ORD,"Chicago, IL",SDF,"Louisville, KY",2
+204120,MQ,IAH,"Houston, TX",DFW,"Dallas/Fort Worth, TX",1
+204625,ZW,ORD,"Chicago, IL",STL,"St. Louis, MO",2
+204669,OO,IAH,"Houston, TX",LGA,"New York, NY",6
+204689,MQ,MIA,"Miami, FL",RDU,"Raleigh/Durham, NC",3
+204705,OO,DTW,"Detroit, MI",MDW,"Chicago, IL",1
+205086,ZW,CLE,"Cleveland, OH",ORD,"Chicago, IL",2
+205133,PT,SDF,"Louisville, KY",ORD,"Chicago, IL",2
+205158,ZW,ORD,"Chicago, IL",CLE,"Cleveland, OH",2
+205328,OO,PHL,"Philadelphia, PA",ORD,"Chicago, IL",3
+205572,AA,DFW,"Dallas/Fort Worth, TX",LIT,"Little Rock, AR",2
+205578,OO,MDW,"Chicago, IL",DTW,"Detroit, MI",1
+206143,AS,IAD,"Washington, DC",SFO,"San Francisco, CA",10
+206532,AA,SAV,"Savannah, GA",CLT,"Charlotte, NC",1
+206651,ZW,STL,"St. Louis, MO",ORD,"Chicago, IL",2
+207339,OO,MSP,"Minneapolis, MN",MDW,"Chicago, IL",2
+207758,OO,CRP,"Corpus Christi, TX",DFW,"Dallas/Fort Worth, TX",2
+208701,MQ,MIA,"Miami, FL",TPA,"Tampa, FL",1
+209515,OO,PDX,"Portland, OR",PHX,"Phoenix, AZ",5
+209850,YX,STL,"St. Louis, MO",ORD,"Chicago, IL",2
+209912,YX,LGA,"New York, NY",IAD,"Washington, DC",1
+210104,OO,BNA,"Nashville, TN",DTW,"Detroit, MI",2
+210371,G7,CLT,"Charlotte, NC",ORD,"Chicago, IL",3
+210742,G4,AUS,"Austin, TX",SAN,"San Diego, CA",5
+211973,OO,LIT,"Little Rock, AR",DFW,"Dallas/Fort Worth, TX",2
+212083,OO,PHX,"Phoenix, AZ",PDX,"Portland, OR",5
+212490,OO,LAS,"Las Vegas, NV",PHX,"Phoenix, AZ",2
+212896,OH,MSY,"New Orleans, LA",DCA,"Washington, DC",4
+213181,PT,ORD,"Chicago, IL",MSN,"Madison, WI",1
+213874,AA,ORD,"Chicago, IL",OMA,"Omaha, NE",2
+214013,G7,SDF,"Louisville, KY",ORD,"Chicago, IL",2
+214243,OO,PDX,"Portland, OR",LAS,"Las Vegas, NV",4
+215024,OO,LAS,"Las Vegas, NV",PDX,"Portland, OR",4
+216135,AS,LAS,"Las Vegas, NV",LAX,"Los Angeles, CA",1
+216464,YX,BWI,"Baltimore, MD",ORD,"Chicago, IL",3
+216599,YX,CLT,"Charlotte, NC",DTW,"Detroit, MI",3
+216951,OO,PHX,"Phoenix, AZ",LAS,"Las Vegas, NV",2
+217076,OO,DTW,"Detroit, MI",BNA,"Nashville, TN",2
+217568,YX,ORD,"Chicago, IL",MSP,"Minneapolis, MN",2
+217658,UA,PIT,"Pittsburgh, PA",ORD,"Chicago, IL",2
+217824,YX,IAD,"Washington, DC",LGA,"New York, NY",1
+218014,G7,PIT,"Pittsburgh, PA",ORD,"Chicago, IL",2
+218153,AA,ORD,"Chicago, IL",PIT,"Pittsburgh, PA",2
+218306,OO,IAH,"Houston, TX",CLT,"Charlotte, NC",4
+218330,DL,JFK,"New York, NY",DTW,"Detroit, MI",3
+220776,PT,MSN,"Madison, WI",ORD,"Chicago, IL",1
+220837,OO,DFW,"Dallas/Fort Worth, TX",MSP,"Minneapolis, MN",4
+221464,OO,MSP,"Minneapolis, MN",DEN,"Denver, CO",3
+221541,OO,ORD,"Chicago, IL",ATW,"Appleton, WI",1
+223347,UA,SFO,"San Francisco, CA",DFW,"Dallas/Fort Worth, TX",6
+223595,AA,ORD,"Chicago, IL",BWI,"Baltimore, MD",3
+224566,AA,DCA,"Washington, DC",RDU,"Raleigh/Durham, NC",1
+224888,YV,DFW,"Dallas/Fort Worth, TX",LIT,"Little Rock, AR",2
+225891,WN,DTW,"Detroit, MI",PHX,"Phoenix, AZ",7
+226084,F9,DFW,"Dallas/Fort Worth, TX",PHL,"Philadelphia, PA",6
+226263,AA,LIT,"Little Rock, AR",DFW,"Dallas/Fort Worth, TX",2
+226462,G7,ORD,"Chicago, IL",CLT,"Charlotte, NC",3
+228111,AS,SFO,"San Francisco, CA",IAD,"Washington, DC",10
+228799,F9,PHL,"Philadelphia, PA",DFW,"Dallas/Fort Worth, TX",6
+229035,AA,PIT,"Pittsburgh, PA",ORD,"Chicago, IL",2
+230758,OO,SJC,"San Jose, CA",PHX,"Phoenix, AZ",3
+232842,AA,PHX,"Phoenix, AZ",ELP,"El Paso, TX",2
+232845,F9,SFO,"San Francisco, CA",ATL,"Atlanta, GA",9
+233916,YV,IAH,"Houston, TX",MIA,"Miami, FL",4
+234449,9E,ATL,"Atlanta, GA",MSY,"New Orleans, LA",2
+235246,F9,MDW,"Chicago, IL",DEN,"Denver, CO",4
+235381,AA,OMA,"Omaha, NE",ORD,"Chicago, IL",2
+236123,C5,BNA,"Nashville, TN",IAH,"Houston, TX",3
+236186,G7,ORD,"Chicago, IL",CMH,"Columbus, OH",2
+270090,AA,ELP,"El Paso, TX",PHX,"Phoenix, AZ",2
+270174,F9,ATL,"Atlanta, GA",RDU,"Raleigh/Durham, NC",2
+270450,B6,SEA,"Seattle, WA",LAX,"Los Angeles, CA",4
+270469,B6,LAX,"Los Angeles, CA",SEA,"Seattle, WA",4
+270680,9E,DCA,"Washington, DC",JFK,"New York, NY",1
+270754,F9,SFO,"San Francisco, CA",DFW,"Dallas/Fort Worth, TX",6
+270779,F9,BDL,"Hartford, CT",ATL,"Atlanta, GA",4
+270801,OO,OAK,"Oakland, CA",SEA,"Seattle, WA",3
+271190,UA,ORD,"Chicago, IL",SDF,"Louisville, KY",2
+271361,AA,PHX,"Phoenix, AZ",IAH,"Houston, TX",5
+271622,YX,CLT,"Charlotte, NC",AVL,"Asheville, NC",1
+271927,MQ,ATL,"Atlanta, GA",DCA,"Washington, DC",3
+272509,9E,JFK,"New York, NY",DCA,"Washington, DC",1
+272603,OO,SAT,"San Antonio, TX",DEN,"Denver, CO",4
+272682,UA,DTW,"Detroit, MI",IAH,"Houston, TX",5
+272735,OO,BNA,"Nashville, TN",DFW,"Dallas/Fort Worth, TX",3
+272745,F9,DEN,"Denver, CO",MDW,"Chicago, IL",4
+272872,F9,PHX,"Phoenix, AZ",MDW,"Chicago, IL",6
+273180,C5,DTW,"Detroit, MI",IAD,"Washington, DC",2
+273465,F9,CVG,"Cincinnati, OH",ATL,"Atlanta, GA",2
+273502,AA,ORD,"Chicago, IL",CLE,"Cleveland, OH",2
+273664,OO,PHX,"Phoenix, AZ",SEA,"Seattle, WA",5
+273895,MQ,GSO,"Greensboro/High Point, NC",CLT,"Charlotte, NC",1
+274208,G7,IAD,"Washington, DC",DTW,"Detroit, MI",2
+274288,AA,IAH,"Houston, TX",PHX,"Phoenix, AZ",5
+274595,AA,BUF,"Buffalo, NY",ORD,"Chicago, IL",2
+274670,C5,IAD,"Washington, DC",DTW,"Detroit, MI",2
+274739,DL,SEA,"Seattle, WA",SMF,"Sacramento, CA",3
+274839,F9,MDW,"Chicago, IL",PHX,"Phoenix, AZ",6
+275029,NK,BOS,"Boston, MA",ATL,"Atlanta, GA",4
+275103,NK,OAK,"Oakland, CA",SAN,"San Diego, CA",2
+275182,YX,EWR,"Newark, NJ",DFW,"Dallas/Fort Worth, TX",6
+275296,G7,ORD,"Chicago, IL",DAY,"Dayton, OH",1
+275495,G7,ORD,"Chicago, IL",MCI,"Kansas City, MO",2
+276108,YV,DFW,"Dallas/Fort Worth, TX",GRK,"Killeen, TX",1
+276115,AA,CLE,"Cleveland, OH",ORD,"Chicago, IL",2
+276163,DL,LAX,"Los Angeles, CA",DEN,"Denver, CO",4
+276503,G7,DTW,"Detroit, MI",IAD,"Washington, DC",2
+276604,OO,DFW,"Dallas/Fort Worth, TX",MEM,"Memphis, TN",2
+276999,NK,EWR,"Newark, NJ",LAX,"Los Angeles, CA",10
+277164,MQ,CLT,"Charlotte, NC",GSP,"Greer, SC",1
+278434,UA,ORD,"Chicago, IL",CMH,"Columbus, OH",2
+278621,F9,ATL,"Atlanta, GA",DTW,"Detroit, MI",3
+278634,YX,AVL,"Asheville, NC",CLT,"Charlotte, NC",1
+278915,UA,BNA,"Nashville, TN",ORD,"Chicago, IL",2
+279322,F9,PHX,"Phoenix, AZ",ATL,"Atlanta, GA",7
+279435,OH,DCA,"Washington, DC",ATL,"Atlanta, GA",3
+279724,OO,PDX,"Portland, OR",SJC,"San Jose, CA",3
+280131,F9,ATL,"Atlanta, GA",MDW,"Chicago, IL",3
+280398,MQ,TYS,"Knoxville, TN",CLT,"Charlotte, NC",1
+280488,NK,LAX,"Los Angeles, CA",DEN,"Denver, CO",4
+280613,F9,ATL,"Atlanta, GA",CLE,"Cleveland, OH",3
+280642,F9,LAS,"Las Vegas, NV",MDW,"Chicago, IL",7
+280776,F9,DTW,"Detroit, MI",ATL,"Atlanta, GA",3
+281006,MQ,CLT,"Charlotte, NC",GSO,"Greensboro/High Point, NC",1
+281847,PT,CVG,"Cincinnati, OH",ORD,"Chicago, IL",2
+281858,NK,PHL,"Philadelphia, PA",BNA,"Nashville, TN",3
+281981,UA,ATL,"Atlanta, GA",SFO,"San Francisco, CA",9
+283063,UA,IAH,"Houston, TX",DTW,"Detroit, MI",5
+283156,MQ,GSP,"Greer, SC",CLT,"Charlotte, NC",1
+283209,UA,ORD,"Chicago, IL",CLT,"Charlotte, NC",3
+283625,DL,SMF,"Sacramento, CA",SEA,"Seattle, WA",3
+283735,F9,MDW,"Chicago, IL",LAS,"Las Vegas, NV",7
+284075,YV,GRK,"Killeen, TX",DFW,"Dallas/Fort Worth, TX",1
+284708,F9,CLE,"Cleveland, OH",ATL,"Atlanta, GA",3
+286077,MQ,DCA,"Washington, DC",ATL,"Atlanta, GA",3
+286302,F9,MDW,"Chicago, IL",ATL,"Atlanta, GA",3
+286659,G7,MCI,"Kansas City, MO",ORD,"Chicago, IL",2
+286805,OO,DFW,"Dallas/Fort Worth, TX",BNA,"Nashville, TN",3
+287630,QX,SFO,"San Francisco, CA",SAN,"San Diego, CA",2
+287812,UA,IAH,"Houston, TX",ATL,"Atlanta, GA",3
+288123,AA,ORD,"Chicago, IL",BUF,"Buffalo, NY",2
+288720,F9,ATL,"Atlanta, GA",BDL,"Hartford, CT",4
+289176,MQ,MSY,"New Orleans, LA",DCA,"Washington, DC",4
+290254,F9,RDU,"Raleigh/Durham, NC",ATL,"Atlanta, GA",2
+290917,MQ,DCA,"Washington, DC",MSY,"New Orleans, LA",4
+291225,DL,DEN,"Denver, CO",LAX,"Los Angeles, CA",4
+291302,NK,SLC,"Salt Lake City, UT",LAS,"Las Vegas, NV",2
+291694,UA,CMH,"Columbus, OH",ORD,"Chicago, IL",2
+291927,NK,BNA,"Nashville, TN",PHL,"Philadelphia, PA",3
+293893,F9,ATL,"Atlanta, GA",SFO,"San Francisco, CA",9
+294111,F9,STL,"St. Louis, MO",ATL,"Atlanta, GA",2
+294772,NK,SLC,"Salt Lake City, UT",LAX,"Los Angeles, CA",3
+295338,UA,SFO,"San Francisco, CA",ATL,"Atlanta, GA",9
+297619,ZW,BNA,"Nashville, TN",ORD,"Chicago, IL",2
+297801,DL,CHS,"Charleston, SC",LGA,"New York, NY",3
+298151,PT,ORD,"Chicago, IL",CVG,"Cincinnati, OH",2
+298838,NK,DEN,"Denver, CO",LAX,"Los Angeles, CA",4
+300885,OO,SJC,"San Jose, CA",DEN,"Denver, CO",4
+301147,NK,LAX,"Los Angeles, CA",EWR,"Newark, NJ",10
+303186,AA,ORD,"Chicago, IL",SDF,"Louisville, KY",2
+303514,MQ,CLT,"Charlotte, NC",TYS,"Knoxville, TN",1
+337522,NK,SAN,"San Diego, CA",OAK,"Oakland, CA",2
+337626,YX,BWI,"Baltimore, MD",BOS,"Boston, MA",2
+337720,YX,BUF,"Buffalo, NY",JFK,"New York, NY",2
+337742,QX,SEA,"Seattle, WA",SFO,"San Francisco, CA",3
+338128,DL,JAX,"Jacksonville, FL",JFK,"New York, NY",4
+338167,F9,ATL,"Atlanta, GA",PHX,"Phoenix, AZ",7
+338806,NK,DFW,"Dallas/Fort Worth, TX",PHL,"Philadelphia, PA",6
+338922,YX,ORD,"Chicago, IL",BNA,"Nashville, TN",2
+339105,DL,LAX,"Los Angeles, CA",SFO,"San Francisco, CA",2
+339211,DL,RDU,"Raleigh/Durham, NC",JFK,"New York, NY",2
+339213,NK,PIT,"Pittsburgh, PA",EWR,"Newark, NJ",2
+339419,YX,CLT,"Charlotte, NC",CAE,"Columbia, SC",1
+339463,NK,DTW,"Detroit, MI",PHL,"Philadelphia, PA",2
+339498,YX,JFK,"New York, NY",BUF,"Buffalo, NY",2
+339585,DL,JFK,"New York, NY",RDU,"Raleigh/Durham, NC",2
+339728,YX,ORD,"Chicago, IL",GRR,"Grand Rapids, MI",1
+339883,QX,SFO,"San Francisco, CA",PSP,"Palm Springs, CA",2
+339963,NK,LAS,"Las Vegas, NV",SLC,"Salt Lake City, UT",2
+339971,OO,AUS,"Austin, TX",DFW,"Dallas/Fort Worth, TX",1
+340294,YX,BOS,"Boston, MA",BWI,"Baltimore, MD",2
+340383,YX,GRR,"Grand Rapids, MI",ORD,"Chicago, IL",1
+340646,DL,BOS,"Boston, MA",DEN,"Denver, CO",8
+340676,B6,BOS,"Boston, MA",BWI,"Baltimore, MD",2
+340809,DL,DEN,"Denver, CO",BOS,"Boston, MA",8
+341439,OO,DEN,"Denver, CO",ONT,"Ontario, CA",4
+341478,F9,ATL,"Atlanta, GA",STL,"St. Louis, MO",2
+341505,UA,DEN,"Denver, CO",CLT,"Charlotte, NC",6
+341568,DL,JFK,"New York, NY",ORD,"Chicago, IL",3
+341634,YV,PHX,"Phoenix, AZ",SMF,"Sacramento, CA",3
+341702,NK,LAX,"Los Angeles, CA",SLC,"Salt Lake City, UT",3
+341823,YX,CAE,"Columbia, SC",CLT,"Charlotte, NC",1
+341990,B6,BWI,"Baltimore, MD",BOS,"Boston, MA",2
+342008,C5,OKC,"Oklahoma City, OK",DEN,"Denver, CO",2
+342181,UA,BUR,"Burbank, CA",SFO,"San Francisco, CA",2
+342184,QX,PDX,"Portland, OR",SFO,"San Francisco, CA",3
+342367,UA,SFO,"San Francisco, CA",BUR,"Burbank, CA",2
+342415,WN,LAS,"Las Vegas, NV",DTW,"Detroit, MI",7
+342635,F9,PHL,"Philadelphia, PA",BOS,"Boston, MA",2
+342886,9E,BOS,"Boston, MA",BWI,"Baltimore, MD",2
+343389,NK,EWR,"Newark, NJ",PIT,"Pittsburgh, PA",2
+343503,9E,BWI,"Baltimore, MD",BOS,"Boston, MA",2
+343659,AA,AVL,"Asheville, NC",CLT,"Charlotte, NC",1
+343665,DL,DCA,"Washington, DC",JFK,"New York, NY",1
+344146,G7,ORD,"Chicago, IL",BNA,"Nashville, TN",2
+344780,NK,DFW,"Dallas/Fort Worth, TX",DTW,"Detroit, MI",4
+345423,QX,SFO,"San Francisco, CA",PDX,"Portland, OR",3
+345571,NK,DTW,"Detroit, MI",DFW,"Dallas/Fort Worth, TX",4
+346411,UA,ORD,"Chicago, IL",TVC,"Traverse City, MI",1
+346555,YV,DFW,"Dallas/Fort Worth, TX",MEM,"Memphis, TN",2
+346991,DL,LAX,"Los Angeles, CA",SMF,"Sacramento, CA",2
+347223,F9,BOS,"Boston, MA",PHL,"Philadelphia, PA",2
+347929,F9,ATL,"Atlanta, GA",IAH,"Houston, TX",3
+348386,AA,CLT,"Charlotte, NC",AVL,"Asheville, NC",1
+349664,UA,TVC,"Traverse City, MI",ORD,"Chicago, IL",1
+350111,QX,SEA,"Seattle, WA",LAX,"Los Angeles, CA",4
+350437,NK,PHL,"Philadelphia, PA",DTW,"Detroit, MI",2
+351349,G7,BNA,"Nashville, TN",ORD,"Chicago, IL",2
+351842,DL,BOS,"Boston, MA",BNA,"Nashville, TN",4
+354262,UA,ORD,"Chicago, IL",DTW,"Detroit, MI",1
+354833,DL,BNA,"Nashville, TN",BOS,"Boston, MA",4
+355256,OO,OKC,"Oklahoma City, OK",ATL,"Atlanta, GA",4
+356160,MQ,BNA,"Nashville, TN",DCA,"Washington, DC",3
+356896,NK,PHL,"Philadelphia, PA",DFW,"Dallas/Fort Worth, TX",6
+357623,MQ,DCA,"Washington, DC",BNA,"Nashville, TN",3
+358190,QX,PSP,"Palm Springs, CA",SFO,"San Francisco, CA",2
+359480,DL,SMF,"Sacramento, CA",LAX,"Los Angeles, CA",2
+360739,OO,ONT,"Ontario, CA",DEN,"Denver, CO",4
+360930,UA,CLT,"Charlotte, NC",DEN,"Denver, CO",6
+362181,F9,ATL,"Atlanta, GA",CVG,"Cincinnati, OH",2
+366646,OO,ATL,"Atlanta, GA",OKC,"Oklahoma City, OK",4
+368133,YX,IAH,"Houston, TX",MIA,"Miami, FL",4
+371217,YX,MIA,"Miami, FL",IAH,"Houston, TX",4
+406422,G7,DAY,"Dayton, OH",ORD,"Chicago, IL",1
+406564,DL,JFK,"New York, NY",JAX,"Jacksonville, FL",4
+407339,QX,LAS,"Las Vegas, NV",SFO,"San Francisco, CA",2
+410361,DL,JFK,"New York, NY",DCA,"Washington, DC",1
+410785,G4,SAN,"San Diego, CA",AUS,"Austin, TX",5
+411023,OO,DFW,"Dallas/Fort Worth, TX",SGF,"Springfield, MO",2
+411195,UA,CID,"Cedar Rapids/Iowa City, IA",ORD,"Chicago, IL",1
+411387,UA,ORD,"Chicago, IL",CID,"Cedar Rapids/Iowa City, IA",1
+411676,YX,EWR,"Newark, NJ",RSW,"Fort Myers, FL",5
+412678,G7,ORD,"Chicago, IL",DSM,"Des Moines, IA",2
+413194,OO,DEN,"Denver, CO",SMF,"Sacramento, CA",4
+414786,QX,SAN,"San Diego, CA",SFO,"San Francisco, CA",2
+414911,F9,ATL,"Atlanta, GA",SAT,"San Antonio, TX",4
+415949,YX,DFW,"Dallas/Fort Worth, TX",EWR,"Newark, NJ",6
+416827,C5,DEN,"Denver, CO",OKC,"Oklahoma City, OK",2
+421721,DL,ORD,"Chicago, IL",JFK,"New York, NY",3
+427293,OO,SMF,"Sacramento, CA",DEN,"Denver, CO",4
+431519,UA,CVG,"Cincinnati, OH",EWR,"Newark, NJ",3
+433098,OO,MSY,"New Orleans, LA",DEN,"Denver, CO",5
+434296,OO,SGF,"Springfield, MO",DFW,"Dallas/Fort Worth, TX",2
+436077,YV,SAT,"San Antonio, TX",DFW,"Dallas/Fort Worth, TX",1
+472601,MQ,MIA,"Miami, FL",AUS,"Austin, TX",5
+472722,MQ,ORD,"Chicago, IL",DAY,"Dayton, OH",1
+472944,DL,SEA,"Seattle, WA",SJC,"San Jose, CA",3
+473111,AA,GSP,"Greer, SC",CLT,"Charlotte, NC",1
+473200,NK,LAS,"Las Vegas, NV",RNO,"Reno, NV",2
+473323,DL,SJC,"San Jose, CA",SEA,"Seattle, WA",3
+473965,PT,CLT,"Charlotte, NC",ORF,"Norfolk, VA",2
+474311,F9,MCO,"Orlando, FL",MDW,"Chicago, IL",4
+474404,DL,LGA,"New York, NY",MCI,"Kansas City, MO",5
+474444,AA,PVD,"Providence, RI",DCA,"Washington, DC",2
+474850,YX,CHO,"Charlottesville, VA",CLT,"Charlotte, NC",1
+474976,AA,DCA,"Washington, DC",PVD,"Providence, RI",2
+475152,NK,RNO,"Reno, NV",LAS,"Las Vegas, NV",2
+476322,MQ,DAY,"Dayton, OH",ORD,"Chicago, IL",1
+476377,9E,JAX,"Jacksonville, FL",JFK,"New York, NY",4
+476843,F9,HOU,"Houston, TX",DEN,"Denver, CO",4
+477043,F9,SAT,"San Antonio, TX",ATL,"Atlanta, GA",4
+477242,OO,ATL,"Atlanta, GA",CHA,"Chattanooga, TN",1
+477898,MQ,CLT,"Charlotte, NC",AVL,"Asheville, NC",1
+478130,MQ,AVL,"Asheville, NC",CLT,"Charlotte, NC",1
+478135,YX,CLT,"Charlotte, NC",CHO,"Charlottesville, VA",1
+478230,MQ,AUS,"Austin, TX",MIA,"Miami, FL",5
+478456,OO,CHA,"Chattanooga, TN",ATL,"Atlanta, GA",1
+478763,F9,DEN,"Denver, CO",HOU,"Houston, TX",4
+479008,AA,ORD,"Chicago, IL",GRB,"Green Bay, WI",1
+479190,AA,CLT,"Charlotte, NC",GSP,"Greer, SC",1
+479329,PT,ORF,"Norfolk, VA",CLT,"Charlotte, NC",2
+482935,G7,ORD,"Chicago, IL",SDF,"Louisville, KY",2
+483148,F9,MDW,"Chicago, IL",MCO,"Orlando, FL",4
+483650,9E,JFK,"New York, NY",JAX,"Jacksonville, FL",4
+490400,YX,DTW,"Detroit, MI",CLT,"Charlotte, NC",3
+490724,WN,LAX,"Los Angeles, CA",ATL,"Atlanta, GA",8
+492134,AS,RDM,"Bend/Redmond, OR",SEA,"Seattle, WA",1
+492805,DL,MCI,"Kansas City, MO",LGA,"New York, NY",5
+494301,AS,SEA,"Seattle, WA",RDM,"Bend/Redmond, OR",1
+498701,9E,ATL,"Atlanta, GA",MEM,"Memphis, TN",2
+500589,AS,SAN,"San Diego, CA",SJC,"San Jose, CA",2
+503786,AS,PDX,"Portland, OR",SLC,"Salt Lake City, UT",3
+540654,MQ,STL,"St. Louis, MO",CLT,"Charlotte, NC",3
+540770,MQ,ABQ,"Albuquerque, NM",PHX,"Phoenix, AZ",2
+541786,NK,IAH,"Houston, TX",LGA,"New York, NY",6
+541830,DL,ONT,"Ontario, CA",SEA,"Seattle, WA",4
+541841,NK,CLT,"Charlotte, NC",MIA,"Miami, FL",3
+542185,AA,CLT,"Charlotte, NC",TYS,"Knoxville, TN",1
+542305,YX,RIC,"Richmond, VA",ORD,"Chicago, IL",3
+542788,NK,MIA,"Miami, FL",CLT,"Charlotte, NC",3
+543472,MQ,PHX,"Phoenix, AZ",ABQ,"Albuquerque, NM",2
+543863,DL,SEA,"Seattle, WA",ONT,"Ontario, CA",4
+544135,NK,CLT,"Charlotte, NC",LGA,"New York, NY",3
+544384,OO,EWR,"Newark, NJ",BOS,"Boston, MA",1
+544483,NK,LGA,"New York, NY",IAH,"Houston, TX",6
+546118,AA,ATL,"Atlanta, GA",DCA,"Washington, DC",3
+546648,NK,LGA,"New York, NY",CLT,"Charlotte, NC",3
+548760,AA,TYS,"Knoxville, TN",CLT,"Charlotte, NC",1
+548896,F9,PHX,"Phoenix, AZ",DTW,"Detroit, MI",7
+549084,F9,ATL,"Atlanta, GA",ORD,"Chicago, IL",3
+549529,YX,MKE,"Milwaukee, WI",ORD,"Chicago, IL",1
+551279,F9,TPA,"Tampa, FL",DTW,"Detroit, MI",4
+552587,F9,PHX,"Phoenix, AZ",PHL,"Philadelphia, PA",9
+555052,F9,PHX,"Phoenix, AZ",SNA,"Santa Ana, CA",2
+555136,9E,LGA,"New York, NY",IAD,"Washington, DC",1
+558334,F9,DTW,"Detroit, MI",TPA,"Tampa, FL",4
+558840,AA,LAX,"Los Angeles, CA",PDX,"Portland, OR",4
+558960,F9,DTW,"Detroit, MI",PHX,"Phoenix, AZ",7
+559102,F9,PHL,"Philadelphia, PA",PHX,"Phoenix, AZ",9
+562327,YX,ATL,"Atlanta, GA",MIA,"Miami, FL",3
+564903,OO,BOS,"Boston, MA",EWR,"Newark, NJ",1
+564952,AA,SEA,"Seattle, WA",LAX,"Los Angeles, CA",4
+565318,AA,PDX,"Portland, OR",LAX,"Los Angeles, CA",4
+567504,AA,DCA,"Washington, DC",ATL,"Atlanta, GA",3
+568169,PT,CID,"Cedar Rapids/Iowa City, IA",ORD,"Chicago, IL",1
+569190,9E,ATL,"Atlanta, GA",BHM,"Birmingham, AL",1
+608303,F9,SNA,"Santa Ana, CA",PHX,"Phoenix, AZ",2
+609418,OO,SEA,"Seattle, WA",SAN,"San Diego, CA",5
+609439,DL,MCO,"Orlando, FL",MIA,"Miami, FL",1
+609500,MQ,CLT,"Charlotte, NC",STL,"St. Louis, MO",3
+610601,G7,CLT,"Charlotte, NC",IAD,"Washington, DC",2
+610854,MQ,CLT,"Charlotte, NC",BNA,"Nashville, TN",2
+611370,G7,CID,"Cedar Rapids/Iowa City, IA",ORD,"Chicago, IL",1
+612189,PT,ORD,"Chicago, IL",CID,"Cedar Rapids/Iowa City, IA",1
+612655,9E,LGA,"New York, NY",DTW,"Detroit, MI",3
+612937,DL,MIA,"Miami, FL",MCO,"Orlando, FL",1
+613568,F9,PHX,"Phoenix, AZ",PDX,"Portland, OR",5
+613815,OO,PHX,"Phoenix, AZ",SJC,"San Jose, CA",3
+613926,F9,PDX,"Portland, OR",PHX,"Phoenix, AZ",5
+615544,YX,SAV,"Savannah, GA",CLT,"Charlotte, NC",1
+617378,G7,CLE,"Cleveland, OH",ORD,"Chicago, IL",2
+619578,MQ,CLT,"Charlotte, NC",SAV,"Savannah, GA",1
+619732,UA,ORD,"Chicago, IL",STL,"St. Louis, MO",2
+619754,PT,ORD,"Chicago, IL",MKE,"Milwaukee, WI",1
+620853,MQ,BNA,"Nashville, TN",CLT,"Charlotte, NC",2
+621594,G7,ORD,"Chicago, IL",CLE,"Cleveland, OH",2
+621731,OO,DEN,"Denver, CO",AUS,"Austin, TX",4
+624972,PT,MKE,"Milwaukee, WI",ORD,"Chicago, IL",1
+625088,DL,MIA,"Miami, FL",LAX,"Los Angeles, CA",10
+626608,UA,STL,"St. Louis, MO",ORD,"Chicago, IL",2
+626715,DL,LAX,"Los Angeles, CA",MIA,"Miami, FL",10
+626921,G7,ORD,"Chicago, IL",CID,"Cedar Rapids/Iowa City, IA",1
+629979,MQ,SAV,"Savannah, GA",CLT,"Charlotte, NC",1
+631536,DL,DTW,"Detroit, MI",JFK,"New York, NY",3
+638217,UA,EWR,"Newark, NJ",CVG,"Cincinnati, OH",3
+687277,MQ,MSP,"Minneapolis, MN",DCA,"Washington, DC",4
+692162,F9,IAH,"Houston, TX",DFW,"Dallas/Fort Worth, TX",1
+697599,OO,DEN,"Denver, CO",MSY,"New Orleans, LA",5
+743992,UA,DEN,"Denver, CO",OKC,"Oklahoma City, OK",2
+744210,MQ,MSY,"New Orleans, LA",DFW,"Dallas/Fort Worth, TX",2
+744731,9E,BOS,"Boston, MA",CLT,"Charlotte, NC",3
+745213,YX,TPA,"Tampa, FL",DCA,"Washington, DC",4
+748122,YX,TVC,"Traverse City, MI",ORD,"Chicago, IL",1
+750149,PT,RIC,"Richmond, VA",CLT,"Charlotte, NC",2
+752127,UA,ORD,"Chicago, IL",GRB,"Green Bay, WI",1
+752668,YX,DCA,"Washington, DC",TPA,"Tampa, FL",4
+752701,UA,OKC,"Oklahoma City, OK",DEN,"Denver, CO",2
+753752,OO,SAN,"San Diego, CA",DEN,"Denver, CO",4
+755966,WN,ATL,"Atlanta, GA",LAX,"Los Angeles, CA",8
+757830,PT,CLT,"Charlotte, NC",RIC,"Richmond, VA",2
+763739,OO,ATL,"Atlanta, GA",LEX,"Lexington, KY",2
+766870,OO,DEN,"Denver, CO",SAN,"San Diego, CA",4
+772460,YX,ORD,"Chicago, IL",TVC,"Traverse City, MI",1

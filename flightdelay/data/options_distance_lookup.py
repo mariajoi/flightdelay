@@ -3,7 +3,7 @@ import os
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
-main_file = os.path.join(script_dir, '..', 'data', 'train_sample_top25_pairs_big_unbalanced.csv')
+main_file = os.path.join(script_dir, '..', 'data', 'lookup.csv')
 carrier_codes = os.path.join(script_dir, '..', 'data', 'carrier codes.csv')
 
 df = pd.read_csv(main_file)
