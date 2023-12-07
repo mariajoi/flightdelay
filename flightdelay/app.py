@@ -40,21 +40,30 @@ def get_delay_output(airline, origin, destination, departure_time, arrival_time,
     # predicted_delay = 160
 
     if predicted_delay == '1':
-        message = f"We predict your flight to be delayed with a probability of {predicted_prob}%!"
+        message1 ="DELAYED"
+        message2 = f"We predict your flight to be delayed with a probability of {predicted_prob}%!"
         color = 'red'
     else:
-        message = f"We predict your flight will be on time with a probability of {predicted_prob}%!"
+        message1 ="ON TIME"
+        message2 = f"We predict your flight will be on time with a probability of {predicted_prob}%!"
         color = 'green'
 
     st.markdown(
         f"""
         <div style="text-align: center; font-size: 24px; padding: 10px; color: #f0f0f0; background-color: {color}; border-radius: 5px;">
-            {message}
+            {message1}
         </div>
         """,
         unsafe_allow_html=True
     )
-
+    st.markdown(
+        f"""
+        <div style="text-align: center; font-size: 24px; padding: 10px; color: black; border-radius: 5px;">
+            {message2}
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 @st.cache_data
 def load_available_options():
     return get_available_options()
