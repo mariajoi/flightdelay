@@ -9,7 +9,7 @@ from sklearn.model_selection import cross_val_score
 from sklearn.pipeline import make_pipeline
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import confusion_matrix, accuracy_score, recall_score, f1_score, precision_score
-import joblib
+import gcsfs
 
 
 #OwnModule
@@ -18,7 +18,6 @@ from flightdelay.utils.mytrans import MyTrans
 from flightdelay.data.data import COLUMN_NAMES_RAW, COLUMNS_NAMES_DROP
 #GCI
 from google.cloud import storage
-
 
 
 
@@ -36,10 +35,6 @@ def preproc():
     X_test = pd.read_csv(file_path_test, usecols=COLUMN_NAMES)
     X_train = pd.read_csv(file_path_train, usecols=COLUMN_NAMES)
     data_X = [X_test,X_train]
-    y_train = []
-    y_test = []
-    X_train_trans = []
-    X_test_trans = []
 
     if X_train.shape[0] < 10:
         print("❌ Not enough processed data retrieved to train on")
@@ -49,16 +44,25 @@ def preproc():
         sample["BadFlight"] = ((sample['ArrivalDelayGroups'] > 0) | (sample['Cancelled'] > 0)).astype(int)
 
         # Erstelle die Zielvariable y
-        y = sample["BadFlight"]
-        trans.fit(sample)
+        #y = sample["BadFlight"] # Sample for DF and only transformable when X has his colums dropped first
 
 
         if title == 'train':
-            y_train.append(y)
-            X_train_trans = trans.transform(X_train).drop(columns=COLUMNS_NAMES_DROP)
+            y = sample["BadFlight"] # Sample for DF and only transformable when X has his colums dropped first
+            sample.drop(columns=COLUMNS_NAMES_DROP)
+            y_train = y
+            trans.fit(X_train)
+
+            X_train_trans = trans.transform(X_train)
+
         elif title == 'test':
-            y_test.append(y)
+            y = sample["BadFlight"]
+            sample.drop(columns=COLUMNS_NAMES_DROP)
+            y_test = y
+            trans.fit(X_test)
+
             X_test_trans = trans.transform(X_test).drop(columns=COLUMNS_NAMES_DROP)
+
 
     return y_train,y_test,X_test_trans,X_train_trans
 
@@ -71,15 +75,23 @@ def load_empty_model() -> None:
 '''
 
 # TRAIN AND LOAD MODEL SECTION
-client = storage.Client(project=GCP_PROJECT)
-bucket = client.bucket(BUCKET_NAME)
-gcs_path = f"gs://{BUCKET_NAME}/{PICKLE_TMP}" #CHange Pickle if needed
+'''
+NOT WORKING (SEE loaded_trained_model)
+#gcs_path = f"gs://{BUCKET_NAME}/{PICKLE_TMP}" #CHange Pickle if needed
+
+path = gcsfs.GCSFileSystem(project=GCP_PROJECT)
+with path.open(f'{BUCKET_NAME}/{PICKLE_TMP}', 'rb') as file:
+        pickle_file = pickle.load(file)
+'''
 
 def load_trained_model():
     # Load pipeline from pickle file
-    #pipeline = pickle.load(open(f"/pickle/{PICKLE_TMP}","rb")) --> local solution
-    model_load = joblib.load(gcs_path)
-    return model_load
+    client = storage.Client()
+    bucket = client.bucket(BUCKET_NAME)
+    blob = bucket.blob(PICKLE_TMP)
+    content = blob.download_as_bytes()
+    loaded_model = pickle.loads(content)
+    return loaded_model
 
 def cross_val():
     pipeline = load_trained_model()
@@ -104,7 +116,8 @@ def train_model_rand():
 
     y_preds_tr = model_pipeline.predict(X_train_trans)
     y_preds = model_pipeline.predict(X_test_trans)
-
+    print(y_preds)
+    '''
     print('Train data scores:')
     print('accuracy: %.3f' % accuracy_score(y_preds_tr,y_train))
     print('f1_score: %.3f' % f1_score(y_preds_tr,y_train, average='binary'))
@@ -121,7 +134,7 @@ def train_model_rand():
 
     #model = load_model()
     #assert model is not None         < --- take this part and delete RandomForest
-
+    '''
 
     return model_pipeline
 
