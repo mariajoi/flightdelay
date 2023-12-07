@@ -182,7 +182,7 @@ def main():
     left_co, cent_co,last_co = st.columns(3)
 
     with cent_co:
-        st.image("le_voyage.jpg")
+        st.image("flightdelay/le_voyage.jpg")
 
 if __name__ == "__main__":
     main()
